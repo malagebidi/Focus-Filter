@@ -1,3 +1,5 @@
+! Title: Focus Filter
+! Description: Remove recommended content from the website.
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
