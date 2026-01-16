@@ -10,7 +10,7 @@ jav.guru##.inside-right-sidebar
 jav.guru##.javbox
 !
 ! MissAV
-! 2026/01/16
+! 2026/01/17
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##nav>a[href*="mycomic.com"]
 missav.ws,missav.ai##div:has(>[x-show*="partners"])
