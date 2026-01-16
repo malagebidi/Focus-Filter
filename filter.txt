@@ -12,3 +12,4 @@ jav.guru##.javbox
 ! MissAV
 missav.ws##div[x-data*="recommendItemsToUserSettings"]
 missav.ws##div[x-data*="fetchRandom"]
+missav.ws##div:matches-css(max-width: 300px)
