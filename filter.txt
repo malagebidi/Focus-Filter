@@ -20,3 +20,9 @@ missav.ws,missav.ai##ul:has(a[target="_blank"])
 missav.ws,missav.ai##div:matches-css(max-width: 300px)
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
+!
+! 豆瓣电影
+! 2026/01/16
+movie.douban.com###recommendations
+movie.douban.com###subject-doulist
+movie.douban.com###subject-others-interests
