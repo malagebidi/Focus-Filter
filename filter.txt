@@ -6,5 +6,5 @@
 !----------------------------------------------------------------------------!
 !
 ! Jav Guru
-jav.guru##.sidebar
+jav.guru##.inside-right-sidebar
 jav.guru##.javbox
