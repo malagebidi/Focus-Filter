@@ -1,6 +1,6 @@
 ! Title: Focus Filter
 ! Description: Remove recommended and distracting content from the website.
-! Version: 0.0.0.3
+! Version: 0.0.0.4
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
@@ -13,6 +13,7 @@ jav.guru##.javbox
 ! 2026/01/16
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##nav>a[href*="mycomic.com"]
+missav.ws,missav.ai##div:has(>[x-show*="partners"])
 missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
 missav.ws,missav.ai##div[x-data*="fetchRandom"]
 missav.ws,missav.ai##ul:has(a[target="_blank"])
