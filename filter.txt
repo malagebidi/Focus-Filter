@@ -10,4 +10,5 @@ jav.guru##.inside-right-sidebar
 jav.guru##.javbox
 !
 ! MissAV
-missav.ws##div[x-data]
+missav.ws##div[x-data*="recommendItemsToUserSettings"]
+missav.ws##div[x-data*="fetchRandom"]
