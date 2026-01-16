@@ -1,14 +1,14 @@
 ! Title: Focus Filter
 ! Description: Remove recommended and distracting content from the website.
-! Version: 0.0.0.5
+! Version: 0.0.1.0
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
-!
+
 ! Jav Guru
 ! 2026/01/16
 jav.guru##.inside-right-sidebar
 jav.guru##.javbox
-!
+
 ! MissAV
 ! 2026/01/17
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
@@ -21,7 +21,7 @@ missav.ws,missav.ai##div:matches-css(max-width: 300px)
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
 missav.ws,missav.ai##input[x-ref*="earch"]::placeholder
-!
+
 ! 豆瓣电影
 ! 2026/01/16
 movie.douban.com###recommendations
@@ -29,7 +29,11 @@ movie.douban.com###subject-doulist
 movie.douban.com###subject-others-interests
 movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 movie.douban.com###doulist
-!
+
+! Jable.TV
+! 2026/01/17
+jable.tv##.right-sidebar
+
 ! MGTV
 ! 2026/01/16
 mgtv.com##div[data-module="t-topAdbu"]
@@ -42,7 +46,7 @@ mgtv.com##.big-poster-conent
 mgtv.com##.recommended-list
 mgtv.com##.sidebar-download
 mgtv.com##.vip-button-box
-!
+
 ! 91porn
 ! 2026/01/17
 91porn.com##div:has(> h3[class="login_register_header"])
