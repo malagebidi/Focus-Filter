@@ -30,3 +30,16 @@ movie.douban.com###subject-doulist
 movie.douban.com###subject-others-interests
 movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 movie.douban.com###doulist
+!
+! MGTV
+! 2026/01/16
+mgtv.com##div[data-module="t-topAdbu"]
+mgtv.com##div[data-module="t-newsbigtitle"]
+mgtv.com##.nav-a-top
+mgtv.com###sideFloatbtn
+mgtv.com##.tips
+mgtv.com##.arr-download
+mgtv.com##.big-poster-conent
+mgtv.com##.recommended-list
+mgtv.com##.sidebar-download
+mgtv.com##.vip-button-box
