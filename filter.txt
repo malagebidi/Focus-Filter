@@ -3,6 +3,8 @@
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
+! Ref: https://adguard.com/kb/general/ad-filtering/create-own-filters/
+!
 !----------------------------------------------------------------------------!
 !------------------------------- Focus Filter -------------------------------!
 !----------------------------------------------------------------------------!
