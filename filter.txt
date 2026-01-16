@@ -1,6 +1,6 @@
 ! Title: Focus Filter
 ! Description: Remove recommended and distracting content from the website.
-! Version: 0.0.0.4
+! Version: 0.0.0.5
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
@@ -20,6 +20,7 @@ missav.ws,missav.ai##ul:has(a[target="_blank"])
 missav.ws,missav.ai##div:matches-css(max-width: 300px)
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
+missav.ws,missav.ai##input[x-ref*="earch"]::placeholder
 !
 ! 豆瓣电影
 ! 2026/01/16
