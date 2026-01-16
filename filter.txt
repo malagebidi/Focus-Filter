@@ -1,6 +1,6 @@
 ! Title: Focus Filter
 ! Description: Remove recommended and distracting content from the website.
-! Version: 0.0.0.2
+! Version: 0.0.0.3
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
@@ -40,3 +40,7 @@ mgtv.com##.big-poster-conent
 mgtv.com##.recommended-list
 mgtv.com##.sidebar-download
 mgtv.com##.vip-button-box
+!
+! 91porn
+! 2026/01/17
+91porn.com##div:has(> h3[class="login_register_header"])
