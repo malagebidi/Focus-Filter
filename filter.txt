@@ -8,3 +8,6 @@
 ! Jav Guru
 jav.guru##.inside-right-sidebar
 jav.guru##.javbox
+!
+! MissAV
+missav.ws##div[x-data]
