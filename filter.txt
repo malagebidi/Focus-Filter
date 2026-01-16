@@ -1,9 +1,10 @@
-! Homepage: https://github.com/AdguardTeam/AdGuardFilters
-! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
+! Homepage: https://github.com/malagebidi/Focus-Filter
+! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
-!---------------------------------------------------------------------------!
-!-------------- Advertising networks ---------------------------------------!
-!---------------------------------------------------------------------------!
+!----------------------------------------------------------------------------!
+!------------------------------- Focus Filter -------------------------------!
+!----------------------------------------------------------------------------!
 !
-! This section contains the list of third-party advertising networks domains for mobile devices.
-! Note, that we only put rules that block full domains here and not URL parts (there's `general_url.txt` for that). Also, it must be domains that are used in a third-party context.
+! Jav Guru
+jav.guru###right-sidebar
+jav.guru##.javbox
