@@ -10,7 +10,7 @@ jav.guru##.inside-right-sidebar
 jav.guru##.javbox
 !
 ! MissAV
-missav.ws,missav.ai##nav>a:contains(Cam)
+missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
 missav.ws,missav.ai##div[x-data*="fetchRandom"]
 missav.ws,missav.ai##ul:has(a[target="_blank"])
