@@ -10,8 +10,8 @@ jav.guru##.inside-right-sidebar
 jav.guru##.javbox
 !
 ! MissAV
-missav.ws##div[x-data*="recommendItemsToUserSettings"]
-missav.ws##div[x-data*="fetchRandom"]
-missav.ws##ul:has(a[target="_blank"])
-missav.ws##div:matches-css(max-width: 300px)
-missav.ws##div:has(> div[x-ref="stripchat"])
+missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
+missav.ws,missav.ai##div[x-data*="fetchRandom"]
+missav.ws,missav.ai##ul:has(a[target="_blank"])
+missav.ws,missav.ai##div:matches-css(max-width: 300px)
+missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
