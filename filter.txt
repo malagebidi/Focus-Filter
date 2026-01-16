@@ -1,14 +1,8 @@
 ! Title: Focus Filter
 ! Description: Remove recommended and distracting content from the website.
-! Version: 0.0.0.1
+! Version: 0.0.0.2
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
-!
-! Ref: https://adguard.com/kb/general/ad-filtering/create-own-filters/
-!
-!----------------------------------------------------------------------------!
-!------------------------------- Focus Filter -------------------------------!
-!----------------------------------------------------------------------------!
 !
 ! Jav Guru
 ! 2026/01/16
