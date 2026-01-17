@@ -7,6 +7,7 @@
 
 ! 哔哩哔哩
 ! 2026/01/17
+||api.bilibili.com/pgc/page/web/feed^
 bilibili.com##.feed-roll-btn
 bilibili.com##.activity-m-v1
 bilibili.com##.rec-list
@@ -30,10 +31,17 @@ bilibili.com##.bpx-player-top-wrap
 bilibili.com##.paybar_container__WApBR
 bilibili.com##.recommend_wrap__PccwM
 bilibili.com##.main-container .plp-r.sticky:style(bottom: 2000px !important)
-t.bilibili.com##.bili-dyn-sidebar
+bilibili.com##.channel-page__body > .feed-cards
+bilibili.com##.channel-page__body > .loading-cards
+bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
+bilibili.com##.right-ctnr
+game.bilibili.com###biliGameFooter
+game.bilibili.com##.refresh
 live.bilibili.com##.flying-vm
 live.bilibili.com###sidebar-vm
 live.bilibili.com###room-background-vm
+live.bilibili.com##.nav-search-content::placeholder
+t.bilibili.com##.bili-dyn-sidebar
 
 ! Jav Guru
 ! 2026/01/16
