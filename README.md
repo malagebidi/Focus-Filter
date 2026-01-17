@@ -4,7 +4,7 @@
 > [!NOTE]
 > This filter utilizes advanced AdGuard scriptlets and extended CSS. It is best used with the AdGuard browser extension.
 
-## 🪜 How to Use
+## ⚙️ How to Use
 Copy the raw link of the rule file and add it to AdGuard.
 
 1. Open AdGuard Settings.
