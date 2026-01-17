@@ -14,9 +14,9 @@ Copy the raw link of the rule file and add it to AdGuard.
     ```
 
 ## 🤝 Contributing
-Found a distracting element that needs to be removed?
-- Open an Issue: Describe the website and the element you want to hide.
-- Submit a Pull Request: Feel free to contribute your own rules!
+Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to report issues or submit new rules.
+
+Issues and Pull Requests in both **English** and **Chinese** are welcome!
 
 ## 📄 License
 This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
