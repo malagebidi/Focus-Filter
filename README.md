@@ -13,10 +13,11 @@ Focus Filter originated as a personal collection of rules built from my daily us
 1. Open AdGuard Settings
 2. Go to Filters -> Custom
 3. Click Add custom filter
-4. Paste the following URL
+4. Paste the following URL and click Next
     ```text
     https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
     ```
+5. Check the trusted checkbox
 
 > [!TIP]  
 > Websites change frequently. If you notice broken features or missing content, try disabling this filter temporarily to check if that resolves the issue.
