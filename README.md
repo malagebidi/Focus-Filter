@@ -21,6 +21,11 @@ Focus Filter originated as a personal collection of rules built from my daily us
 > [!TIP]  
 > Websites change frequently. If you notice broken features or missing content, try disabling this filter temporarily to check if that resolves the issue.
 
+## 🧩 Complementary Tools  
+While Focus Filter covers a wide range of websites, utilizing dedicated browser extensions can provide a more robust experience for certain complex platforms.  
+  
+*   **YouTube**: Recommended to use with **[RYS — Remove YouTube Suggestions](https://github.com/Lawxsz/Remove-YouTube-Suggestions)** (or Unhook).
+
 ## 🤝 Contributing
 Read [Contributing Guide](CONTRIBUTING.md) for details on how to report issues or submit new rules.
 
