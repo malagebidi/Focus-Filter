@@ -23,11 +23,6 @@ Copy the raw link of the rule file and add it to AdGuard.
    https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
    ```
 
-## 🛠️ Requirements
-
-This list is optimized for AdGuard.
-While it may work partially with uBlock Origin, some rules (specifically scriptlets like `set-attr`) are strictly AdGuard syntax and may not function on other blockers.
-
 ## 🤝 Contributing
 
 Found a distracting element that needs to be removed?
