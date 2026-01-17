@@ -1,6 +1,8 @@
 # 🎯 Focus-Filter
 **Focus Filter** is a custom filter list designed for AdGuard. Its primary goal is to remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites  (primarily Chinese platforms), allowing you to focus on the content you actually want to watch.
-> Note: This filter utilizes advanced AdGuard scriptlets and extended CSS. It is best used with the AdGuard browser extension.
+
+> [!NOTE]
+> This filter utilizes advanced AdGuard scriptlets and extended CSS. It is best used with the AdGuard browser extension.
 
 ## 🛠️ How to Use
 Copy the raw link of the rule file and add it to AdGuard.
