@@ -5,10 +5,10 @@
 > This filter utilizes advanced AdGuard scriptlets and extended CSS. It is best used with the AdGuard browser extension.
 
 ## ⚙️ How to Use
-1. Open AdGuard Settings.
-2. Go to Filters -> Custom.
-3. Click Add custom filter.
-4. Paste the following URL:
+1. Open AdGuard Settings
+2. Go to Filters -> Custom
+3. Click Add custom filter
+4. Paste the following URL
     ```text
     https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
     ```
