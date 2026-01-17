@@ -4,6 +4,23 @@
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 
+! 哔哩哔哩
+! 2026/01/17
+bilibili.com##.feed-roll-btn
+bilibili.com##.activity-m-v1
+bilibili.com##.rec-list
+bilibili.com##.rec-footer
+bilibili.com##span.new-icon
+bilibili.com##.bpx-player-ending-related
+bilibili.com##.palette-button-outer
+bilibili.com##.floor-single-card
+bilibili.com##.bili-watch-later--wrap
+bilibili.com##.left-loc-entry:has(.loc-moveclip)
+bilibili.com##.trending
+bilibili.com##.red-point
+bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'placeholder', '')
+bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'title', '')
+
 ! Jav Guru
 ! 2026/01/16
 jav.guru##.inside-right-sidebar
