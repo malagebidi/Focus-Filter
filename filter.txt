@@ -72,6 +72,7 @@ weibo.com##.hot-band-tabs-list-item-content-icon
 weibo.com##.hot-band-header-refresh
 weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
 weibo.com##.wbpro-side-copy
+weibo.com##.woo-picture-main.woo-picture-square.woo-picture-hover
 
 ! MissAV
 ! 2026/01/17
