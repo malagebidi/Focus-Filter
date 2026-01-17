@@ -1,6 +1,6 @@
 ! Title: Focus Filter
 ! Description: Remove recommended and distracting content from the website.
-! Version: 0.0.2.0
+! Version: 0.0.2.1
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 
@@ -20,6 +20,10 @@ bilibili.com##.trending
 bilibili.com##.red-point
 bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'placeholder', '')
 bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'title', '')
+bilibili.com##a:has(> [data-type="player_backshow"])
+live.bilibili.com##.flying-vm
+live.bilibili.com###sidebar-vm
+live.bilibili.com###room-background-vm
 
 ! Jav Guru
 ! 2026/01/16
