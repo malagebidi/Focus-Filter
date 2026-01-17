@@ -18,6 +18,9 @@ Focus Filter originated as a personal collection of rules built from my daily us
     https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
     ```
 
+> [!TIP]  
+> Websites change frequently. If you notice broken features or missing content, try disabling this filter temporarily to check if that resolves the issue.
+
 ## 🤝 Contributing
 Read [Contributing Guide](CONTRIBUTING.md) for details on how to report issues or submit new rules.
 
