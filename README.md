@@ -9,9 +9,9 @@ Copy the raw link of the rule file and add it to AdGuard.
 2. Go to Filters -> Custom.
 3. Click Add custom filter.
 4. Paste the following URL:
-```text
-https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
-```
+  ```text
+  https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
+  ```
 
 ## 🤝 Contributing
 Found a distracting element that needs to be removed?
