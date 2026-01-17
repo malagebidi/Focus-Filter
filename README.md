@@ -22,7 +22,6 @@ Copy the raw link of the rule file and add it to AdGuard.
    ```text
    https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
    ```
-   *(⚠️ Please replace `rules.txt` with your actual filename if it's different)*
 
 ## 🛠️ Requirements
 
