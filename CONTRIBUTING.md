@@ -5,7 +5,7 @@ Whether you are reporting a missing rule, fixing a broken website, or submitting
 
 Since this repository focuses primarily on **Chinese platforms**, issues and pull requests in both **English** and **Chinese (中文)** are welcome.
 
-## 🐛 Reporting Issues
+## 🚩 Reporting Issues
 
 
 ## 💡 Submitting New Rules
