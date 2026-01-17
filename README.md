@@ -21,8 +21,8 @@ Focus Filter originated as a personal collection of rules built from my daily us
 > [!TIP]  
 > Websites change frequently. If you notice broken features or missing content, try disabling this filter temporarily to check if that resolves the issue.
 
-## 🛠️ Recommended Extensions
-For complex platforms, using a dedicated browser extension alongside Focus Filter provides the best result.
+## 🛠️ Best With
+While Focus Filter covers a wide range of websites, highly complex platforms often require specialized tools. Using dedicated extensions alongside our rules ensures the best possible experience.
 
 *   GIF: [Animation Policy](https://chromewebstore.google.com/detail/animation-policy/ncigbofjfbodhkaffojakplpmnleeoee)
 *   YouTube: [RYS — Remove YouTube Suggestions](https://chromewebstore.google.com/detail/rys-%E2%80%94-remove-youtube-sugg/cdhdichomdnlaadbndgmagohccgpejae)
