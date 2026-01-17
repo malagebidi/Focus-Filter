@@ -1,6 +1,6 @@
 ! Title: Focus Filter
-! Description: Remove recommended and distracting content from the website.
-! Version: 0.0.2.1
+! Description: A Focus Filter for AdGuard that removes recommended and distracting content from websites。
+! Version: 0.0.2.2
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 
