@@ -9,7 +9,7 @@ Over the years, the internet has gradually evolved into an **Attention Economy**
 
 Focus Filter originated as a personal collection of rules built from my daily use, and now I am open-sourcing it to invite community collaboration.
 
-## ⚙️ How to Use
+## ⚙️ Setup
 1. Open AdGuard Settings
 2. Go to Filters -> Custom
 3. Click Add custom filter
@@ -24,7 +24,7 @@ Focus Filter originated as a personal collection of rules built from my daily us
 ## 🛠️ Recommended Extensions
 For complex platforms, using a dedicated browser extension alongside Focus Filter provides the best result.
   
-*   YouTube: RYS — Remove YouTube Suggestions (or Unhook).
+*   YouTube: [RYS — Remove YouTube Suggestions](https://github.com/lawrencehook/remove-youtube-suggestions)
 
 ## 🤝 Contributing
 Read [Contributing Guide](CONTRIBUTING.md) for details on how to report issues or submit new rules.
