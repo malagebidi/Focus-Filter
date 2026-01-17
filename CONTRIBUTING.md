@@ -7,4 +7,5 @@ Since this repository focuses primarily on **Chinese platforms**, issues and pul
 
 ## 🐛 Reporting Issues
 
-## 💡 Submitting New Rules (Pull Requests)
+
+## 💡 Submitting New Rules
