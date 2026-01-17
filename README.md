@@ -32,7 +32,3 @@ Found a distracting element that needs to be removed?
 ## 📄 License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
-
----
-
-*Disclaimer: This project is not affiliated with AdGuard or any of the websites mentioned above. It is a community-maintained filter list for personal customization.*
