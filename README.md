@@ -5,9 +5,9 @@
 > This filter utilizes advanced AdGuard scriptlets and extended CSS. It is best used with the AdGuard browser extension.
 
 ## 💡 Motivation
-In the era of the Attention Economy, platforms use sophisticated algorithms to keep us scrolling endlessly. We often visit a site with a specific purpose—to learn, to work, or to find an answer—only to find ourselves trapped in a loop of recommended videos and clickbait feeds hours later.
+In the era of the Attention Economy, algorithms are designed to keep us scrolling endlessly. We often visit a site with a specific purpose, only to get trapped in a loop of recommendations.
 
-Focus Filter was born out of a desire to reclaim control. We believe that tools should serve users, not consume them. By stripping away the noise, recommendations, and "doom-scrolling" traps, this project aims to restore the internet to its original purpose: a library of information that you actively explore, not a television that passively feeds you.
+Focus Filter was born to reclaim control. We believe tools should serve users, not consume them. By stripping away the noise, this project restores the internet to a place you actively explore, rather than passively consume.
 
 ## ⚙️ How to Use
 1. Open AdGuard Settings
