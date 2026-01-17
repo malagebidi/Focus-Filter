@@ -23,7 +23,7 @@ If you find a website where the filter is not working, or if a rule is breaking 
 If you know how to write AdGuard/uBlock rules and want to contribute directly:
 
 1.  **Fork** the repository.
-2.  **Edit** the rules file (e.g., `rules.txt`).
+2.  **Edit** the rules file (e.g., `filter.txt`).
 3.  **Submit** a Pull Request.
 
 ### Rule Guidelines
@@ -50,7 +50,3 @@ To maintain the quality of this list, please adhere to the following guidelines:
 This is a **Focus Filter**, not a privacy strip-miner.
 *   ✅ **Do remove:** "Hot Search", "Guess you like", "Infinite feeds", "Red notification dots (fake ones)", "App download banners".
 *   ❌ **Do not remove:** Comments sections (unless they are spammy), search bars, or core navigation, as these are often needed for normal usage.
-
-## 📜 License
-
-By contributing to Focus-Filter, you agree that your contributions will be licensed under its **GNU General Public License v3.0**.
