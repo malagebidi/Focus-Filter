@@ -7,7 +7,7 @@
 ## 💡 Motivation
 Over the years, the internet has gradually evolved into an **Attention Economy**. It is not just about addictive recommendation feeds; cluttered interfaces and superfluous design elements also scatter our focus and overwhelm our vision.
 
-Focus Filter originated as my personal collection of rules built over years of daily use, and now I am open-sourcing it to invite community collaboration.
+Focus Filter originated as my personal collection rules of daily use, and now I am open-sourcing it to invite community collaboration.
 
 ## ⚙️ How to Use
 1. Open AdGuard Settings
