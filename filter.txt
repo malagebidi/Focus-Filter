@@ -65,6 +65,8 @@ weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last
 weibo.com##.hot-band-tabs-item > div:first-child
 weibo.com##div > div.woo-panel-main:has([class^="wbpro-side-card4"])
 weibo.com##img._emptyPic_gykin_16+div
+weibo.com##.woo-box-flex > .icon
+weibo.com##.woo-box-flex:has(> [class="wbpro-icon-search-2"])
 weibo.com##.wbpro-side-copy
 
 ! MissAV
