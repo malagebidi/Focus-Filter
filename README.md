@@ -12,8 +12,6 @@
 
 ## 🚀 How to Use
 
-### Method 1: One-Click Subscription (Recommended)
-
 Copy the raw link of the rule file and add it to AdGuard.
 
 1. Open **AdGuard** Settings.
@@ -25,13 +23,6 @@ Copy the raw link of the rule file and add it to AdGuard.
    https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
    ```
    *(⚠️ Please replace `rules.txt` with your actual filename if it's different)*
-
-### Method 2: Manual Installation
-
-1. Go to the `rules.txt` file in this repository.
-2. Click the **Raw** button to view the plain text.
-3. Copy the URL from your browser's address bar.
-4. Add it to your ad blocker's filter list settings.
 
 ## 🛠️ Requirements
 
