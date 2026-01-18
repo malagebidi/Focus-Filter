@@ -1,0 +1,9 @@
+live.kuaishou.com##.hot-live > .banner
+live.kuaishou.com##.refresh
+live.kuaishou.com##.change-button
+live.kuaishou.com##.guide-widget
+live.kuaishou.com##.tag-quality
+live.kuaishou.com##.header-interest-btn
+live.kuaishou.com##.searchList
+live.kuaishou.com##.interest-list
+live.kuaishou.com##.recommend
