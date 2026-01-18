@@ -1,0 +1,1 @@
+91porn.com##div:has(> h3[class="login_register_header"])
