@@ -1,0 +1,5 @@
+movie.douban.com###recommendations
+movie.douban.com###subject-doulist
+movie.douban.com###subject-others-interests
+movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
+movie.douban.com###doulist
