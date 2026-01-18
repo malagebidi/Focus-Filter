@@ -1,8 +1,8 @@
 ! Title: Focus Filter
-! Description: 个人自用过滤规则，专注于中文互联网内容的净化
+! Description: A Focus Filter for AdGuard...
+! Last modified: 2026-01-18 12:55:07
+! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
-! Last modified: 2026-01-18 12:51:02 CST
-! Expires: 24 hours (update frequency)
 !
 91porn.com##div:has(> h3[class="login_register_header"])
 bilibili.com##.activity-m-v1
