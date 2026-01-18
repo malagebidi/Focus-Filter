@@ -1,0 +1,10 @@
+mgtv.com##div[data-module="t-topAdbu"]
+mgtv.com##div[data-module="t-newsbigtitle"]
+mgtv.com##.nav-a-top
+mgtv.com###sideFloatbtn
+mgtv.com##.tips
+mgtv.com##.arr-download
+mgtv.com##.big-poster-conent
+mgtv.com##.recommended-list
+mgtv.com##.sidebar-download
+mgtv.com##.vip-button-box
