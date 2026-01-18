@@ -1,0 +1,23 @@
+weibo.com###pl_common_scrollToTop
+weibo.com##.wbpro-side-panel:has([class="wbpro-icon-doticon"])
+weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "250")
+weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "500")
+weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "1000")
+weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "2000")
+weibo.com##.woo-box-wrap > .woo-box-item-flex:first-child
+weibo.com##.hot-band-tabs-list > div:has([class="hot-band-tabs-list-item-dot"])
+weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "250")
+weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "500")
+weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "1000")
+weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "2000")
+weibo.com##.hot-band-tabs-item > div:first-child
+weibo.com##div > div.woo-panel-main:has([class^="wbpro-side-card4"])
+weibo.com##img._emptyPic_gykin_16+div
+weibo.com##.woo-box-flex > .icon
+weibo.com##.woo-box-flex:has(> [class="wbpro-icon-search-2"])
+weibo.com##.woo-badge-main
+weibo.com##.hot-band-tabs-list-item-content-icon
+weibo.com##.hot-band-header-refresh
+weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
+weibo.com##.wbpro-side-copy
+weibo.com##.woo-picture-main.woo-picture-square.woo-picture-hover
