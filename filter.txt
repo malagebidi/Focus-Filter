@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-18T19:07:11+08:00
-! Version: 2.0.0.26
+! Last modified: 2026-01-18T19:19:29+08:00
+! Version: 2.0.0.27
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -71,6 +71,7 @@ movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 t.bilibili.com##.bili-dyn-sidebar
 weibo.com###pl_common_scrollToTop
 weibo.com###pl_top_realtimehot td:has(> [class^="icon-txt"])
+weibo.com##.card-wrap:has(.woo-font--add)
 weibo.com##.hot-band-header-refresh
 weibo.com##.hot-band-tabs-item > div:first-child
 weibo.com##.hot-band-tabs-list > div:has([class="hot-band-tabs-list-item-dot"])
