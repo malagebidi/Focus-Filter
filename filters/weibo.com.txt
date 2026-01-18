@@ -23,3 +23,4 @@ weibo.com##.wbpro-side-copy
 weibo.com##.woo-picture-main.woo-picture-square.woo-picture-hover
 weibo.com###pl_top_realtimehot td:has(> [class^="icon-txt"])
 weibo.com##tr:has(a[action-type="realtimehot_ad"])
+weibo.com##.woo-tab-nav > a:first-child .woo-badge-main
