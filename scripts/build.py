@@ -1,29 +1,57 @@
 import os
 import datetime
 import pytz
+import subprocess
 
 SOURCE_DIR = 'filters'
 OUTPUT_FILE = 'filter.txt'
 
+def get_version_from_git():
+    """
+    根据 Git 提交总数计算版本号。
+    格式: 2.X.Y.Z
+    机制: Z 满 100 进 Y，Y 满 100 进 X。
+    """
+    try:
+        # 获取 Git 提交总数
+        # rev-list --count HEAD 会返回当前分支的提交数量
+        count_str = subprocess.check_output(['git', 'rev-list', '--count', 'HEAD']).decode().strip()
+        total_commits = int(count_str)
+    except Exception:
+        # 如果本地没有 git 环境或报错，回退到默认值
+        print("Warning: Could not get git commit count. Using default version.")
+        total_commits = 0
+
+    # 进位逻辑 (Base 100)
+    z = total_commits % 100
+    y = (total_commits // 100) % 100
+    x = total_commits // 10000
+    
+    # 第一位固定为 2
+    return f"2.{x}.{y}.{z}"
+
 def main():
-    # 1. 准备头部信息 (这是给 AdGuard 识别用的，必须保留)
+    # 1. 计算动态版本号
+    version = get_version_from_git()
+    print(f"Generated Version: {version}")
+
+    # 2. 准备时间戳 (ISO 8601 格式)
     tz = pytz.timezone('Asia/Shanghai')
-    current_time = datetime.datetime.now(tz).isoformat(timespec='seconds')
+    current_time = datetime.datetime.now(tz).strftime('%Y-%m-%d %H:%M:%S')
     
     header = [
         "! Title: Focus Filter",
         "! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and \"doom-scrolling\" traps from various websites.",
         f"! Last modified: {current_time}",
-        "! Version: 0.0.4.5",
+        f"! Version: {version}",
         "! Expires: 24 hours",
         "! Homepage: https://github.com/malagebidi/Focus-Filter",
         "! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE",
         "!"
     ]
 
-    # 2. 读取所有规则并收集到一个集合中 (Set)
+    # 3. 读取并处理规则
     rules = set()
-    
     if os.path.exists(SOURCE_DIR):
         for filename in os.listdir(SOURCE_DIR):
             if filename.endswith(".txt"):
@@ -31,24 +59,19 @@ def main():
                 with open(filepath, 'r', encoding='utf-8') as f:
                     for line in f:
                         line = line.strip()
-                        # 核心逻辑：
-                        # 1. 跳过空行
-                        # 2. 跳过以 ! 开头的注释行 (彻底删除源文件里的注释)
                         if line and not line.startswith('!'):
                             rules.add(line)
 
-    # 3. 排序 (关键！为了 Git Diff 稳定，必须排序)
+    # 4. 排序
     sorted_rules = sorted(list(rules))
 
-    # 4. 写入文件
+    # 5. 写入文件
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        # 先写头部
         f.write('\n'.join(header) + '\n')
-        # 再写规则
         f.write('\n'.join(sorted_rules))
-        f.write('\n') # 文件末尾留一个空行是好习惯
+        f.write('\n')
 
-    print(f"Build complete: {len(sorted_rules)} rules merged.")
+    print(f"Build complete: {len(sorted_rules)} rules merged into {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
