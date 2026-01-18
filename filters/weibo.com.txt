@@ -19,3 +19,5 @@ weibo.com###pl_top_realtimehot td:has(> [class^="icon-txt"])
 weibo.com##tr:has(a[action-type="realtimehot_ad"])
 weibo.com##.woo-tab-nav > a:first-child .woo-badge-main
 weibo.com##.card-wrap:has(.woo-font--add)
+weibo.com##.woo-box-flex > .f13
+weibo.com##.hot-band-tabs-list-item-content-desc
