@@ -27,6 +27,7 @@ While Focus Filter covers a wide range of websites, highly complex platforms oft
 
 *   GIF: [Animation Policy](https://chromewebstore.google.com/detail/animation-policy/ncigbofjfbodhkaffojakplpmnleeoee)
 *   YouTube: [RYS — Remove YouTube Suggestions](https://chromewebstore.google.com/detail/rys-%E2%80%94-remove-youtube-sugg/cdhdichomdnlaadbndgmagohccgpejae)
+*   Twitch: [BetterTTV](https://chromewebstore.google.com/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped)
 
 ## 🤝 Contributing
 Read [Contributing Guide](CONTRIBUTING.md) for details on how to report issues or submit new rules.
