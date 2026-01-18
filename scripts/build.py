@@ -8,7 +8,7 @@ OUTPUT_FILE = 'filter.txt'
 def main():
     # 1. 准备头部信息 (这是给 AdGuard 识别用的，必须保留)
     tz = pytz.timezone('Asia/Shanghai')
-    current_time = datetime.now(tz).isoformat(timespec='seconds')
+    current_time = datetime.datetime.now(tz).isoformat(timespec='seconds')
     
     header = [
         "! Title: Focus Filter",
