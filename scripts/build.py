@@ -36,7 +36,7 @@ def main():
 
     # 2. 准备时间戳
     tz = pytz.timezone('Asia/Shanghai')
-    current_time = datetime.datetime.now(tz).strftime('%Y-%m-%d %H:%M:%S')
+    current_time = datetime.datetime.now(tz).isoformat(timespec='seconds')
     
     header = [
         "! Title: Focus Filter",
