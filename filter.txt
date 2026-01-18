@@ -1,125 +1,93 @@
 ! Title: Focus Filter
-! Version: 2026-01-18 12:39:09
-! Last modified: 2026-01-18 12:39:09
+! Description: A Focus Filter for AdGuard...
+! Last modified: 2026-01-18 12:43:50
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 !
-
-! -------------------------------------------------
-! 91porn.com
-! -------------------------------------------------
 91porn.com##div:has(> h3[class="login_register_header"])
-
-! -------------------------------------------------
-! bilibili.com
-! -------------------------------------------------
-||api.bilibili.com/pgc/page/web/feed^
-bilibili.com##.feed-roll-btn
 bilibili.com##.activity-m-v1
-bilibili.com##.rec-list
-bilibili.com##.rec-footer
-bilibili.com##span.new-icon
-bilibili.com##.bpx-player-ending-related
-bilibili.com##.palette-button-outer
-bilibili.com##.floor-single-card
 bilibili.com##.bili-watch-later--wrap
-bilibili.com##.left-loc-entry:has(.loc-moveclip)
-bilibili.com##.trending
-bilibili.com##.red-point
-bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'placeholder', '')
-bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'title', '')
-bilibili.com##a:has(> [data-type="player_backshow"])
-bilibili.com##.container > .bili-feed-card
-bilibili.com##.container > .bili-video-card
-bilibili.com##.space-float
-bilibili.com##.nav-tool-container
+bilibili.com##.bpx-player-ending-related
 bilibili.com##.bpx-player-top-wrap
-bilibili.com##.paybar_container__WApBR
-bilibili.com##.recommend_wrap__PccwM
-bilibili.com##.main-container .plp-r.sticky:style(bottom: 2000px !important)
 bilibili.com##.channel-page__body > .feed-cards
 bilibili.com##.channel-page__body > .loading-cards
-bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
+bilibili.com##.container > .bili-feed-card
+bilibili.com##.container > .bili-video-card
+bilibili.com##.feed-roll-btn
+bilibili.com##.floor-single-card
+bilibili.com##.left-loc-entry:has(.loc-moveclip)
+bilibili.com##.main-container .plp-r.sticky:style(bottom: 2000px !important)
+bilibili.com##.nav-tool-container
+bilibili.com##.palette-button-outer
+bilibili.com##.paybar_container__WApBR
+bilibili.com##.rec-footer
+bilibili.com##.rec-list
+bilibili.com##.recommend_wrap__PccwM
+bilibili.com##.red-point
 bilibili.com##.right-ctnr
+bilibili.com##.space-float
+bilibili.com##.trending
+bilibili.com##a:has(> [data-type="player_backshow"])
+bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
+bilibili.com##span.new-icon
+bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'placeholder', '')
+bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'title', '')
 game.bilibili.com###biliGameFooter
 game.bilibili.com##.refresh
-live.bilibili.com##.flying-vm
-live.bilibili.com###sidebar-vm
-live.bilibili.com###room-background-vm
-live.bilibili.com##.nav-search-content::placeholder
-t.bilibili.com##.bili-dyn-sidebar
-
-! -------------------------------------------------
-! jable.tv
-! -------------------------------------------------
 jable.tv##.right-sidebar
-
-! -------------------------------------------------
-! jav.guru
-! -------------------------------------------------
 jav.guru##.inside-right-sidebar
 jav.guru##.javbox
-
-! -------------------------------------------------
-! mgtv.com
-! -------------------------------------------------
-mgtv.com##div[data-module="t-topAdbu"]
-mgtv.com##div[data-module="t-newsbigtitle"]
-mgtv.com##.nav-a-top
+live.bilibili.com###room-background-vm
+live.bilibili.com###sidebar-vm
+live.bilibili.com##.flying-vm
+live.bilibili.com##.nav-search-content::placeholder
 mgtv.com###sideFloatbtn
-mgtv.com##.tips
 mgtv.com##.arr-download
 mgtv.com##.big-poster-conent
+mgtv.com##.nav-a-top
 mgtv.com##.recommended-list
 mgtv.com##.sidebar-download
+mgtv.com##.tips
 mgtv.com##.vip-button-box
-
-! -------------------------------------------------
-! missav.ai
-! -------------------------------------------------
+mgtv.com##div[data-module="t-newsbigtitle"]
+mgtv.com##div[data-module="t-topAdbu"]
+missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
+missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
+missav.ws,missav.ai##div:has(>[x-show*="partners"])
+missav.ws,missav.ai##div:matches-css(max-width: 300px)
+missav.ws,missav.ai##div[x-data*="fetchRandom"]
+missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
+missav.ws,missav.ai##input[x-ref*="earch"]::placeholder
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##nav>a[href*="mycomic.com"]
-missav.ws,missav.ai##div:has(>[x-show*="partners"])
-missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
-missav.ws,missav.ai##div[x-data*="fetchRandom"]
 missav.ws,missav.ai##ul:has(a[target="_blank"])
-missav.ws,missav.ai##div:matches-css(max-width: 300px)
-missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
-missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
-missav.ws,missav.ai##input[x-ref*="earch"]::placeholder
-
-! -------------------------------------------------
-! movie.douban.com
-! -------------------------------------------------
+movie.douban.com###doulist
 movie.douban.com###recommendations
 movie.douban.com###subject-doulist
 movie.douban.com###subject-others-interests
 movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
-movie.douban.com###doulist
-
-! -------------------------------------------------
-! weibo.com
-! -------------------------------------------------
+t.bilibili.com##.bili-dyn-sidebar
 weibo.com###pl_common_scrollToTop
-weibo.com##.wbpro-side-panel:has([class="wbpro-icon-doticon"])
-weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "250")
-weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "500")
-weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "1000")
-weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "2000")
-weibo.com##.woo-box-wrap > .woo-box-item-flex:first-child
-weibo.com##.hot-band-tabs-list > div:has([class="hot-band-tabs-list-item-dot"])
-weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "250")
-weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "500")
-weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "1000")
-weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "2000")
+weibo.com##.hot-band-header-refresh
 weibo.com##.hot-band-tabs-item > div:first-child
+weibo.com##.hot-band-tabs-list > div:has([class="hot-band-tabs-list-item-dot"])
+weibo.com##.hot-band-tabs-list-item-content-icon
+weibo.com##.wbpro-side-copy
+weibo.com##.wbpro-side-panel:has([class="wbpro-icon-doticon"])
+weibo.com##.woo-badge-main
+weibo.com##.woo-box-flex > .icon
+weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
+weibo.com##.woo-box-flex:has(> [class="wbpro-icon-search-2"])
+weibo.com##.woo-box-wrap > .woo-box-item-flex:first-child
+weibo.com##.woo-picture-main.woo-picture-square.woo-picture-hover
 weibo.com##div > div.woo-panel-main:has([class^="wbpro-side-card4"])
 weibo.com##img._emptyPic_gykin_16+div
-weibo.com##.woo-box-flex > .icon
-weibo.com##.woo-box-flex:has(> [class="wbpro-icon-search-2"])
-weibo.com##.woo-badge-main
-weibo.com##.hot-band-tabs-list-item-content-icon
-weibo.com##.hot-band-header-refresh
-weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
-weibo.com##.wbpro-side-copy
-weibo.com##.woo-picture-main.woo-picture-square.woo-picture-hover
+weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "1000")
+weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "2000")
+weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "250")
+weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "500")
+weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "1000")
+weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "2000")
+weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "250")
+weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "500")
+||api.bilibili.com/pgc/page/web/feed^
