@@ -9,17 +9,17 @@ OUTPUT_FILE = 'filter.txt'
 def get_version_from_git():
     """
     根据 Git 提交总数计算版本号。
+    只计算 filters 目录和 scripts 目录的变动。
     格式: 2.X.Y.Z
-    机制: Z 满 100 进 Y，Y 满 100 进 X。
     """
     try:
-        # 获取 Git 提交总数
-        # rev-list --count HEAD 会返回当前分支的提交数量
-        count_str = subprocess.check_output(['git', 'rev-list', '--count', 'HEAD']).decode().strip()
-        total_commits = int(count_str)
-    except Exception:
-        # 如果本地没有 git 环境或报错，回退到默认值
-        print("Warning: Could not get git commit count. Using default version.")
+        # 修改点：指定统计路径，排除干扰
+        output = subprocess.check_output(
+            ['git', 'rev-list', '--count', 'HEAD', '--', 'filters', 'scripts']
+        ).decode().strip()
+        total_commits = int(output)
+    except Exception as e:
+        print(f"Warning: Could not get git commit count: {e}. Using default version.")
         total_commits = 0
 
     # 进位逻辑 (Base 100)
@@ -27,7 +27,6 @@ def get_version_from_git():
     y = (total_commits // 100) % 100
     x = total_commits // 10000
     
-    # 第一位固定为 2
     return f"2.{x}.{y}.{z}"
 
 def main():
@@ -35,7 +34,7 @@ def main():
     version = get_version_from_git()
     print(f"Generated Version: {version}")
 
-    # 2. 准备时间戳 (ISO 8601 格式)
+    # 2. 准备时间戳
     tz = pytz.timezone('Asia/Shanghai')
     current_time = datetime.datetime.now(tz).strftime('%Y-%m-%d %H:%M:%S')
     
@@ -43,7 +42,7 @@ def main():
         "! Title: Focus Filter",
         "! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and \"doom-scrolling\" traps from various websites.",
         f"! Last modified: {current_time}",
-        f"! Version: {version}",
+        f"! Version: {version}", 
         "! Expires: 24 hours",
         "! Homepage: https://github.com/malagebidi/Focus-Filter",
         "! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE",
