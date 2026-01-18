@@ -3,9 +3,9 @@ name: Auto Build Filter
 on:
   push:
     paths:
-      - 'filters/**'   # 只有当 filters 目录变动时才触发
+      - 'filters/**'
       - 'scripts/**'
-  workflow_dispatch:   # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   build:
@@ -32,5 +32,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add filter.txt
-          # 只有当 filter.txt 真的发生变化时才 commit，避免空提交
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update filter.txt [skip ci]" && git push)
