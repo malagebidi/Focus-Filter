@@ -1,0 +1,6 @@
+pornhub.com##[type="pornstar"]
+pornhub.com##[type="trending"]
+pornhub.com##.videoGridTabs
+pornhub.com##.relatedVideos
+pornhub.com###under-player-playlists
+pornhub.com##.recommendedVideos
