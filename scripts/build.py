@@ -12,10 +12,12 @@ def main():
     
     header = [
         "! Title: Focus Filter",
-        "! Description: A Focus Filter for AdGuard...",
+        "! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.",
         f"! Last modified: {current_time}",
+        "! Version: 0.0.4.5",
         "! Expires: 24 hours",
         "! Homepage: https://github.com/malagebidi/Focus-Filter",
+        "! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE",
         "!"
     ]
 
