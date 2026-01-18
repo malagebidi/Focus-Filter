@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-18T16:17:45+08:00
-! Version: 2.0.0.25
+! Last modified: 2026-01-18T19:07:11+08:00
+! Version: 2.0.0.26
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -88,11 +88,5 @@ weibo.com##div > div.woo-panel-main:has([class^="wbpro-side-card4"])
 weibo.com##img._emptyPic_gykin_16+div
 weibo.com##tr:has(a[action-type="realtimehot_ad"])
 weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "1000")
-weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "2000")
-weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "250")
-weibo.com#%#//scriptlet("trusted-click-element", ".hot-band-tabs-item > div:last-child", "500")
 weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "1000")
-weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "2000")
-weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "250")
-weibo.com#%#//scriptlet("trusted-click-element", ".woo-box-wrap > .woo-box-item-flex:last-child > div", "500")
 ||api.bilibili.com/pgc/page/web/feed^
