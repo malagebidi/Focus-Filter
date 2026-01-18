@@ -1,8 +1,10 @@
 ! Title: Focus Filter
-! Description: A Focus Filter for AdGuard...
-! Last modified: 2026-01-18 12:55:07
+! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
+! Last modified: 2026-01-18 12:59:58
+! Version: 0.0.4.5
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
+! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
 91porn.com##div:has(> h3[class="login_register_header"])
 bilibili.com##.activity-m-v1
