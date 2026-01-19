@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-19T13:55:50+08:00
-! Version: 2.0.0.42
+! Last modified: 2026-01-19T14:02:20+08:00
+! Version: 2.0.0.45
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -36,7 +36,7 @@ bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
 bilibili.com##span.new-icon
 douyu.com###js-barrage-extend-container
 douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
-douyu.com##+js(set-attr, .Search-Input-input > input, placeholder, )
+douyu.com##+js(set-attr, .Search-Input-input > input, placeholder, '')
 douyu.com##.HeaderNav
 douyu.com##.Search-Panel
 douyu.com##.u-inlineBlock
@@ -52,7 +52,7 @@ jav.guru##.inside-right-sidebar
 jav.guru##.javbox
 live.bilibili.com###room-background-vm
 live.bilibili.com###sidebar-vm
-live.bilibili.com##+js(set-attr, .nav-search-content, placeholder, )
+live.bilibili.com##+js(set-attr, .nav-search-content, placeholder, '')
 live.bilibili.com##.flying-vm
 live.kuaishou.com##.change-button
 live.kuaishou.com##.guide-widget
@@ -73,7 +73,7 @@ mgtv.com##.tips
 mgtv.com##.vip-button-box
 mgtv.com##div[data-module="t-newsbigtitle"]
 mgtv.com##div[data-module="t-topAdbu"]
-missav.ws,missav.ai##+js(set-attr, input[x-ref*="earch"], placeholder, )
+missav.ws,missav.ai##+js(set-attr, input[x-ref*="earch"], placeholder, '')
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
 missav.ws,missav.ai##div:has(>[x-show*="partners"])
