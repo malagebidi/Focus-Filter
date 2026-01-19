@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-19T18:51:56+08:00
-! Version: 2.0.0.69
+! Last modified: 2026-01-19T18:56:42+08:00
+! Version: 2.0.0.70
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -97,7 +97,7 @@ pornhub.com##.videoGridTabs
 pornhub.com##[type="pornstar"]
 pornhub.com##[type="trending"]
 t.bilibili.com##.bili-dyn-sidebar
-v2ex.com###Wrapper:style(background-image: none !important; background-color: #e2e2e2 !important)
+v2ex.com###Wrapper:style(background-image: none !important; background-color: #e2e2e2)
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
 v2ex.com##.box:has(span:contains(Site of the Day))
