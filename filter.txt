@@ -1,14 +1,12 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-19T17:57:58+08:00
-! Version: 2.0.0.56
+! Last modified: 2026-01-19T18:09:13+08:00
+! Version: 2.0.0.57
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
 91porn.com##div:has(> h3[class="login_register_header"])
-bilibili.com##+js(set-attr, .nav-search-input, placeholder, '')
-bilibili.com##+js(set-attr, .nav-search-input, title, '')
 bilibili.com##.activity-m-v1
 bilibili.com##.bili-watch-later--wrap
 bilibili.com##.bpx-player-ending-related
@@ -34,6 +32,8 @@ bilibili.com##.trending
 bilibili.com##a:has(> [data-type="player_backshow"])
 bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
 bilibili.com##span.new-icon
+bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'placeholder', '')
+bilibili.com#%#//scriptlet('set-attr', '.nav-search-input', 'title', '')
 douyu.com###js-barrage-extend-container
 douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
 douyu.com##+js(set-attr, .Search-Input-input > input, placeholder, '')
@@ -55,8 +55,8 @@ jav.guru##.large-screenshot:style(max-height: 698px !important)
 jav.guru##.site-content .content-area:style(width: 100% !important)
 live.bilibili.com###room-background-vm
 live.bilibili.com###sidebar-vm
-live.bilibili.com##+js(set-attr, .nav-search-content, placeholder, '')
 live.bilibili.com##.flying-vm
+live.bilibili.com#%#//scriptlet('set-attr', '.nav-search-content', 'placeholder', '')
 live.kuaishou.com##.change-button
 live.kuaishou.com##.guide-widget
 live.kuaishou.com##.header-interest-btn
