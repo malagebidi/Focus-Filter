@@ -7,4 +7,4 @@ missav.ws,missav.ai##ul:has(a[target="_blank"])
 missav.ws,missav.ai##div:matches-css(max-width: 300px)
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
-missav.ws,missav.ai##input[x-ref*="earch"]::placeholder
+missav.ws,missav.ai##+js(set-attr, input[x-ref*="earch"], placeholder, )
