@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-19T18:29:00+08:00
-! Version: 2.0.0.64
+! Last modified: 2026-01-19T18:37:13+08:00
+! Version: 2.0.0.66
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -41,7 +41,7 @@ douyu.com##.Search-Panel
 douyu.com##.u-inlineBlock
 douyu.com##div[class^="HotTopicList-module__"]
 douyu.com##div[class^="app-module__"]:style(min-height: 0 !important; height: auto !important)
-douyu.com##div[class^="container__"]:has(h3:has-text(热))
+douyu.com##div[class^="container__"]:has(h3:contains(热))
 douyu.com##div[class^="elevator__"]
 douyu.com##div[class^="snapbar__"]
 douyu.com#%#//scriptlet('set-attr', 'input[type="text"]', 'placeholder', '')
@@ -101,8 +101,8 @@ t.bilibili.com##.bili-dyn-sidebar
 v2ex.com###Wrapper:style(background-image: none !important; background-color: #e2e2e2 !important)
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
-v2ex.com##.box:has(span:has-text(Site of the Day))
-v2ex.com##.box:has(span:has-text(Site of the Day))+div.sep20
+v2ex.com##.box:has(span:contains(Site of the Day))
+v2ex.com##.box:has(span:contains(Site of the Day))+div.sep20
 weibo.com###hot-band-container
 weibo.com###pl_common_scrollToTop
 weibo.com###pl_top_realtimehot td:has(> [class^="icon-txt"])
