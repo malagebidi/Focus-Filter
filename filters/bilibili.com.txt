@@ -11,24 +11,24 @@ bilibili.com##.bili-watch-later--wrap
 bilibili.com##.left-loc-entry:has(.loc-moveclip)
 bilibili.com##.trending
 bilibili.com##.red-point
-bilibili.com#%#//scriptlet('remove-attr', 'placeholder|title', '.nav-search-input')
-bilibili.com##a:has(> [data-type="player_backshow"])
-bilibili.com##.container > .bili-feed-card
-bilibili.com##.container > .bili-video-card
+bilibili.com#%#//scriptlet('remove-attr','placeholder|title','.nav-search-input')
+bilibili.com##a:has(>[data-type="player_backshow"])
+bilibili.com##.container>.bili-feed-card
+bilibili.com##.container>.bili-video-card
 bilibili.com##.space-float
 bilibili.com##.nav-tool-container
 bilibili.com##.bpx-player-top-wrap
 bilibili.com##.paybar_container__WApBR
 bilibili.com##.recommend_wrap__PccwM
 bilibili.com##.main-container .plp-r.sticky:style(bottom: 2000px !important)
-bilibili.com##.channel-page__body > .feed-cards
-bilibili.com##.channel-page__body > .loading-cards
-bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
+bilibili.com##.channel-page__body>.feed-cards
+bilibili.com##.channel-page__body>.loading-cards
+bilibili.com##div:has(>[class^="live-sidebar-ctnr"])
 bilibili.com##.right-ctnr
 game.bilibili.com###biliGameFooter
 game.bilibili.com##.refresh
 live.bilibili.com##.flying-vm
 live.bilibili.com###sidebar-vm
 live.bilibili.com###room-background-vm
-bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
+bilibili.com#%#//scriptlet('remove-attr','placeholder','.nav-search-content')
 t.bilibili.com##.bili-dyn-sidebar
