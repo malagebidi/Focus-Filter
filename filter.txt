@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-19T13:29:13+08:00
-! Version: 2.0.0.37
+! Last modified: 2026-01-19T13:42:24+08:00
+! Version: 2.0.0.38
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -42,7 +42,7 @@ douyu.com##.Search-Panel
 douyu.com##.u-inlineBlock
 douyu.com##div[class^="HotTopicList-module__"]
 douyu.com##div[class^="app-module__"]:style(min-height: 0 !important; height: auto !important)
-douyu.com##div[class^="container__"]:has(h3:contains(热))
+douyu.com##div[class^="container__"]:has(h3:has-text(热))
 douyu.com##div[class^="elevator__"]
 douyu.com##div[class^="snapbar__"]
 game.bilibili.com###biliGameFooter
