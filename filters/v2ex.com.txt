@@ -1,5 +1,5 @@
 v2ex.com###Wrapper:style(background-image: none !important; background-color: #e2e2e2 !important)
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
-v2ex.com##.box:has(span:has-text(Site of the Day))
-v2ex.com##.box:has(span:has-text(Site of the Day))+div.sep20
+v2ex.com##.box:has(span:contains(Site of the Day))
+v2ex.com##.box:has(span:contains(Site of the Day))+div.sep20
