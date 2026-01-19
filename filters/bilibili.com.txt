@@ -32,3 +32,5 @@ live.bilibili.com###sidebar-vm
 live.bilibili.com###room-background-vm
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
 t.bilibili.com##.bili-dyn-sidebar
+bilibili.com##.next-play > .video-page-card-small
+bilibili.com##.next-play > .split-line
