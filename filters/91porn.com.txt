@@ -1,1 +1,4 @@
+! 播放页侧栏
 91porn.com##div:has(> h3[class="login_register_header"])
+! 侧栏移除后，设置内容区域宽度为100%
+91porn.com##.video-border:style(width: 100% !important)
