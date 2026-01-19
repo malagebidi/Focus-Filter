@@ -1,3 +1,3 @@
 v2ex.com###Wrapper:style(background-image: none !important)
-v2ex.com##.box:has(span.fade:has-text(热))
-v2ex.com##.box:has(span.fade:has-text(热))+div.sep20
+v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
+v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
