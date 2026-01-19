@@ -6,18 +6,10 @@ weibo.com##+js(trusted-click-element, .woo-box-wrap > .woo-box-item-flex:last-ch
 weibo.com##+js(trusted-click-element, .woo-box-wrap > .woo-box-item-flex:last-child > div, 1000)
 weibo.com##+js(trusted-click-element, .woo-box-wrap > .woo-box-item-flex:last-child > div, 2000)
 weibo.com##.woo-box-wrap > .woo-box-item-flex:first-child
-weibo.com##.hot-band-tabs-list > div:has([class="hot-band-tabs-list-item-dot"])
-weibo.com##+js(trusted-click-element, .hot-band-tabs-item > div:last-child, 250)
-weibo.com##+js(trusted-click-element, .hot-band-tabs-item > div:last-child, 500)
-weibo.com##+js(trusted-click-element, .hot-band-tabs-item > div:last-child, 1000)
-weibo.com##+js(trusted-click-element, .hot-band-tabs-item > div:last-child, 2000)
-weibo.com##.hot-band-tabs-item > div:first-child
 weibo.com##div > div.woo-panel-main:has([class^="wbpro-side-card4"])
 weibo.com##img._emptyPic_gykin_16+div
 weibo.com##.woo-box-flex > .icon
 weibo.com##.woo-box-flex:has(> [class="wbpro-icon-search-2"])
-weibo.com##.hot-band-tabs-list-item-content-icon
-weibo.com##.hot-band-header-refresh
 weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
 weibo.com##.wbpro-side-copy
 weibo.com###pl_top_realtimehot td:has(> [class^="icon-txt"])
@@ -25,5 +17,5 @@ weibo.com##tr:has(a[action-type="realtimehot_ad"])
 weibo.com##.woo-tab-nav > a:first-child .woo-badge-main
 weibo.com##.card-wrap:has(.woo-font--add)
 weibo.com##.woo-box-flex > .f13
-weibo.com##.hot-band-tabs-list-item-content-desc
 weibo.com##.woo-box-flex > .woo-picture-main.woo-picture-square.woo-picture-hover
+weibo.com###hot-band-container
