@@ -1,6 +1,6 @@
 douyu.com##div[class^="elevator__"]
 douyu.com##.Search-Panel
-douyu.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="text"]')
+douyu.com#%#//scriptlet('remove-attr','placeholder','input[type="text"]')
 douyu.com##.HeaderNav
 douyu.com##.u-inlineBlock
 douyu.com###js-barrage-extend-container
