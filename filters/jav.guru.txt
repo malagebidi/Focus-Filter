@@ -1,5 +1,10 @@
+! 播放页评论区下方的相关视频
 jav.guru##.javbox
-jav.guru###right-sidebar
-jav.guru##.site-content .content-area:style(width: 100% !important)
+! 播放页评论区和相关视频之间的分割线
 jav.guru###comments.comments-area:style(border-bottom: 0 !important)
+! 全站右侧栏
+jav.guru###right-sidebar
+! 右侧栏移除后，播放页内容区域的宽度设置为100%
+jav.guru##.site-content .content-area:style(width: 100% !important)
+! 播放页封面图高度，保持为16:9
 jav.guru##.large-screenshot:style(max-height: 698px !important)
