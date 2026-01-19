@@ -11,10 +11,20 @@ Focus Filter originated as a personal collection of rules built from my daily us
 
 ## 🛡️ Coverage
 
-*   Bilibili (哔哩哔哩)
-*   Zhihu (知乎)
-*   Weibo (微博)
-*   ...
+<table>
+<tr>
+<td align="center" width="200"><b>Bilibili</b><br>(哔哩哔哩)</td>
+<td align="center" width="200"><b>Zhihu</b><br>(知乎)</td>
+<td align="center" width="200"><b>Weibo</b><br>(微博)</td>
+<td align="center" width="200"><b>CSDN</b><br>(技术社区)</td>
+</tr>
+<tr>
+<td align="center"><b>Juejin</b><br>(掘金)</td>
+<td align="center"><b>Douban</b><br>(豆瓣)</td>
+<td align="center"><b>Tieba</b><br>(贴吧)</td>
+<td align="center"><b>Xiaohongshu</b><br>(小红书)</td>
+</tr>
+</table>
 
 ## ⚙️ Setup
 1. Open AdGuard Settings
