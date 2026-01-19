@@ -1,0 +1,3 @@
+v2ex.com###Wrapper:style(background-image: none !important)
+v2ex.com##.box:has(span.fade:has-text(热))
+v2ex.com##.box:has(span.fade:has-text(热))+div.sep20
