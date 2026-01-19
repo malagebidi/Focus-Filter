@@ -15,8 +15,8 @@ Major platforms covered include:
 | Category | Websites |
 | :--- | :--- |
 | Social Media | 微博, 豆瓣电影 |
-| Video | 哔哩哔哩, 芒果TV, 斗鱼, 快手直播 |
 | Tech | V2EX |
+| Video & Live | 哔哩哔哩, 芒果TV, 斗鱼, 快手直播 |
 | Adult | Pornhub, 91porn, MissAV, Jable.TV, Jav.Guru |
 
 ## ⚙️ Setup
