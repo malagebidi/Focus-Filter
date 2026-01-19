@@ -13,16 +13,16 @@ Focus Filter originated as a personal collection of rules built from my daily us
 
 <table>
 <tr>
-<td align="center" width="200"><b>Bilibili</b><br>(哔哩哔哩)</td>
-<td align="center" width="200"><b>Zhihu</b><br>(知乎)</td>
-<td align="center" width="200"><b>Weibo</b><br>(微博)</td>
-<td align="center" width="200"><b>CSDN</b><br>(技术社区)</td>
+<td align="center" width="200"><b>哔哩哔哩</b></td>
+<td align="center" width="200"><b>知乎</b></td>
+<td align="center" width="200"><b>微博</b></td>
+<td align="center" width="200"><b>CSDN</b></td>
 </tr>
 <tr>
-<td align="center"><b>Juejin</b><br>(掘金)</td>
-<td align="center"><b>Douban</b><br>(豆瓣)</td>
-<td align="center"><b>Tieba</b><br>(贴吧)</td>
-<td align="center"><b>Xiaohongshu</b><br>(小红书)</td>
+<td align="center"><b>掘金</b></td>
+<td align="center"><b>豆瓣电影</b></td>
+<td align="center"><b>斗鱼</b></td>
+<td align="center"><b>小红书</b></td>
 </tr>
 </table>
 
