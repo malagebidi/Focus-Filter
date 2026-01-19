@@ -7,5 +7,5 @@ douyu.com###js-barrage-extend-container
 douyu.com##div[class^="HotTopicList-module__"]
 douyu.com##div[class^="app-module__"]:style(min-height: 0 !important; height: auto !important)
 douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
-douyu.com##div[class^="container__"]:has(h3:has-text(热))
+douyu.com##div[class^="container__"]:has(h3:contains(热))
 douyu.com##div[class^="snapbar__"]
