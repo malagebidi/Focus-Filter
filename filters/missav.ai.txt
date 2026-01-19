@@ -8,3 +8,5 @@ missav.ws,missav.ai##div:matches-css(max-width: 300px)
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
 missav.ws,missav.ai#%#//scriptlet('remove-attr', 'placeholder', 'input[x-ref*="earch"]')
+missav.ws,missav.ai##.plyr__controls>button[data-plyr="fast-forward"]
+missav.ws,missav.ai##.plyr__controls>button[data-plyr="rewind"]
