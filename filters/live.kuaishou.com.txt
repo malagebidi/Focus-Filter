@@ -7,3 +7,4 @@ live.kuaishou.com##.header-interest-btn
 live.kuaishou.com##.searchList
 live.kuaishou.com##.interest-list
 live.kuaishou.com##.recommend
+live.kuaishou.com###liveroom__sidebar .fold-message
