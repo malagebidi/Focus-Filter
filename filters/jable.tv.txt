@@ -1,1 +1,4 @@
 jable.tv##.right-sidebar
+jable.tv##div:has(a[href="https://fuu78.com/"])
+jable.tv##section:has(h6.title > a[href*="fluxtrck"])
+jable.tv###flag-form+section
