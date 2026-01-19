@@ -31,5 +31,5 @@ game.bilibili.com##.refresh
 live.bilibili.com##.flying-vm
 live.bilibili.com###sidebar-vm
 live.bilibili.com###room-background-vm
-live.bilibili.com##.nav-search-content::placeholder
+live.bilibili.com##+js(set-attr, .nav-search-content, placeholder, )
 t.bilibili.com##.bili-dyn-sidebar
