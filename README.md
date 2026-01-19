@@ -9,6 +9,13 @@ Over the years, the internet has gradually evolved into an **Attention Economy**
 
 Focus Filter originated as a personal collection of rules built from my daily use, and now I am open-sourcing it to invite community collaboration.
 
+## 🛡️ Coverage
+
+*   Bilibili (哔哩哔哩)
+*   Zhihu (知乎)
+*   Weibo (微博)
+*   ...
+
 ## ⚙️ Setup
 1. Open AdGuard Settings
 2. Go to Filters -> Custom
