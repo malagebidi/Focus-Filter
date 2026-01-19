@@ -1,4 +1,4 @@
-! 播放页侧栏
+! Playback Sidebar
 91porn.com##div:has(> h3[class="login_register_header"])
-! 侧栏移除后，设置内容区域宽度为100%
+! After removing the playback sidebar, set the content area width to 100%.
 91porn.com##.video-border:style(width: 100% !important)
