@@ -9,6 +9,7 @@ weibo.com##div > div.woo-panel-main:has([class^="wbpro-side-card4"])
 weibo.com##img._emptyPic_gykin_16+div
 weibo.com##.woo-box-flex > .icon
 weibo.com##.woo-box-flex:has(> [class="wbpro-icon-search-2"])
+weibo.com##.woo-box-item-flex>div:last-child
 weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
 weibo.com##.wbpro-side-copy
 weibo.com###pl_top_realtimehot td:has(> [class^="icon-txt"])
