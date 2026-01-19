@@ -1,2 +1,5 @@
-jav.guru##.inside-right-sidebar
 jav.guru##.javbox
+jav.guru###right-sidebar
+jav.guru##.site-content .content-area:style(width: 100% !important)
+jav.guru###comments.comments-area:style(border-bottom: 0 !important)
+jav.guru##.large-screenshot:style(max-height: 698px !important)
