@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-19T18:22:53+08:00
-! Version: 2.0.0.61
+! Last modified: 2026-01-19T18:23:52+08:00
+! Version: 2.0.0.62
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -82,10 +82,10 @@ missav.ws,missav.ai##div:has(>[x-show*="partners"])
 missav.ws,missav.ai##div:matches-css(max-width: 300px)
 missav.ws,missav.ai##div[x-data*="fetchRandom"]
 missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
-missav.ws,missav.ai##input[x-ref*="earch"]::placeholder
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##nav>a[href*="mycomic.com"]
 missav.ws,missav.ai##ul:has(a[target="_blank"])
+missav.ws,missav.ai#%#//scriptlet('set-attr', 'input[x-ref*="earch"]', 'placeholder', '')
 movie.douban.com###doulist
 movie.douban.com###recommendations
 movie.douban.com###subject-doulist
