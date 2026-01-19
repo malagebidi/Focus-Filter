@@ -8,3 +8,4 @@ mgtv.com##.big-poster-conent
 mgtv.com##.recommended-list
 mgtv.com##.sidebar-download
 mgtv.com##.vip-button-box
+mgtv.com##.hitv_horizontal:has(>.vip-chasing)
