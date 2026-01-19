@@ -1,4 +1,8 @@
+! 播放页侧栏
 jable.tv##.right-sidebar
+! 内容区和页脚之间的广告
 jable.tv##div:has(a[href="https://fuu78.com/"])
+! 首页内容区底部，正在流行区块
 jable.tv##section:has(h6.title > a[href*="fluxtrck"])
+! 播放页下方的推荐流
 jable.tv###flag-form+section
