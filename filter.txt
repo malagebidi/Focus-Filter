@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-19T21:27:40+08:00
-! Version: 2.0.0.78
+! Last modified: 2026-01-19T21:28:20+08:00
+! Version: 2.0.0.79
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -11,10 +11,10 @@ bilibili.com##.activity-m-v1
 bilibili.com##.bili-watch-later--wrap
 bilibili.com##.bpx-player-ending-related
 bilibili.com##.bpx-player-top-wrap
-bilibili.com##.channel-page__body>.feed-cards
-bilibili.com##.channel-page__body>.loading-cards
-bilibili.com##.container>.bili-feed-card
-bilibili.com##.container>.bili-video-card
+bilibili.com##.channel-page__body > .feed-cards
+bilibili.com##.channel-page__body > .loading-cards
+bilibili.com##.container > .bili-feed-card
+bilibili.com##.container > .bili-video-card
 bilibili.com##.feed-roll-btn
 bilibili.com##.floor-single-card
 bilibili.com##.left-loc-entry:has(.loc-moveclip)
@@ -29,11 +29,11 @@ bilibili.com##.red-point
 bilibili.com##.right-ctnr
 bilibili.com##.space-float
 bilibili.com##.trending
-bilibili.com##a:has(>[data-type="player_backshow"])
-bilibili.com##div:has(>[class^="live-sidebar-ctnr"])
+bilibili.com##a:has(> [data-type="player_backshow"])
+bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
 bilibili.com##span.new-icon
-bilibili.com#%#//scriptlet('remove-attr','placeholder','.nav-search-content')
-bilibili.com#%#//scriptlet('remove-attr','placeholder|title','.nav-search-input')
+bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
+bilibili.com#%#//scriptlet('remove-attr', 'placeholder|title', '.nav-search-input')
 douyu.com###js-barrage-extend-container
 douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
 douyu.com##.HeaderNav
