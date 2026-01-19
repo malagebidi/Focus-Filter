@@ -20,8 +20,6 @@ Major platforms covered include:
 | Adult | Pornhub, 91porn, MissAV, Jable.TV, Jav.Guru |
 
 ## ⚙️ Setup
-<a href="abp:subscribe?location=https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt">👉 Click here to Subscribe to Focus-Filter</a>
-
 1. Open AdGuard Settings
 2. Go to Filters -> Custom
 3. Click Add custom filter
