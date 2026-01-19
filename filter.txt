@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-19T16:19:34+08:00
-! Version: 2.0.0.51
+! Last modified: 2026-01-19T17:45:07+08:00
+! Version: 2.0.0.52
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -103,22 +103,14 @@ v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
 v2ex.com##.box:has(span:has-text(Site of the Day))
 v2ex.com##.box:has(span:has-text(Site of the Day))+div.sep20
+weibo.com###hot-band-container
 weibo.com###pl_common_scrollToTop
 weibo.com###pl_top_realtimehot td:has(> [class^="icon-txt"])
-weibo.com##+js(trusted-click-element, .hot-band-tabs-item > div:last-child, 1000)
-weibo.com##+js(trusted-click-element, .hot-band-tabs-item > div:last-child, 2000)
-weibo.com##+js(trusted-click-element, .hot-band-tabs-item > div:last-child, 250)
-weibo.com##+js(trusted-click-element, .hot-band-tabs-item > div:last-child, 500)
 weibo.com##+js(trusted-click-element, .woo-box-wrap > .woo-box-item-flex:last-child > div, 1000)
 weibo.com##+js(trusted-click-element, .woo-box-wrap > .woo-box-item-flex:last-child > div, 2000)
 weibo.com##+js(trusted-click-element, .woo-box-wrap > .woo-box-item-flex:last-child > div, 250)
 weibo.com##+js(trusted-click-element, .woo-box-wrap > .woo-box-item-flex:last-child > div, 500)
 weibo.com##.card-wrap:has(.woo-font--add)
-weibo.com##.hot-band-header-refresh
-weibo.com##.hot-band-tabs-item > div:first-child
-weibo.com##.hot-band-tabs-list > div:has([class="hot-band-tabs-list-item-dot"])
-weibo.com##.hot-band-tabs-list-item-content-desc
-weibo.com##.hot-band-tabs-list-item-content-icon
 weibo.com##.wbpro-side-copy
 weibo.com##.wbpro-side-panel:has([class="wbpro-icon-doticon"])
 weibo.com##.woo-box-flex > .f13
