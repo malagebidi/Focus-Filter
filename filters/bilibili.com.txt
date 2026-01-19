@@ -11,8 +11,8 @@ bilibili.com##.bili-watch-later--wrap
 bilibili.com##.left-loc-entry:has(.loc-moveclip)
 bilibili.com##.trending
 bilibili.com##.red-point
-bilibili.com##+js(remove-attr, placeholder, .nav-search-input)
-bilibili.com##+js(remove-attr, title, .nav-search-input)
+bilibili.com##+js(set-attr, .nav-search-input, placeholder, )
+bilibili.com##+js(set-attr, .nav-search-input, title, )
 bilibili.com##a:has(> [data-type="player_backshow"])
 bilibili.com##.container > .bili-feed-card
 bilibili.com##.container > .bili-video-card
