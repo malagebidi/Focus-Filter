@@ -10,23 +10,14 @@ Over the years, the internet has gradually evolved into an **Attention Economy**
 Focus Filter originated as a personal collection of rules built from my daily use, and now I am open-sourcing it to invite community collaboration.
 
 ## 🛡️ Coverage
+Major platforms covered include:
 
-<table>
-<tr>
-<td align="center"><b>哔哩哔哩</b></td>
-<td align="center"><b>知乎</b></td>
-<td align="center"><b>微博</b></td>
-<td align="center"><b>V2EX</b></td>
-<td align="center"><b>CSDN</b></td>
-</tr>
-<tr>
-<td align="center"><b>掘金</b></td>
-<td align="center"><b>91porn</b></td>
-<td align="center"><b>豆瓣电影</b></td>
-<td align="center"><b>斗鱼</b></td>
-<td align="center"><b>小红书</b></td>
-</tr>
-</table>
+| Category | Websites |
+| :--- | :--- |
+| Social Media | 微博 |
+| Video | 哔哩哔哩, 斗鱼, 芒果TV, 快手直播 |
+| Tech | V2EX |
+| Adult | Pornhub, 91porn, MissAV, Jable.TV, Jav.Guru |
 
 ## ⚙️ Setup
 1. Open AdGuard Settings
