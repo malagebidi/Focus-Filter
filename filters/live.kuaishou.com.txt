@@ -1,10 +1,23 @@
+! 主页热播区的背景图
 live.kuaishou.com##.hot-live > .banner
-live.kuaishou.com##.refresh
+! 热播区竖向换一换按钮
 live.kuaishou.com##.change-button
+! 其他横向换一换按钮
+live.kuaishou.com##.refresh
+! 右侧浮动小工具
 live.kuaishou.com##.guide-widget
+! 缩略图右上角的质量标识
 live.kuaishou.com##.tag-quality
+! header下方“可能感兴趣的人”按钮
 live.kuaishou.com##.header-interest-btn
-live.kuaishou.com##.searchList
+! 用户主页左下方的关注推荐
 live.kuaishou.com##.interest-list
+! 分类下方的推荐
 live.kuaishou.com##.recommend
+! 直播页右侧评论消息区最下方的轮动信息
 live.kuaishou.com###liveroom__sidebar .fold-message
+! 搜索弹出菜单中的推荐
+live.kuaishou.com##.datalist > .search-item-hot
+live.kuaishou.com##.datalist > .hot-title
+live.kuaishou.com##.datalist > .divider
+live.kuaishou.com##.datalist > .search-item-suggestKeyword
