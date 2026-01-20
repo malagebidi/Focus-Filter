@@ -4,6 +4,10 @@ movie.douban.com###recommendations
 movie.douban.com###subject-doulist
 ! 侧栏热门片单
 movie.douban.com###doulist
+! 首页侧栏一周口碑榜
+movie.douban.com###billboard
+! 首页侧栏“关注我们”
+movie.douban.com##.contact:has(a.icon-embassy-weibo)
 ! “谁在看这部剧集 · · · · · ·”
 movie.douban.com###subject-others-interests
 ! 首页热门推荐轮播
