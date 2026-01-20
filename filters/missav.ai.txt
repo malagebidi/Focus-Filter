@@ -1,12 +1,21 @@
+! 顶部导航栏的广告
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##nav>a[href*="mycomic.com"]
 missav.ws,missav.ai##div:has(>[x-show*="partners"])
+! 首页的总推荐和分类推荐
 missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
+! 首页底部的随机推荐
 missav.ws,missav.ai##div[x-data*="fetchRandom"]
-missav.ws,missav.ai##ul:has(a[target="_blank"])
-missav.ws,missav.ai##div:matches-css(max-width: 300px)
+! 播放页发行日期上面的广告
+missav.ws,missav.ai##ul.grid-cols-2:has(a[target="_blank"])
+! 播放页右侧栏
+missav.ws,missav.ai##div.order-last
+! 播放页下方推荐流
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
-missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
-missav.ws,missav.ai#%#//scriptlet('remove-attr', 'placeholder', 'input[x-ref*="earch"]')
+! 播放器快进和快退按钮
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="fast-forward"]
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="rewind"]
+! 搜索框 placeholder
+missav.ws,missav.ai#%#//scriptlet('remove-attr', 'placeholder', 'input[x-ref*="earch"]')
+! 首页“最近更新”区域
+missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
