@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-20T15:26:18+08:00
-! Version: 2.0.0.93
+! Last modified: 2026-01-20T15:39:06+08:00
+! Version: 2.0.0.94
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -111,7 +111,7 @@ movie.douban.com###subject-others-interests
 movie.douban.com##.contact:has(a.icon-embassy-weibo)
 movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 pornhub.com###under-player-playlists
-pornhub.com##.recommendedVideos
+pornhub.com##.empty_uBlock+div
 pornhub.com##.relatedVideos
 pornhub.com##.videoGridTabs
 pornhub.com##[type="pornstar"]
