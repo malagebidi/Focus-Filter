@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-20T13:01:32+08:00
-! Version: 2.0.0.90
+! Last modified: 2026-01-20T15:24:56+08:00
+! Version: 2.0.0.91
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -37,17 +37,6 @@ bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
 bilibili.com##span.new-icon
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder|title', '.nav-search-input')
-douyu.com###js-barrage-extend-container
-douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
-douyu.com##.HeaderNav
-douyu.com##.Search-Panel
-douyu.com##.u-inlineBlock
-douyu.com##div[class^="HotTopicList-module__"]
-douyu.com##div[class^="app-module__"]:style(min-height: 0 !important; height: auto !important)
-douyu.com##div[class^="container__"]:has(h3:contains(热))
-douyu.com##div[class^="elevator__"]
-douyu.com##div[class^="snapbar__"]
-douyu.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="text"]')
 game.bilibili.com###biliGameFooter
 game.bilibili.com##.refresh
 jable.tv###flag-form+section
@@ -79,13 +68,17 @@ mgtv.com###sideFloatbtn
 mgtv.com##.arr-download
 mgtv.com##.big-poster-conent
 mgtv.com##.hitv_horizontal:has(>.vip-chasing)
+mgtv.com##.hot-switch
 mgtv.com##.nav-a-top
+mgtv.com##.new-user-pop
 mgtv.com##.recommended-list
+mgtv.com##.show-list .s-videolist-box:style(border-left: none !important)
 mgtv.com##.sidebar-download
 mgtv.com##.tips
 mgtv.com##.vip-button-box
 mgtv.com##div[data-module="t-newsbigtitle"]
 mgtv.com##div[data-module="t-topAdbu"]
+mgtv.com#%#//scriptlet('remove-attr', 'placeholder', 'input.input[type="text"]')
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="fast-forward"]
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="rewind"]
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
