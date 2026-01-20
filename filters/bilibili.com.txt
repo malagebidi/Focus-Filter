@@ -1,36 +1,63 @@
+! 番剧/影视等页面的推荐信息流API
 ||api.bilibili.com/pgc/page/web/feed^
-bilibili.com##.feed-roll-btn
-bilibili.com##.activity-m-v1
-bilibili.com##.rec-list
-bilibili.com##.rec-footer
-bilibili.com##span.new-icon
-bilibili.com##.bpx-player-ending-related
+! 首页右下角浮动栏
 bilibili.com##.palette-button-outer
-bilibili.com##.floor-single-card
-bilibili.com##.bili-watch-later--wrap
-bilibili.com##.left-loc-entry:has(.loc-moveclip)
-bilibili.com##.trending
-bilibili.com##.red-point
+! 首页第一行视频流右边的“换一换”按钮
+bilibili.com##.feed-roll-btn
+! 搜索框推荐轮播
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder|title', '.nav-search-input')
-bilibili.com##a:has(> [data-type="player_backshow"])
+bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
+! 搜索框下拉中的“bilibili热搜”
+bilibili.com##.trending
+! 顶部导航栏中的上下滑动推荐项
+bilibili.com##.left-loc-entry:has(.loc-moveclip)
+! 顶部导航栏“下载客户端”右侧的图标
+bilibili.com##span.new-icon
+! 顶部导航栏右侧图标的角标
+bilibili.com##.red-point
+! 顶部导航栏头像hover界面的大会员广告
+bilibili.com##.vip-entry-containter
+! 首页视频流中的非常规视频推荐
+bilibili.com##.floor-single-card
+! 首页视频流中底部无限加载的推荐流
 bilibili.com##.container > .bili-feed-card
 bilibili.com##.container > .bili-video-card
-bilibili.com##.space-float
-bilibili.com##.nav-tool-container
-bilibili.com##.bpx-player-top-wrap
-bilibili.com##.paybar_container__WApBR
-bilibili.com##.recommend_wrap__PccwM
-bilibili.com##.main-container .plp-r.sticky:style(bottom: 2000px !important)
+! 首页视频流中移除多余的margin-top，解决不对齐
+bilibili.com##.recommended-container_floor-aside .container>*:nth-of-type(n+8):style(margin-top: 0 !important)
+! 分区页面底部无限加载的推荐流
 bilibili.com##.channel-page__body > .feed-cards
 bilibili.com##.channel-page__body > .loading-cards
-bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
-bilibili.com##.right-ctnr
-game.bilibili.com###biliGameFooter
-game.bilibili.com##.refresh
-live.bilibili.com##.flying-vm
-live.bilibili.com###sidebar-vm
-live.bilibili.com###room-background-vm
-bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
-t.bilibili.com##.bili-dyn-sidebar
+! 番剧页面右侧浮动推荐框
+bilibili.com##.nav-tool-container
+! 番剧页面“猜你喜欢”
+bilibili.com##.home-recommand-feed-wrapper
+! 番剧播放页面右侧“相关推荐”
+bilibili.com##[class^="recommend_wrap__"]
+! 番剧播放页面右侧大会员广告按钮
+bilibili.com##[class^="paybar_container__"]
+! 番剧播放页面上面两个移除后，修复布局
+bilibili.com##.main-container .plp-r.sticky:style(bottom: 2000px !important)
+! 播放页右侧栏推荐流
+bilibili.com##.rec-list
+bilibili.com##.rec-footer
+! 播放页右侧栏“接下来播放”
 bilibili.com##.next-play > .video-page-card-small
 bilibili.com##.next-play > .split-line
+! 播放页视频播放结束后“相关推荐”
+bilibili.com##.bpx-player-ending-related
+! 播放页视频播放器顶部覆盖
+bilibili.com##.bpx-player-top-wrap
+! 个人页右下角浮动按钮
+bilibili.com##.space-float
+! 直播首页右侧浮动栏
+live.bilibili.com##.flying-vm
+! 直播首页上部背景大图
+live.bilibili.com##a:has(> [data-type="player_backshow"])
+! 直播间右侧浮动栏
+live.bilibili.com###sidebar-vm
+! 直播间上部背景大图
+live.bilibili.com###room-background-vm
+! 直播间右侧栏评论消息区最下方的轮动信息
+live.bilibili.com###brush-prompt:remove()
+! 动态页右下角浮动按钮
+t.bilibili.com##.bili-dyn-sidebar
