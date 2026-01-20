@@ -1,7 +1,33 @@
-
-
-
-
-
-
-weibo.com##.card-wrap:has(.woo-font--add)
+! 顶部导航栏主页按钮右上角的角标
+weibo.com##.woo-tab-nav > a:first-child .woo-badge-main
+! 首页侧栏微博热搜有“我的”和“热搜”两个tab，多次点击确保能切到热搜tab
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '250')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '500')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '1000')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '2000')
+! 首页右侧栏“微博热搜”，刷新小按钮
+weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
+! 首页右侧栏“微博热搜”，行内的微博热度数字
+weibo.com##.woo-box-flex > .f13
+! 首页右侧栏“微博热搜”，行内的末尾图标
+weibo.com##.woo-box-flex > .icon
+! 首页右侧栏“微博热搜”，广告行
+weibo.com##.wbpro-side-panel:has([class="wbpro-icon-doticon"])
+! 首页右侧栏“你可能感兴趣的人”
+weibo.com##div > div.woo-panel-main:has(.woo-box-item-flex:contains(你可能感兴趣的人))
+! 首页“定时微博”按钮角标
+weibo.com##.woo-box-flex > .woo-picture-main.woo-picture-square.woo-picture-hover
+! 首页“关注的人发的微博都看完了”下方推荐流
+weibo.com##img._emptyPic_gykin_16+div
+! 搜索结果页右侧栏中的“微博热搜”
+weibo.com###hot-band-container
+! 首页右下角的点击返回顶部
+weibo.com##.woo-panel-main:has([class$="woo-font--backTop"])
+! 右侧栏顶部的关于区域
+weibo.com##.wbpro-side-copy
+! 热搜页面，行内的微博热度数字
+weibo.com##.woo-box-item-flex>div[class^="_num_"]
+! 个人页右侧栏关注推荐
+weibo.com##div > div.woo-panel-main:has(.woo-box-item-flex:contains(关注推荐))
+! 视频播放点击放大后页面，右侧的相关视频“接下来播放”
+weibo.com##div[class^="_box_"] > div[class^="_container_"]
