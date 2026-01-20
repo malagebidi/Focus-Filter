@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-20T15:25:42+08:00
-! Version: 2.0.0.92
+! Last modified: 2026-01-20T15:26:18+08:00
+! Version: 2.0.0.93
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -37,6 +37,17 @@ bilibili.com##div:has(> [class^="live-sidebar-ctnr"])
 bilibili.com##span.new-icon
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder|title', '.nav-search-input')
+douyu.com###js-barrage-extend-container
+douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
+douyu.com##.HeaderNav
+douyu.com##.Search-Panel
+douyu.com##.u-inlineBlock
+douyu.com##div[class^="HotTopicList-module__"]
+douyu.com##div[class^="app-module__"]:style(min-height: 0 !important; height: auto !important)
+douyu.com##div[class^="container__"]:has(h3:contains(热))
+douyu.com##div[class^="elevator__"]
+douyu.com##div[class^="snapbar__"]
+douyu.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="text"]')
 game.bilibili.com###biliGameFooter
 game.bilibili.com##.refresh
 jable.tv###flag-form+section
