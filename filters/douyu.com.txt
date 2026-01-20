@@ -1,11 +1,24 @@
+! 右侧浮动栏
 douyu.com##div[class^="elevator__"]
-douyu.com##.Search-Panel
+! 搜索下拉框中的推荐
+douyu.com##.Search-Panel-Explore
+douyu.com##.Search-Panel-Popular
+! 搜索框中的轮播推荐
 douyu.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="text"]')
+! 顶部中间导航栏
 douyu.com##.HeaderNav
-douyu.com##.u-inlineBlock
+! 搜索结果页的右侧栏热门推荐
+douyu.com##div[class^="container__"]:has(h3:contains(热))
+! 播放页右侧浮动栏
+douyu.com##div[class^="snapbar__"]
+! 直播页右侧评论消息区最下方的轮动信息
 douyu.com###js-barrage-extend-container
+! 直播页下方的推荐流
 douyu.com##div[class^="HotTopicList-module__"]
 douyu.com##div[class^="app-module__"]:style(min-height: 0 !important; height: auto !important)
+! 直播页下方的tab最后一个“相关推荐”
 douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
-douyu.com##div[class^="container__"]:has(h3:contains(热))
-douyu.com##div[class^="snapbar__"]
+! 首页“为你推荐”右边的换一换按钮
+douyu.com##div[class^="extra__"]:has(#refresh_svg__a)
+! 直播页面中的广告
+douyu.com##.layout-Cover-item:not(:has(> [owneruid]))
