@@ -1,11 +1,29 @@
-douyu.com##div[class^="elevator__"]
-douyu.com##.Search-Panel
-douyu.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="text"]')
-douyu.com##.HeaderNav
-douyu.com##.u-inlineBlock
-douyu.com###js-barrage-extend-container
-douyu.com##div[class^="HotTopicList-module__"]
-douyu.com##div[class^="app-module__"]:style(min-height: 0 !important; height: auto !important)
-douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
-douyu.com##div[class^="container__"]:has(h3:contains(热))
-douyu.com##div[class^="snapbar__"]
+! ads in the header
+mgtv.com##div[data-module="t-topAdbu"]
+! 首页内容流中的党政专题
+mgtv.com##div[data-module="t-newsbigtitle"]
+! ads next to the logo
+mgtv.com##.nav-a-top
+! 右下角浮动按钮
+mgtv.com###sideFloatbtn
+! 顶部导航栏中的右上角圆点提示
+mgtv.com##.tips
+! 顶部导航栏中“送VIP”圆点提示
+mgtv.com##.arr-download
+! 播放页视频右侧列表中会员按钮
+mgtv.com##.vip-button-box
+! 播放页视频右侧列表中的“小编热推”
+mgtv.com##.recommended-list
+! 播放页视频右侧列表中“看点”左侧的border
+mgtv.com##.show-list .s-videolist-box:style(border-left: none !important)
+! 播放页视频右侧列表底部的客户端广告
+mgtv.com##.sidebar-download
+! 播放页“芒芒一起看”弹出
+mgtv.com##.new-user-pop
+! 播放页“看了还会看”推荐流
+mgtv.com##.big-poster-conent
+! 首页“正在追”中的第一个芒果会员广告
+mgtv.com##.hitv_horizontal:has(>.vip-chasing)
+! 搜索框广告轮播
+mgtv.com#%#//scriptlet('remove-attr', 'placeholder', 'input.input[type="text"]')
+mgtv.com##.hot-switch
