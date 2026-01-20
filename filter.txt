@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-20T16:35:57+08:00
-! Version: 2.0.0.95
+! Last modified: 2026-01-20T17:34:11+08:00
+! Version: 2.0.0.96
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -95,14 +95,14 @@ mgtv.com#%#//scriptlet('remove-attr', 'placeholder', 'input.input[type="text"]')
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="fast-forward"]
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="rewind"]
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
+missav.ws,missav.ai##div.order-last
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
 missav.ws,missav.ai##div:has(>[x-show*="partners"])
-missav.ws,missav.ai##div:matches-css(max-width: 300px)
 missav.ws,missav.ai##div[x-data*="fetchRandom"]
 missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##nav>a[href*="mycomic.com"]
-missav.ws,missav.ai##ul:has(a[target="_blank"])
+missav.ws,missav.ai##ul.grid-cols-2:has(a[target="_blank"])
 missav.ws,missav.ai#%#//scriptlet('remove-attr', 'placeholder', 'input[x-ref*="earch"]')
 movie.douban.com###billboard
 movie.douban.com###doulist
