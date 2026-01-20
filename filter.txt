@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-20T18:30:06+08:00
-! Version: 2.0.0.97
+! Last modified: 2026-01-20T18:53:11+08:00
+! Version: 2.0.0.98
 ! Expires: 24 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -124,5 +124,22 @@ v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
 v2ex.com##.box:has(span:contains(Site of the Day))
 v2ex.com##.box:has(span:contains(Site of the Day))+div.sep20
-weibo.com##.card-wrap:has(.woo-font--add)
+weibo.com###hot-band-container
+weibo.com##.wbpro-side-copy
+weibo.com##.wbpro-side-panel:has([class="wbpro-icon-doticon"])
+weibo.com##.woo-box-flex > .f13
+weibo.com##.woo-box-flex > .icon
+weibo.com##.woo-box-flex > .woo-picture-main.woo-picture-square.woo-picture-hover
+weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
+weibo.com##.woo-box-item-flex>div[class^="_num_"]
+weibo.com##.woo-panel-main:has([class$="woo-font--backTop"])
+weibo.com##.woo-tab-nav > a:first-child .woo-badge-main
+weibo.com##div > div.woo-panel-main:has(.woo-box-item-flex:contains(你可能感兴趣的人))
+weibo.com##div > div.woo-panel-main:has(.woo-box-item-flex:contains(关注推荐))
+weibo.com##div[class^="_box_"] > div[class^="_container_"]
+weibo.com##img._emptyPic_gykin_16+div
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '1000')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '2000')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '250')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '500')
 ||api.bilibili.com/pgc/page/web/feed^
