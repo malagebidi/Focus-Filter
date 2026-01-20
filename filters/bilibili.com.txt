@@ -47,6 +47,8 @@ bilibili.com##.next-play > .split-line
 bilibili.com##.bpx-player-ending-related
 ! 播放页视频播放器顶部覆盖
 bilibili.com##.bpx-player-top-wrap
+! 播放页评论上方活动
+bilibili.com##.activity-m-v1.act-now
 ! 个人页右下角浮动按钮
 bilibili.com##.space-float
 ! 直播首页右侧浮动栏
