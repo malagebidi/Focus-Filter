@@ -1,6 +1,10 @@
+! 搜索框下拉列表中的推荐
 pornhub.com##[type="pornstar"]
 pornhub.com##[type="trending"]
+! 播放页视频下方的广告
+pornhub.com##.empty_uBlock+div
+! 播放页评论上方的推荐流
 pornhub.com##.videoGridTabs
 pornhub.com##.relatedVideos
+! 播放页底部的推荐播放列表
 pornhub.com###under-player-playlists
-pornhub.com##.recommendedVideos
