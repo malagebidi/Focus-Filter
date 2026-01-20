@@ -1,5 +1,12 @@
+! “喜欢这部*的人也喜欢 · · · · · ·”
 movie.douban.com###recommendations
+! 侧栏片单推荐
 movie.douban.com###subject-doulist
-movie.douban.com###subject-others-interests
-movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
+! 侧栏热门片单
 movie.douban.com###doulist
+! “谁在看这部剧集 · · · · · ·”
+movie.douban.com###subject-others-interests
+! 首页热门推荐轮播
+movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
+! 首页最下方影评
+movie.douban.com###reviews
