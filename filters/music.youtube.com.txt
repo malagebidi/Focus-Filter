@@ -1,2 +1,5 @@
 ! 专辑页面下方的专辑推荐
 music.youtube.com##ytmusic-carousel-shelf-renderer[page-type="MUSIC_PAGE_TYPE_ALBUM"]
+! 播放列表下方的歌曲推荐
+music.youtube.com##ytmusic-shelf-renderer[page-type="MUSIC_PAGE_TYPE_PLAYLIST"]
+music.youtube.com##ytmusic-carousel-shelf-renderer[page-type="MUSIC_PAGE_TYPE_PLAYLIST"]
