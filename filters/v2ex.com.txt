@@ -3,6 +3,9 @@ v2ex.com###Wrapper:style(background-image: none !important; background-color: #e
 ! 侧边栏的今日热议主题和和分隔的空白
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
+! 侧边栏的最热节点和分隔的空白
+v2ex.com##.box:has(> .inner > a:contains(RSS))
+v2ex.com##.box:has(> .inner > a:contains(RSS))+div.sep20
 ! 侧边栏的 VXNA 站点推荐和分隔的空白
 v2ex.com##.box:has(span:contains(Site of the Day))
 v2ex.com##.box:has(span:contains(Site of the Day))+div.sep20
