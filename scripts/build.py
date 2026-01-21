@@ -43,7 +43,7 @@ def main():
         "! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and \"doom-scrolling\" traps from various websites.",
         f"! Last modified: {current_time}",
         f"! Version: {version}", 
-        "! Expires: 24 hours",
+        "! Expires: 12 hours",
         "! Homepage: https://github.com/malagebidi/Focus-Filter",
         "! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE",
         "!"
