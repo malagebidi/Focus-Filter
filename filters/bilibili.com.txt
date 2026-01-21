@@ -20,6 +20,8 @@ bilibili.com##.vip-entry-containter
 ! 首页视频流中底部无限加载的推荐流
 bilibili.com##.container > .bili-feed-card
 bilibili.com##.container > .bili-video-card
+! 首页视频流中其他分区推荐流
+bilibili.com##.container > .floor-single-card
 ! 首页视频流中移除多余的margin-top，解决不对齐
 bilibili.com##.recommended-container_floor-aside .container>*:nth-of-type(n+8):style(margin-top: 0 !important)
 ! 分区页面底部无限加载的推荐流
