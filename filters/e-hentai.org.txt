@@ -1,3 +1,4 @@
 ! --- ZEN ---
+! 包含AI生成的相册
 e-hentai.org##tr:has(a:contains(/AI Generated/i))
 e-hentai.org##.gl1t:has(a:contains(/AI Generated/i))
