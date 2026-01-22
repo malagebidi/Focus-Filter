@@ -21,18 +21,27 @@ Major platforms covered include:
 
 ## ⚙️ Setup
 
-There are **two editions** of the filter, choose the one that fits your needs:
+Choose the edition that fits your needs and follow the steps below.
 
-| Edition | Description | URL (Copy this) |
-| :--- | :--- | :--- |
-| **Basic** | Core rules that remove the most common distractions. Recommended for most users. | `https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter.txt` |
-| **Zen Mode** | Includes all Basic rules, plus extended rules for a more aggressive, distraction-free experience. | `https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter_zen.txt` |
+### 1. Choose an Edition
 
-### How to Subscribe
+**Standard Edition (Recommended)**  
+Removes ads, feeds, and major distractions while keeping core functionality intact.
+```text
+https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter.txt
+```
+
+**Zen Mode Edition**  
+**Aggressive.** Includes all Standard rules plus removes gift bars, decorative headers, and floating widgets for a minimalist experience.
+```text
+https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter_zen.txt
+```
+
+### 2. Installation
 1. Open AdGuard Settings
 2. Go to **Filters** -> **Custom**
 3. Click **Add custom filter**
-4. Paste one of the URLs from the table above and click **Next**
+4. Paste the URL you copied above and click **Next**
 5. **Check** the "Trusted" checkbox
 
 > [!TIP]  
