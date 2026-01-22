@@ -21,3 +21,7 @@ live.kuaishou.com##.datalist > .search-item-hot
 live.kuaishou.com##.datalist > .hot-title
 live.kuaishou.com##.datalist > .divider
 live.kuaishou.com##.datalist > .search-item-suggestKeyword
+
+! --- ZEN ---
+! 直播页送礼物栏
+live.kuaishou.com##[class="foot"][data-gift-enabled="true"]
