@@ -25,17 +25,17 @@ Choose the edition that fits your needs and follow the steps below.
 
 ### 1. Choose an Edition
 
-**Standard Edition (Recommended)**  
+* **Standard Edition (Recommended)**  
 Removes ads, feeds, and major distractions while keeping core functionality intact.
-```text
-https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter.txt
-```
+  ```text
+  https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter.txt
+  ```
 
-**Zen Mode Edition**  
+* **Zen Mode Edition**  
 **Aggressive.** Includes all Standard rules plus removes gift bars, decorative headers, and floating widgets for a minimalist experience.
-```text
-https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter_zen.txt
-```
+  ```text
+  https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter_zen.txt
+  ```
 
 ### 2. Installation
 1. Open AdGuard Settings
