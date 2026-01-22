@@ -60,6 +60,7 @@ live.bilibili.com###sidebar-vm
 ! 直播间上部背景大图
 live.bilibili.com###room-background-vm
 ! 直播间右侧栏评论消息区最下方的轮动信息
-live.bilibili.com###brush-prompt:remove()
+live.bilibili.com###brush-prompt
+live.bilibili.com###chat-history-list:style(height: 100% !important)
 ! 动态页右下角浮动按钮
 t.bilibili.com##.bili-dyn-sidebar
