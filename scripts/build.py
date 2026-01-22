@@ -3,15 +3,15 @@ import datetime
 import pytz
 import subprocess
 
+# 配置部分
 SOURCE_DIR = 'filters'
-OUTPUT_FILE_BASIC = 'filter.txt'
-OUTPUT_FILE_ZEN = 'filter_zen.txt'
+OUTPUT_FILE_BASIC = 'filter.txt'      # 基础版文件名
+OUTPUT_FILE_ZEN = 'filter_zen.txt'    # 完整版文件名 (包含 ZEN)
+SEPARATOR_KEYWORD = "---ZEN---"       # 用于识别的关键字 (去除空格后)
 
 def get_version_from_git():
     """
     根据 Git 提交总数计算版本号。
-    只计算 filters 目录和 scripts 目录的变动。
-    格式: 2.X.Y.Z
     """
     try:
         output = subprocess.check_output(
@@ -22,7 +22,6 @@ def get_version_from_git():
         print(f"Warning: Could not get git commit count: {e}. Using default version.")
         total_commits = 0
 
-    # 进位逻辑 (Base 100)
     z = total_commits % 100
     y = (total_commits // 100) % 100
     x = total_commits // 10000
@@ -31,7 +30,7 @@ def get_version_from_git():
 
 def write_rules_to_file(filename, rules, title_suffix, version, current_time):
     """
-    辅助函数：将规则写入文件
+    通用函数：将规则集合写入指定文件
     """
     title = "Focus Filter"
     if title_suffix:
@@ -55,57 +54,63 @@ def write_rules_to_file(filename, rules, title_suffix, version, current_time):
         f.write('\n'.join(sorted_rules))
         f.write('\n')
     
-    print(f"Build complete: {len(sorted_rules)} rules merged into {filename}")
+    print(f"Build success: {filename} created with {len(sorted_rules)} rules.")
 
 def main():
-    # 1. 计算动态版本号
+    # 1. 获取版本号
     version = get_version_from_git()
     print(f"Generated Version: {version}")
 
-    # 2. 准备时间戳
+    # 2. 获取时间戳
     tz = pytz.timezone('Asia/Shanghai')
     current_time = datetime.datetime.now(tz).isoformat(timespec='seconds')
     
-    # 3. 读取并处理规则
-    basic_rules = set() # 仅存放基本规则
-    all_rules = set()   # 存放基本 + Zen 规则
+    # 3. 初始化规则集合
+    basic_rules = set() # 基础规则 (不含 ZEN)
+    all_rules = set()   # 所有规则 (含 ZEN)
 
+    # 4. 读取并分类规则
     if os.path.exists(SOURCE_DIR):
         for filename in os.listdir(SOURCE_DIR):
             if filename.endswith(".txt"):
                 filepath = os.path.join(SOURCE_DIR, filename)
                 
-                # 每个文件开始前，重置 Zen 模式标记
+                # 重置状态：新文件开始时，默认不是 ZEN 模式
                 is_zen_mode = False 
                 
                 with open(filepath, 'r', encoding='utf-8') as f:
                     for line in f:
                         line = line.strip()
                         
-                        # 检查是否遇到分隔符
-                        # 注意：要在检查 startswith('!') 之前检查这个，因为它也是以 ! 开头的
-                        if "! --- ZEN ---" in line:
+                        # 优化后的分隔符检测：
+                        # 去除所有空格并将字符转大写，匹配 "!---ZEN---"
+                        # 这样即使你写成 "! --- zen ---" 或 "! - - - ZEN - - -" 也能识别
+                        clean_line = line.replace(" ", "").upper()
+                        if f"!{SEPARATOR_KEYWORD}" in clean_line:
                             is_zen_mode = True
-                            continue
+                            continue # 跳过分隔符这一行
 
-                        # 忽略空行和注释
+                        # 跳过空行和普通注释 (分隔符已被上面处理)
                         if not line or line.startswith('!'):
                             continue
                         
                         # 逻辑核心：
-                        # 1. 无论是否在 Zen 模式，都加入 all_rules (用于 filter_zen.txt)
+                        # A. 任何有效规则都加入 all_rules (用于 filter_zen.txt)
                         all_rules.add(line)
                         
-                        # 2. 只有还没进入 Zen 模式的规则，才加入 basic_rules (用于 filter.txt)
+                        # B. 只有非 ZEN 模式下的规则，才加入 basic_rules (用于 filter.txt)
                         if not is_zen_mode:
                             basic_rules.add(line)
+    else:
+        print(f"Error: Directory '{SOURCE_DIR}' not found.")
+        return
 
-    # 4. 写入文件 (调用辅助函数)
+    # 5. 生成文件
     
-    # 生成 filter.txt (仅包含基本规则)
+    # 生成 filter.txt (仅基础规则)
     write_rules_to_file(OUTPUT_FILE_BASIC, basic_rules, "", version, current_time)
 
-    # 生成 filter_zen.txt (包含所有规则)
+    # 生成 filter_zen.txt (包含所有规则) -> 这里确保了文件会被创建
     write_rules_to_file(OUTPUT_FILE_ZEN, all_rules, "(ZEN Mode)", version, current_time)
 
 if __name__ == "__main__":
