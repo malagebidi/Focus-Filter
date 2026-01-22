@@ -19,15 +19,21 @@ Major platforms covered include:
 | Video & Live | 哔哩哔哩, 芒果TV, 斗鱼, 快手直播 |
 | Adult | Pornhub, 91porn, MissAV, Jable.TV, Jav.Guru |
 
-## ⚙️ Setup
+## 📦 Editions & Setup
+
+We provide two editions of the filter. Choose the one that fits your needs:
+
+| Edition | Description | URL (Copy this) |
+| :--- | :--- | :--- |
+| **Standard** | **Recommended.** Removes ads, feeds, and major distractions while keeping core functionality intact. | `https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter.txt` |
+| **Zen Mode** | **Aggressive.** Includes **Standard** rules + removes gift bars, decorative headers, floating widgets, etc. for a minimalist experience. | `https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter_zen.txt` |
+
+### Installation Steps
 1. Open AdGuard Settings
-2. Go to Filters -> Custom
-3. Click Add custom filter
-4. Paste the following URL and click Next
-    ```text
-    https://raw.githubusercontent.com/malagebidi/Focus-Filter/refs/heads/main/filter.txt
-    ```
-5. Check the trusted checkbox
+2. Go to **Filters** -> **Custom**
+3. Click **Add custom filter**
+4. Paste one of the URLs from the table above and click **Next**
+5. **Check** the "Trusted" checkbox
 
 > [!TIP]  
 > Websites change frequently. If you notice broken features or missing content, try disabling this filter temporarily to check if that resolves the issue.
