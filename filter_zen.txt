@@ -1,0 +1,152 @@
+! Title: Focus Filter (ZEN Mode)
+! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
+! Last modified: 2026-01-22T22:36:15+08:00
+! Version: 2.0.1.12
+! Expires: 12 hours
+! Homepage: https://github.com/malagebidi/Focus-Filter
+! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
+!
+91porn.com##.video-border:style(width: 100% !important)
+91porn.com##div:has(> h3[class="login_register_header"])
+bilibili.com##.activity-m-v1.act-now
+bilibili.com##.bpx-player-ending-related
+bilibili.com##.bpx-player-top-wrap
+bilibili.com##.channel-page__body > .feed-cards
+bilibili.com##.channel-page__body > .loading-cards
+bilibili.com##.container > .bili-feed-card
+bilibili.com##.container > .bili-video-card
+bilibili.com##.container > .floor-single-card
+bilibili.com##.feed-roll-btn
+bilibili.com##.home-recommand-feed-wrapper
+bilibili.com##.left-loc-entry:has(.loc-moveclip)
+bilibili.com##.main-container .plp-r.sticky:style(bottom: 2000px !important)
+bilibili.com##.nav-tool-container
+bilibili.com##.next-play > .split-line
+bilibili.com##.next-play > .video-page-card-small
+bilibili.com##.palette-button-outer
+bilibili.com##.rec-footer
+bilibili.com##.rec-list
+bilibili.com##.recommended-container_floor-aside .container>*:nth-of-type(n+8):style(margin-top: 0 !important)
+bilibili.com##.red-point
+bilibili.com##.space-float
+bilibili.com##.trending
+bilibili.com##.vip-entry-containter
+bilibili.com##[class^="paybar_container__"]
+bilibili.com##[class^="recommend_wrap__"]
+bilibili.com##span.new-icon
+bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
+bilibili.com#%#//scriptlet('remove-attr', 'placeholder|title', '.nav-search-input')
+douyin.com##.priTOakK + div
+douyin.com##div[data-aweme-id]:nth-child(n+13)
+douyu.com###js-barrage-extend-container
+douyu.com###yuba-bottom-region [class^="Tab-module__yubatabItem"]:last-child
+douyu.com##.HeaderNav
+douyu.com##.Search-Panel-Explore
+douyu.com##.Search-Panel-Popular
+douyu.com##.layout-Cover-item:not(:has(> [owneruid]))
+douyu.com##div[class^="HotTopicList-module__"]
+douyu.com##div[class^="app-module__"]:style(min-height: 0 !important; height: auto !important)
+douyu.com##div[class^="container__"]:has(h3:contains(热))
+douyu.com##div[class^="elevator__"]
+douyu.com##div[class^="extra__"]:has(#refresh_svg__a)
+douyu.com##div[class^="snapbar__"]
+douyu.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="text"]')
+jable.tv###flag-form+section
+jable.tv##.right-sidebar
+jable.tv##div:has(a[href="https://fuu78.com/"])
+jable.tv##section:has(h6.title > a[href*="fluxtrck"])
+jav.guru###comments.comments-area:style(border-bottom: 0 !important)
+jav.guru###right-sidebar
+jav.guru##.javbox
+jav.guru##.large-screenshot:style(max-height: 698px !important)
+jav.guru##.site-content .content-area:style(width: 100% !important)
+live.bilibili.com###brush-prompt
+live.bilibili.com###chat-history-list:style(height: 100% !important)
+live.bilibili.com###room-background-vm
+live.bilibili.com###sidebar-vm
+live.bilibili.com##.flying-vm
+live.bilibili.com##a:has(> [data-type="player_backshow"])
+live.kuaishou.com###liveroom__sidebar .fold-message
+live.kuaishou.com##.change-button
+live.kuaishou.com##.datalist > .divider
+live.kuaishou.com##.datalist > .hot-title
+live.kuaishou.com##.datalist > .search-item-hot
+live.kuaishou.com##.datalist > .search-item-suggestKeyword
+live.kuaishou.com##.guide-widget
+live.kuaishou.com##.header-interest-btn
+live.kuaishou.com##.hot-live > .banner
+live.kuaishou.com##.interest-list
+live.kuaishou.com##.recommend
+live.kuaishou.com##.refresh
+live.kuaishou.com##.tag-quality
+mgtv.com###sideFloatbtn
+mgtv.com##.arr-download
+mgtv.com##.big-poster-conent
+mgtv.com##.hitv_horizontal:has(>.vip-chasing)
+mgtv.com##.hot-switch
+mgtv.com##.nav-a-top
+mgtv.com##.new-user-pop
+mgtv.com##.recommended-list
+mgtv.com##.show-list .s-videolist-box:style(border-left: none !important)
+mgtv.com##.sidebar-download
+mgtv.com##.tips
+mgtv.com##.vip-button-box
+mgtv.com##div[data-module="t-newsbigtitle"]
+mgtv.com##div[data-module="t-topAdbu"]
+mgtv.com#%#//scriptlet('remove-attr', 'placeholder', 'input.input[type="text"]')
+missav.ws,missav.ai##.plyr__controls>button[data-plyr="fast-forward"]
+missav.ws,missav.ai##.plyr__controls>button[data-plyr="rewind"]
+missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
+missav.ws,missav.ai##div.order-last
+missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
+missav.ws,missav.ai##div:has(>[x-show*="partners"])
+missav.ws,missav.ai##div[x-data*="fetchRandom"]
+missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
+missav.ws,missav.ai##nav>a[href*="myavlive.com"]
+missav.ws,missav.ai##nav>a[href*="mycomic.com"]
+missav.ws,missav.ai##ul.grid-cols-2:has(a[target="_blank"])
+missav.ws,missav.ai#%#//scriptlet('remove-attr', 'placeholder', 'input[x-ref*="earch"]')
+movie.douban.com###billboard
+movie.douban.com###doulist
+movie.douban.com###recommendations
+movie.douban.com###reviews
+movie.douban.com###subject-doulist
+movie.douban.com###subject-others-interests
+movie.douban.com##.contact:has(a.icon-embassy-weibo)
+movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
+music.youtube.com##ytmusic-carousel-shelf-renderer[page-type="MUSIC_PAGE_TYPE_ALBUM"]
+music.youtube.com##ytmusic-carousel-shelf-renderer[page-type="MUSIC_PAGE_TYPE_PLAYLIST"]
+music.youtube.com##ytmusic-shelf-renderer[page-type="MUSIC_PAGE_TYPE_PLAYLIST"]
+pornhub.com###under-player-playlists
+pornhub.com##.empty_uBlock+div
+pornhub.com##.relatedVideos
+pornhub.com##.videoGridTabs
+pornhub.com##[type="pornstar"]
+pornhub.com##[type="trending"]
+t.bilibili.com##.bili-dyn-sidebar
+v2ex.com###Wrapper:style(background-image: none !important; background-color: #e2e2e2)
+v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
+v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
+v2ex.com##.box:has(> .inner > a:contains(RSS))
+v2ex.com##.box:has(> .inner > a:contains(RSS))+div.sep20
+v2ex.com##.box:has(span:contains(Site of the Day))
+v2ex.com##.box:has(span:contains(Site of the Day))+div.sep20
+weibo.com###hot-band-container
+weibo.com##.wbpro-side-copy
+weibo.com##.wbpro-side-panel:has([class="wbpro-icon-doticon"])
+weibo.com##.woo-box-flex > .f13
+weibo.com##.woo-box-flex > .icon
+weibo.com##.woo-box-flex > .woo-picture-main.woo-picture-square.woo-picture-hover
+weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
+weibo.com##.woo-box-item-flex>div[class^="_num_"]
+weibo.com##.woo-panel-main:has([class$="woo-font--backTop"])
+weibo.com##.woo-tab-nav > a:first-child .woo-badge-main
+weibo.com##div > div.woo-panel-main:has(.woo-box-item-flex:contains(你可能感兴趣的人))
+weibo.com##div > div.woo-panel-main:has(.woo-box-item-flex:contains(关注推荐))
+weibo.com##div[class^="_box_"] > div[class^="_container_"]
+weibo.com##img._emptyPic_gykin_16+div
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '1000')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '2000')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '250')
+weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '500')
+||api.bilibili.com/pgc/page/web/feed^
