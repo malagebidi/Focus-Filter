@@ -19,16 +19,16 @@ Major platforms covered include:
 | Video & Live | 哔哩哔哩, 芒果TV, 斗鱼, 快手直播 |
 | Adult | Pornhub, 91porn, MissAV, Jable.TV, Jav.Guru |
 
-## 📦 Editions & Setup
+## ⚙️ Setup
 
-We provide two editions of the filter. Choose the one that fits your needs:
+There are **two editions** of the filter, choose the one that fits your needs:
 
 | Edition | Description | URL (Copy this) |
 | :--- | :--- | :--- |
-| **Standard** | **Recommended.** Removes ads, feeds, and major distractions while keeping core functionality intact. | `https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter.txt` |
-| **Zen Mode** | **Aggressive.** Includes **Standard** rules + removes gift bars, decorative headers, floating widgets, etc. for a minimalist experience. | `https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter_zen.txt` |
+| **Basic** | Core rules that remove the most common distractions. Recommended for most users. | `https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter.txt` |
+| **Zen Mode** | Includes all Basic rules, plus extended rules for a more aggressive, distraction-free experience. | `https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter_zen.txt` |
 
-### Installation Steps
+### How to Subscribe
 1. Open AdGuard Settings
 2. Go to **Filters** -> **Custom**
 3. Click **Add custom filter**
