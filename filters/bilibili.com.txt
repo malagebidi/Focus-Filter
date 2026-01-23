@@ -64,3 +64,7 @@ live.bilibili.com###brush-prompt
 live.bilibili.com###chat-history-list:style(height: 100% !important)
 ! 动态页右下角浮动按钮
 t.bilibili.com##.bili-dyn-sidebar
+
+! --- ZEN ---
+! 主页所有feed
+bilibili.com##.bili-feed4-layout > .feed2
