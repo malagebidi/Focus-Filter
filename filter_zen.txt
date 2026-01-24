@@ -1,7 +1,7 @@
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-24T00:29:00+08:00
-! Version: 2.0.1.18
+! Last modified: 2026-01-24T12:08:04+08:00
+! Version: 2.0.1.19
 ! Expires: 12 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -134,6 +134,8 @@ v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
 v2ex.com##.box:has(> .inner > a:contains(RSS))
 v2ex.com##.box:has(> .inner > a:contains(RSS))+div.sep20
+v2ex.com##.box:has(a[href="/mission/daily"])
+v2ex.com##.box:has(a[href="/mission/daily"])+div.sep20
 v2ex.com##.box:has(span:contains(Site of the Day))
 v2ex.com##.box:has(span:contains(Site of the Day))+div.sep20
 weibo.com###hot-band-container
