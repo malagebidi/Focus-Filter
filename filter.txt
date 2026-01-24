@@ -1,7 +1,7 @@
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-24T15:21:36+08:00
-! Version: 2.0.1.20
+! Last modified: 2026-01-24T19:06:09+08:00
+! Version: 2.0.1.21
 ! Expires: 12 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -124,6 +124,7 @@ pornhub.com##.videoGridTabs
 pornhub.com##[type="pornstar"]
 pornhub.com##[type="trending"]
 t.bilibili.com##.bili-dyn-sidebar
+v2ex.com###Main div[style^="border-bottom"]
 v2ex.com###Wrapper:style(background-image: none !important; background-color: #e2e2e2)
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))+div.sep20
@@ -131,7 +132,6 @@ v2ex.com##.box:has(> .inner > a:contains(RSS))
 v2ex.com##.box:has(> .inner > a:contains(RSS))+div.sep20
 v2ex.com##.box:has(span:contains(Site of the Day))
 v2ex.com##.box:has(span:contains(Site of the Day))+div.sep20
-v2ex.com##div[style^="border-bottom"]
 weibo.com###hot-band-container
 weibo.com##.wbpro-side-copy
 weibo.com##.wbpro-side-panel:has([class="wbpro-icon-doticon"])
