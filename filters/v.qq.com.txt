@@ -1,0 +1,6 @@
+! 右下角浮动按钮
+v.qq.com###shortcut
+! 播放页右侧栏推荐流
+v.qq.com###module-pc_detail_rec_main
+! 播放页右侧栏游戏推荐广告
+v.qq.com##.game-module-container
