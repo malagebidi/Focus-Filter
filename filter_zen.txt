@@ -1,7 +1,7 @@
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-01-30T16:34:13+08:00
-! Version: 2.0.1.24
+! Last modified: 2026-01-31T20:06:05+08:00
+! Version: 2.0.1.25
 ! Expires: 12 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -71,6 +71,7 @@ live.bilibili.com###sidebar-vm
 live.bilibili.com##.flying-vm
 live.bilibili.com##a:has(> [data-type="player_backshow"])
 live.kuaishou.com###liveroom__sidebar .fold-message
+live.kuaishou.com##.cate-main:style(background:none !important)
 live.kuaishou.com##.change-button
 live.kuaishou.com##.datalist > .divider
 live.kuaishou.com##.datalist > .hot-title
