@@ -12,6 +12,8 @@ live.kuaishou.com##.tag-quality
 live.kuaishou.com##.header-interest-btn
 ! 用户主页左下方的关注推荐
 live.kuaishou.com##.reco
+! 分类背景图
+live.kuaishou.com##.cate-main:style(background:none !important)
 ! 分类下方的推荐
 live.kuaishou.com##.recommend
 ! 直播页右侧评论消息区最下方的轮动信息
