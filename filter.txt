@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: GxZngsRWl/Lsh52bk24YFA
-! Version: 2.0.1.29
+! Checksum: dHuOWqEfl+EMSR1cVlnxIA
+! Version: 2.0.1.30
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard...
-! Last modified: 2026-02-01T13:39:53+08:00
-! Expires: 12 hours
+! Last modified: 2026-02-01T13:46:54+08:00
+! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
 !
