@@ -51,7 +51,7 @@ def write_rules_to_file(filename, rules, title_suffix, version, current_time):
         "[Adblock Plus 2.0]",
         f"! Version: {version}",
         f"! Title: {title}",
-        "! Description: A Focus Filter for AdGuard...",
+        "! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and \"doom-scrolling\" traps from various websites.",
         f"! Last modified: {current_time}",
         "! Expires: 2 days (update frequency)",
         "! Homepage: https://github.com/malagebidi/Focus-Filter",
