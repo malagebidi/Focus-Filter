@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: m8Txibmris1fobD9bb7Ziw
-! Version: 2.0.1.31
+! Checksum: hCKUvyGbDAqHfRkDF6HPzA
+! Version: 2.0.1.32
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-01T13:56:24+08:00
+! Last modified: 2026-02-01T15:17:42+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -131,6 +131,12 @@ t.bilibili.com##.bili-dyn-sidebar
 v.qq.com###module-pc_detail_rec_main
 v.qq.com###shortcut
 v.qq.com##.game-module-container
+v2ex.com## #Bottom .content .inner > div[class^="sep"]
+v2ex.com## #Bottom .content .inner > span:style(font-size: 14px !important; line-height: 150% !important; margin: 0 30px !important)
+v2ex.com## #Bottom .content .inner > span[class*="small"]
+v2ex.com## #Bottom .content .inner > span[class="snow"]
+v2ex.com## #Bottom .content .inner > strong:style(font-size: 14px !important; line-height: 150% !important)
+v2ex.com## #Bottom .content .inner:style(font-size: 0 !important; line-height: 0 !important)
 v2ex.com###Main > .box > div[style^="border-bottom"]
 v2ex.com###Wrapper:style(background-image: none !important; background-color: #e2e2e2)
 v2ex.com##.box:has(> .cell:matches-attr(class=/from_\d+\s+hot_t_\d+/))
