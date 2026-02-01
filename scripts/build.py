@@ -64,8 +64,8 @@ def write_rules_to_file(filename, rules, title_suffix, version, current_time):
     # 3. 计算 Checksum
     checksum = calculate_checksum(all_content_lines)
     
-    # 4. 将 Checksum 插入到头部（通常放在 Title 下面或第一行）
-    header_lines.insert(1, f"! Checksum: {checksum}")
+    # 4. 将 Checksum 插入到头部）
+    header_lines.insert(0, f"! Checksum: {checksum}")
 
     # 5. 写入文件
     with open(filename, 'w', encoding='utf-8') as f:
