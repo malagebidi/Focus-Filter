@@ -53,7 +53,7 @@ def write_rules_to_file(filename, rules, title_suffix, version, current_time):
         f"! Title: {title}",
         "! Description: A Focus Filter for AdGuard...",
         f"! Last modified: {current_time}",
-        "! Expires: 12 hours",
+        "! Expires: 2 days (update frequency)",
         "! Homepage: https://github.com/malagebidi/Focus-Filter",
         "! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE",
         "!" 
