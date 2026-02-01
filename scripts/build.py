@@ -48,6 +48,7 @@ def write_rules_to_file(filename, rules, title_suffix, version, current_time):
     
     # 1. 先准备除去 Checksum 的头部
     header_lines = [
+        "[Adblock Plus 2.0]",
         f"! Version: {version}",
         f"! Title: {title}",
         "! Description: A Focus Filter for AdGuard...",
@@ -65,7 +66,7 @@ def write_rules_to_file(filename, rules, title_suffix, version, current_time):
     checksum = calculate_checksum(all_content_lines)
     
     # 4. 将 Checksum 插入到头部）
-    header_lines.insert(0, f"! Checksum: {checksum}")
+    header_lines.insert(1, f"! Checksum: {checksum}")
 
     # 5. 写入文件
     with open(filename, 'w', encoding='utf-8') as f:
