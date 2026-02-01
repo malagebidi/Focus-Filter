@@ -1,8 +1,9 @@
-! Checksum: sYMo4/uQS3mUpvpOGJGWhQ
-! Version: 2.0.1.28
+[Adblock Plus 2.0]
+! Checksum: bvTJ/cC/e3R+E4BT8I8LAQ
+! Version: 2.0.1.29
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard...
-! Last modified: 2026-02-01T13:31:55+08:00
+! Last modified: 2026-02-01T13:39:53+08:00
 ! Expires: 12 hours
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
