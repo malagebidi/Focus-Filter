@@ -2,6 +2,9 @@ import os
 import datetime
 import pytz
 import subprocess
+import hashlib
+import base64
+import re
 
 # 配置部分
 SOURCE_DIR = 'filters'
@@ -28,33 +31,49 @@ def get_version_from_git():
     
     return f"2.{x}.{y}.{z}"
 
+def calculate_checksum(lines):
+    content = '\n'.join([line for line in lines if not line.startswith('! Checksum:')])
+    content += '\n' 
+    
+    md5 = hashlib.md5(content.encode('utf-8')).digest()
+    checksum = base64.b64encode(md5).decode('utf-8').rstrip('=')
+    return checksum
+
 def write_rules_to_file(filename, rules, title_suffix, version, current_time):
-    """
-    通用函数：将规则集合写入指定文件
-    """
     title = "Focus Filter"
     if title_suffix:
         title += f" {title_suffix}"
 
-    header = [
+    sorted_rules = sorted(list(rules))
+    
+    # 1. 先准备除去 Checksum 的头部
+    header_lines = [
         f"! Version: {version}",
         f"! Title: {title}",
-        "! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and \"doom-scrolling\" traps from various websites.",
+        "! Description: A Focus Filter for AdGuard...",
         f"! Last modified: {current_time}",
         "! Expires: 12 hours",
         "! Homepage: https://github.com/malagebidi/Focus-Filter",
         "! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE",
-        "!"
+        "!" 
     ]
+    
+    # 2. 组合所有内容用于计算 Checksum
+    all_content_lines = header_lines + sorted_rules
+    
+    # 3. 计算 Checksum
+    checksum = calculate_checksum(all_content_lines)
+    
+    # 4. 将 Checksum 插入到头部（通常放在 Title 下面或第一行）
+    header_lines.insert(1, f"! Checksum: {checksum}")
 
-    sorted_rules = sorted(list(rules))
-
+    # 5. 写入文件
     with open(filename, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(header) + '\n')
+        f.write('\n'.join(header_lines) + '\n')
         f.write('\n'.join(sorted_rules))
         f.write('\n')
     
-    print(f"Build success: {filename} created with {len(sorted_rules)} rules.")
+    print(f"Build success: {filename} (Checksum: {checksum})")
 
 def main():
     # 1. 获取版本号
