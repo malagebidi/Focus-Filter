@@ -1,0 +1,10 @@
+! homepage recommend bots under chat input
+poe.com##[class*="ChatHomeMain_exploreBotsCarousel"]
+
+! suggested replies after answer
+poe.com##div:has(> [class*="ResendRemixFollowupButton_rightRounded"])
+poe.com##[class*="ChatLastMessageArea_actionBarAndFollowUpActionsPlaceholder"]:style(min-height: unset !important)
+
+! --- ZEN ---
+! sidebar footer
+poe.com##[class*="SidebarFooter_footer"]
