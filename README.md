@@ -54,7 +54,7 @@ Focus Filter 源于我日常使用中积累的一套个人规则。现在我将�
 *   X: [Control Panel for Twitter](https://chromewebstore.google.com/detail/control-panel-for-twitter/kpmjjdhbcfebfjgdnpjagcndoelnidfj)
 
 ## 🤝 贡献
-阅读[贡献指南](CONTRIBUTING.md)以了解如何报告问题或提交新规则的详细信息。
+阅读[贡献指南](CONTRIBUTING.md)以了解如何报告问题或者提交新的规则。
 
 ## 📄 许可证
 本项目根据 **GNU 通用公共许可证 v3.0** 获得许可。有关详细信息，请参阅[LICENSE](LICENSE)文件。
