@@ -1,6 +1,7 @@
 ! homepage recommend bots under chat input
 poe.com##[class*="ChatHomeMain_exploreBotsCarousel"]
-
+! "Try saying..." in new model chat window
+poe.com##[class*="ChatPageConversationStarters_"]
 ! suggested replies after answer
 poe.com##div:has(> [class*="ResendRemixFollowupButton_rightRounded"])
 poe.com##[class*="ChatLastMessageArea_actionBarAndFollowUpActionsPlaceholder"]:style(min-height: unset !important)
