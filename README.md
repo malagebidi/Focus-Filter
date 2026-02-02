@@ -2,17 +2,17 @@
 **Focus Filter** 是一个专为 **AdGuard** 设计的自定义过滤列表，其主要目标是移除来自各种网站的推荐内容、干扰元素和“信息流陷阱”，让您专注于真正想看的内容。
 
 > [!NOTE]
-> 此过滤器利用了高级 AdGuard 脚本和扩展 CSS。与 AdGuard 浏览器扩展程序配合使用效果最佳。
+> 本过滤器采用先进的 AdGuard 脚本片段和扩展 CSS 技术，建议配合 AdGuard 浏览器扩展使用效果最佳。
 
-## 💡 Motivation
-Over the years, the internet has gradually evolved into an **Attention Economy**. It is not just about addictive recommendation feeds; cluttered interfaces and superfluous design elements also scatter our focus and overwhelm our vision.
+## 💡 动机
+多年来，互联网逐渐演变为一种**注意力经济**。这不仅体现在令人上瘾的推荐信息流上，杂乱的界面和冗余的设计元素同样分散着我们的注意力，淹没了我们的视野。
 
-Focus Filter originated as a personal collection of rules built from my daily use, and now I am open-sourcing it to invite community collaboration.
+Focus Filter 最初是我基于日常使用经验总结的个人规则集，如今我将其开源，诚邀社区共同协作完善。
 
-## 🛡️ Coverage
-Major platforms covered include:
+## 🛡️ 范围
+主要覆盖平台包括：
 
-| Category | Websites |
+| 类别 | 网站 |
 | :--- | :--- |
 | AI | Poe |
 | Social Media | 微博, 豆瓣电影 |
@@ -21,9 +21,6 @@ Major platforms covered include:
 | Adult | Pornhub, 91porn, MissAV, Jable.TV, Jav.Guru |
 
 ## ⚙️ Setup
-
-Choose the edition that fits your needs and follow the steps below.
-
 ### 1. Choose an Edition
 
 * **Standard Edition (Recommended)**  
