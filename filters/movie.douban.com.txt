@@ -1,13 +1,15 @@
 ! “喜欢这部*的人也喜欢 · · · · · ·”
-movie.douban.com###recommendations
+movie.douban.com##.aside > #recommendations
 ! 侧栏片单推荐
-movie.douban.com###subject-doulist
+movie.douban.com##.aside > #subject-doulist
 ! 侧栏热门片单
-movie.douban.com###doulist
+movie.douban.com##.aside > #doulist
+! 侧栏RSS
+movie.douban.com##.aside > .pl
 ! 首页侧栏一周口碑榜
-movie.douban.com###billboard
+movie.douban.com##.aside > #billboard
 ! 首页侧栏“关注我们”
-movie.douban.com##.contact:has(a.icon-embassy-weibo)
+movie.douban.com##.aside > .contact:has(a.icon-embassy-weibo)
 ! “谁在看这部剧集 · · · · · ·”
 movie.douban.com###subject-others-interests
 ! 首页热门推荐轮播
