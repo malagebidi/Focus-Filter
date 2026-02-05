@@ -30,6 +30,7 @@ jobs:
           pip install pytz
 
       - name: Run build script
+        id: generate_filter
         run: python scripts/build.py
 
       - name: Commit and Push changes
@@ -37,4 +38,4 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add filter.txt filter_zen.txt
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update filters [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update filters ${{ steps.generate_filter.outputs.version }} [skip ci]" && git push)
