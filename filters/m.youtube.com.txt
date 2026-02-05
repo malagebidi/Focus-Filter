@@ -3,4 +3,4 @@ m.youtube.com##.single-column-watch-next-modern-panels[section-identifier="relat
 ! 首页 shorts
 m.youtube.com##.rich-section-single-column:has(> div > grid-shelf-view-model)
 ! 首页无限推荐流
-m.youtube.com##.YtmContinuationItemRendererHost
+m.youtube.com##.rich-grid-renderer-contents > .YtmContinuationItemRendererHost
