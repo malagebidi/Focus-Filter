@@ -1,0 +1,6 @@
+! 播放页底部推荐流
+m.youtube.com##.single-column-watch-next-modern-panels[section-identifier="related-items"]
+! 首页 shorts
+m.youtube.com##.rich-section-single-column:has(> div > grid-shelf-view-model)
+! 首页无限推荐流
+m.youtube.com##.YtmContinuationItemRendererHost
