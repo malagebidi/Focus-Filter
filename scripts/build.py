@@ -81,15 +81,20 @@ def main():
     version = get_version_from_git()
     print(f"Generated Version: {version}")
 
-    # 2. 获取时间戳
+    # 2. 将版本号传递给 GitHub Actions
+    if "GITHUB_OUTPUT" in os.environ:
+        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+            f.write(f"version={version}\n")
+    
+    # 3. 获取时间戳
     tz = pytz.timezone('Asia/Shanghai')
     current_time = datetime.datetime.now(tz).isoformat(timespec='seconds')
     
-    # 3. 初始化规则集合
+    # 4. 初始化规则集合
     basic_rules = set() # 基础规则 (不含 ZEN)
     all_rules = set()   # 所有规则 (含 ZEN)
 
-    # 4. 读取并分类规则
+    # 5. 读取并分类规则
     if os.path.exists(SOURCE_DIR):
         for filename in os.listdir(SOURCE_DIR):
             if filename.endswith(".txt"):
@@ -125,7 +130,7 @@ def main():
         print(f"Error: Directory '{SOURCE_DIR}' not found.")
         return
 
-    # 5. 生成文件
+    # 6. 生成文件
     
     # 生成 filter.txt (仅基础规则)
     write_rules_to_file(OUTPUT_FILE_BASIC, basic_rules, "", version, current_time)
