@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 2xlZC8L+bc2NZ67ecpRbrw
-! Version: 2.0.1.51
+! Checksum: qJszmb/sYhxMejDUbLyOEw
+! Version: 2.0.1.52
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-05T15:40:43+08:00
+! Last modified: 2026-02-05T15:53:32+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -83,7 +83,6 @@ live.kuaishou.com##.reco
 live.kuaishou.com##.recommend
 live.kuaishou.com##.refresh
 live.kuaishou.com##.tag-quality
-m.douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
 m.douban.com##.TalionNav:style(margin-bottom: 0 !important; padding-bottom: 0 !important)
 m.douban.com##.card > div:has(> div:contains(/^广告$/))
 m.douban.com##.nav-btns > .nav-to-pc.to_pc:style(margin-right: 0 !important)
@@ -97,6 +96,8 @@ m.douban.com##.subject-rec
 m.douban.com##.subject-reviews:style(padding-bottom: 0 !important; border-bottom: none !important)
 m.douban.com##.talion-nav-footer
 m.douban.com##section > h2 > a
+m.douban.com##section:has(>div > div > a[style*="img1.doubanio.com/view/photo/photo/public/p456482220.jpg"])
+m.手机版douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
 mgtv.com###sideFloatbtn
 mgtv.com##.arr-download
 mgtv.com##.big-poster-conent
