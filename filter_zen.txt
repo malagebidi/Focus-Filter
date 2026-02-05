@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8HijFNwjKRkKv6GjoJQWMA
-! Version: 2.0.1.56
+! Checksum: V3CL9CxEvqFkKcP/1bnyww
+! Version: 2.0.1.57
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-05T17:33:22+08:00
+! Last modified: 2026-02-05T17:43:15+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -141,13 +141,14 @@ missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##nav>a[href*="mycomic.com"]
 missav.ws,missav.ai##ul.grid-cols-2:has(a[target="_blank"])
 missav.ws,missav.ai#%#//scriptlet('remove-attr', 'placeholder', 'input[x-ref*="earch"]')
-movie.douban.com###billboard
-movie.douban.com###doulist
-movie.douban.com###recommendations
 movie.douban.com###reviews
-movie.douban.com###subject-doulist
 movie.douban.com###subject-others-interests
-movie.douban.com##.contact:has(a.icon-embassy-weibo)
+movie.douban.com##.aside > #billboard
+movie.douban.com##.aside > #doulist
+movie.douban.com##.aside > #recommendations
+movie.douban.com##.aside > #subject-doulist
+movie.douban.com##.aside > .contact:has(a.icon-embassy-weibo)
+movie.douban.com##.aside > .pl
 movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 music.youtube.com##ytmusic-carousel-shelf-renderer[page-type="MUSIC_PAGE_TYPE_ALBUM"]
 music.youtube.com##ytmusic-carousel-shelf-renderer[page-type="MUSIC_PAGE_TYPE_PLAYLIST"]
