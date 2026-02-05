@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: H6gnSzyxGZuXjkDC++8uug
-! Version: 2.0.1.55
+! Checksum: 8HijFNwjKRkKv6GjoJQWMA
+! Version: 2.0.1.56
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-05T17:22:14+08:00
+! Last modified: 2026-02-05T17:33:22+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -98,6 +98,7 @@ m.douban.com##.page .download-app
 m.douban.com##.page:style(margin-top: 50px !important)
 m.douban.com##.subject-banner
 m.douban.com##.subject-comments:style(margin-bottom: 0 !important; border-bottom: none !important)
+m.douban.com##.subject-header-wrap .sub-honor > span:style(min-width: unset !important; margin-left: 0 !important; padding: 0 5px !important)
 m.douban.com##.subject-header-wrap > .sub-vendor
 m.douban.com##.subject-header-wrap:style(margin-bottom: 15px !important)
 m.douban.com##.subject-intro p > br
@@ -112,6 +113,7 @@ m.douban.com##section.tags
 m.douban.com##section:has(>div > div > a[style*="img1.doubanio.com/view/photo/photo/public/p456482220.jpg"])
 m.douban.com##span.cover-count
 m.douban.com#%#//scriptlet('remove-attr', 'href', '.sub-cover')
+m.douban.com#%#//scriptlet('remove-attr', 'href', '.sub-honor')
 mgtv.com###sideFloatbtn
 mgtv.com##.arr-download
 mgtv.com##.big-poster-conent
