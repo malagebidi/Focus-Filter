@@ -22,3 +22,8 @@ m.douban.com##.subject-comments:style(margin-bottom: 0 !important; border-bottom
 m.douban.com##section > h2 > a
 ! 最后一个section影评底部多余空白
 m.douban.com##.subject-reviews:style(padding-bottom: 0 !important; border-bottom: none !important)
+! 片单页底部推荐
+m.douban.com##a[href*="douban://douban.com/movie/recommend_list"]:upward(3)
+m.douban.com##a[href*="https://m.douban.com/page2/"][class*="frc-button"]:upward(1):style(padding-bottom: 70px !important)
+! 手机版豆瓣电影首页底部推荐“找电影”
+m.douban.com###suggestion-movie
