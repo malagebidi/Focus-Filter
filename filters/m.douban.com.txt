@@ -1,5 +1,5 @@
 ! 手机版首页推荐榜（需用APP打开）
-m.手机版douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
+m.douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
 ! 电影首页推荐榜（需用APP打开）
 m.douban.com##section:has(>div > div > a[style*="img1.doubanio.com/view/photo/photo/public/p456482220.jpg"])
 ! 导航栏和底部“豆瓣APP内打开”
@@ -27,3 +27,13 @@ m.douban.com##a[href*="douban://douban.com/movie/recommend_list"]:upward(3)
 m.douban.com##a[href*="https://m.douban.com/page2/"][class*="frc-button"]:upward(1):style(padding-bottom: 70px !important)
 ! 手机版豆瓣电影首页底部推荐“找电影”
 m.douban.com###suggestion-movie
+! 移除封面的链接（用APP打开）
+m.douban.com#%#//scriptlet('remove-attr', 'href', '.sub-cover')
+! 移除封面右下角的虚假计数
+m.douban.com##span.cover-count
+! 底部APP下载的广告
+m.douban.com##.page .download-app
+! “查看更多豆瓣高分电影电视剧”
+m.douban.com##section.tags
+! 影评底部的推荐
+m.douban.com##section.note-comments ~ section
