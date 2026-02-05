@@ -14,7 +14,7 @@ movie.douban.com###subject-others-interests
 movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 ! 首页最下方影评
 movie.douban.com###reviews
-! 移动端“豆瓣APP内打开”
+! 移动端导航栏和底部“豆瓣APP内打开”
 m.douban.com##.talion-nav-footer
 m.douban.com##.nav-open-app
 m.douban.com##.nav-btns > .nav-to-pc.to_pc:style(margin-right: 0 !important)
