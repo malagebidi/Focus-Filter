@@ -15,5 +15,5 @@ movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 ! 首页最下方影评
 movie.douban.com###reviews
 ! 移动端“豆瓣APP内打开”
-movie.douban.com##.talion-nav-footer
-movie.douban.com##.nav-open-app
+m.douban.com##.talion-nav-footer
+m.douban.com##.nav-open-app
