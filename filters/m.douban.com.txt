@@ -11,6 +11,10 @@ m.douban.com##.page:style(margin-top: 50px !important)
 ! 剧情简介上方，“豆瓣APP，你的随身书影音工具”
 m.douban.com##.subject-banner
 m.douban.com##.subject-header-wrap:style(margin-bottom: 15px !important)
+! 排名奖项太宽，在小屏幕会变成两行的问题
+m.douban.com##.subject-header-wrap .sub-honor > span:style(min-width: unset !important; margin-left: 0 !important; padding: 0 5px !important)
+! 移除排名奖项的链接（用APP打开）
+m.douban.com#%#//scriptlet('remove-attr', 'href', '.sub-honor')
 ! “可在线观看”区域
 m.douban.com##.subject-header-wrap > .sub-vendor
 ! 剧情简介前，多余的<br>
