@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QQUzoSb8blGml3+TmxTFOA
-! Version: 2.0.1.38
+! Checksum: p4qkh0GJUoqH7vKq8L1NnQ
+! Version: 2.0.1.39
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-05T11:55:18+08:00
+! Last modified: 2026-02-05T11:55:51+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
