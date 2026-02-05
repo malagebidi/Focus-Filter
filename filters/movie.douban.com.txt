@@ -14,25 +14,3 @@ movie.douban.com###subject-others-interests
 movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 ! 首页最下方影评
 movie.douban.com###reviews
-! 手机版导航栏和底部“豆瓣APP内打开”
-m.douban.com##.talion-nav-footer
-m.douban.com##.nav-open-app
-m.douban.com##.nav-btns > .nav-to-pc.to_pc:style(margin-right: 0 !important)
-m.douban.com##.TalionNav:style(margin-bottom: 0 !important; padding-bottom: 0 !important)
-m.douban.com##.page:style(margin-top: 50px !important)
-! 剧情简介上方，“豆瓣APP，你的随身书影音工具”
-m.douban.com##.subject-banner
-m.douban.com##.subject-header-wrap:style(margin-bottom: 15px !important)
-! 剧情简介前，多余的<br>
-m.douban.com##.subject-intro p > br
-! 剧情简介和演职员之间的广告标签
-m.douban.com##.card > div:has(> div:contains(/^广告$/))
-! 短评下方“喜欢这部电影的人也喜欢”
-m.douban.com##.subject-rec
-m.douban.com##.subject-comments:style(margin-bottom: 0 !important; border-bottom: none !important)
-! 每个section右上角的“打开APP”
-m.douban.com##section > h2 > a
-! 最后一个section影评底部多余空白
-m.douban.com##.subject-reviews:style(padding-bottom: 0 !important; border-bottom: none !important)
-! 豆瓣手机版首页推荐榜
-m.douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
