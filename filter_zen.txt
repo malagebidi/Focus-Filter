@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QB3oZ0Ex4Ox0pVRc8mjY+g
-! Version: 2.0.1.47
+! Checksum: mns86Fiy1oERfPlxwGOeBQ
+! Version: 2.0.1.48
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-05T14:32:16+08:00
+! Last modified: 2026-02-05T14:57:38+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -89,14 +89,18 @@ live.kuaishou.com##.refresh
 live.kuaishou.com##.tag-quality
 live.kuaishou.com##[class="foot"][data-gift-enabled="true"]
 m.douban.com##.TalionNav:style(margin-bottom: 0 !important; padding-bottom: 0 !important)
+m.douban.com##.card > div:has(> div:contains(/^广告$/))
 m.douban.com##.nav-btns > .nav-to-pc.to_pc:style(margin-right: 0 !important)
 m.douban.com##.nav-open-app
 m.douban.com##.page:style(margin-top: 50px !important)
 m.douban.com##.subject-banner
+m.douban.com##.subject-comments:style(margin-bottom: 0 !important; border-bottom: none !important)
 m.douban.com##.subject-header-wrap:style(margin-bottom: 15px !important)
-m.douban.com##.subject-intro + div
 m.douban.com##.subject-intro p > br
+m.douban.com##.subject-rec
+m.douban.com##.subject-reviews:style(padding-bottom: 0 !important; border-bottom: none !important)
 m.douban.com##.talion-nav-footer
+m.douban.com##section > h2 > a
 mgtv.com###sideFloatbtn
 mgtv.com##.arr-download
 mgtv.com##.big-poster-conent
