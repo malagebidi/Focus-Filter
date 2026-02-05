@@ -19,6 +19,7 @@ m.douban.com##.talion-nav-footer
 m.douban.com##.nav-open-app
 m.douban.com##.nav-btns > .nav-to-pc.to_pc:style(margin-right: 0 !important)
 m.douban.com##.TalionNav:style(margin-bottom: 0 !important; padding-bottom: 25px !important)
+m.douban.com##.TalionNav-primary:style(height: 55px !important)
 ! 剧情简介上方，“豆瓣APP，你的随身书影音工具”
 m.douban.com##.subject-banner
 m.douban.com##.subject-header-wrap:style(margin-bottom: 15px !important)
