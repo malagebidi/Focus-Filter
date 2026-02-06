@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FqbObdr57bmP4AGWt0exBw
-! Version: 2.0.1.65
+! Checksum: LKBc8t4xxoJDSO05kSTJgw
+! Version: 2.0.1.66
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-06T14:27:19+08:00
+! Last modified: 2026-02-06T15:12:56+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -91,6 +91,7 @@ live.kuaishou.com##[class="foot"][data-gift-enabled="true"]
 m.bilibili.com##.bottom-tab
 m.bilibili.com##.caution-dialog
 m.bilibili.com##.fixed-openapp
+m.bilibili.com##.gsl-control-btn-quality
 m.bilibili.com##.gsl-end
 m.bilibili.com##.m-event-related
 m.bilibili.com##.m-footer
@@ -99,10 +100,15 @@ m.bilibili.com##.openapp-dialog
 m.bilibili.com##.related-header
 m.bilibili.com##.right > .face:style(margin-right: 0 !important)
 m.bilibili.com##.right > .m-nav-openapp
+m.bilibili.com##.slot-wrap
 m.bilibili.com##.title + m-open-app
+m.bilibili.com##.video-list > .card-box > .v-card--ogv:nth-child(n+7)
+m.bilibili.com##.video-list > .card-box > .v-card:nth-child(n+11)
+m.bilibili.com##.video-list:style(margin-bottom: 0 !important)
 m.bilibili.com##m-open-app.m-video-main-launchapp > *
 m.bilibili.com##m-open-app:style(pointer-events: none !important)
 m.bilibili.com#%#//scriptlet('remove-attr', 'href', '.label-hot')
+m.bilibili.com#%#var observer=new MutationObserver(function(m){var btn=document.querySelector(".gsl-btn-fullscreen");if(btn&&!btn.dataset.fixed){btn.dataset.fixed="1";var newBtn=btn.cloneNode(!0);btn.parentNode.replaceChild(newBtn,btn);newBtn.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var v=document.querySelector("video");if(v){if(v.webkitEnterFullscreen){v.webkitEnterFullscreen()}else if(v.requestFullscreen){v.requestFullscreen()}}})}});observer.observe(document,{childList:!0,subtree:!0});
 m.douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
 m.douban.com###suggestion-movie
 m.douban.com##.TalionNav:style(margin-bottom: 0 !important; padding-bottom: 0 !important)
