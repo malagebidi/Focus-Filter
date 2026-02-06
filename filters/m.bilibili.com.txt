@@ -5,6 +5,9 @@ m.bilibili.com##.right > .face:style(margin-right: 0 !important)
 m.bilibili.com##.fixed-openapp
 ! 视频页底部推荐流
 m.bilibili.com##.m-event-related
+m.bilibili.com##.bottom-tab
+m.bilibili.com##.m-video-related
+m.bilibili.com##.related-header
 ! 视频页播放结束推荐
 m.bilibili.com##.gsl-end
 ! 视频页触发下载相关
