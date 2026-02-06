@@ -3,6 +3,10 @@ m.bilibili.com##.right > .m-nav-openapp
 m.bilibili.com##.right > .face:style(margin-right: 0 !important)
 ! 底部“APP内打开”
 m.bilibili.com##.fixed-openapp
+! 搜索框占位
+m.bilibili.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="search"]')
+! 搜索框下拉“大家都在搜”
+m.bilibili.com##.m-search-hot
 ! 视频播放器质量切换按钮
 m.bilibili.com##.gsl-control-btn-quality
 ! 视频播放器全屏按钮重新绑定全屏功能
