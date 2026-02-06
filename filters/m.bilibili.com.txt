@@ -3,6 +3,10 @@ m.bilibili.com##.right > .m-nav-openapp
 m.bilibili.com##.right > .face:style(margin-right: 0 !important)
 ! 底部“APP内打开”
 m.bilibili.com##.fixed-openapp
+! 视频播放器质量切换按钮
+m.bilibili.com##.gsl-control-btn-quality
+! 视频播放器全屏按钮重新绑定全屏功能
+m.bilibili.com#%#var observer=new MutationObserver(function(m){var btn=document.querySelector(".gsl-btn-fullscreen");if(btn&&!btn.dataset.fixed){btn.dataset.fixed="1";var newBtn=btn.cloneNode(!0);btn.parentNode.replaceChild(newBtn,btn);newBtn.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var v=document.querySelector("video");if(v){if(v.webkitEnterFullscreen){v.webkitEnterFullscreen()}else if(v.requestFullscreen){v.requestFullscreen()}}})}});observer.observe(document,{childList:!0,subtree:!0});
 ! 视频页底部推荐流
 m.bilibili.com##.m-event-related
 m.bilibili.com##.bottom-tab
@@ -24,3 +28,10 @@ m.bilibili.com##.m-video-related
 m.bilibili.com##.related-header
 ! 页脚
 m.bilibili.com##.m-footer
+! 首页和二级分区无线推荐流
+m.bilibili.com##.video-list > .card-box > .v-card:nth-child(n+11)
+! 一级分区无线推荐流
+m.bilibili.com##.video-list > .card-box > .v-card--ogv:nth-child(n+7)
+! 无线推荐流底部
+m.bilibili.com##.video-list:style(margin-bottom: 0 !important)
+m.bilibili.com##.slot-wrap
