@@ -1,0 +1,22 @@
+! 导航栏“打开APP”
+m.bilibili.com##.right > .m-nav-openapp
+m.bilibili.com##.right > .face:style(margin-right: 0 !important)
+! 底部“APP内打开”
+m.bilibili.com##.fixed-openapp
+! 视频页底部推荐流
+m.bilibili.com##.m-event-related
+! 视频页播放结束推荐
+m.bilibili.com##.gsl-end
+! 视频页触发下载相关
+m.bilibili.com##m-open-app:style(pointer-events: none !important)
+! 视频页移除热门标签的链接
+m.bilibili.com#%#//scriptlet('remove-attr', 'href', '.label-hot')
+! 视频页标题后边的icon
+m.bilibili.com##.title-wrapper > .icon-expand-wrapper
+! 视频页“打开APP”大按钮
+m.bilibili.com##m-open-app.m-video-main-launchapp > *
+! 视频页打开时底部弹出窗口
+m.bilibili.com##.openapp-dialog
+m.bilibili.com##.caution-dialog
+! 页脚
+m.bilibili.com##.m-footer
