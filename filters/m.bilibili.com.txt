@@ -6,20 +6,21 @@ m.bilibili.com##.fixed-openapp
 ! 视频页底部推荐流
 m.bilibili.com##.m-event-related
 m.bilibili.com##.bottom-tab
-m.bilibili.com##.m-video-related
-m.bilibili.com##.related-header
 ! 视频页播放结束推荐
 m.bilibili.com##.gsl-end
 ! 视频页触发下载相关
 m.bilibili.com##m-open-app:style(pointer-events: none !important)
 ! 视频页移除热门标签的链接
 m.bilibili.com#%#//scriptlet('remove-attr', 'href', '.label-hot')
-! 视频页标题后边的icon
-m.bilibili.com##.title-wrapper > .icon-expand-wrapper
 ! 视频页“打开APP”大按钮
 m.bilibili.com##m-open-app.m-video-main-launchapp > *
 ! 视频页打开时底部弹出窗口
 m.bilibili.com##.openapp-dialog
 m.bilibili.com##.caution-dialog
+! 跳转到视频页APP按钮
+m.bilibili.com##.title + m-open-app
+! 跳转到视频页底部推荐流
+m.bilibili.com##.m-video-related
+m.bilibili.com##.related-header
 ! 页脚
 m.bilibili.com##.m-footer
