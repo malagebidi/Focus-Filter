@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7dPES0YKsgx+wvw+x8T/ow
-! Version: 2.0.1.61
+! Checksum: w+UKX92bNztAJ4kWsYGReQ
+! Version: 2.0.1.62
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-06T00:13:44+08:00
+! Last modified: 2026-02-06T12:25:09+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -83,6 +83,18 @@ live.kuaishou.com##.reco
 live.kuaishou.com##.recommend
 live.kuaishou.com##.refresh
 live.kuaishou.com##.tag-quality
+m.bilibili.com##.caution-dialog
+m.bilibili.com##.fixed-openapp
+m.bilibili.com##.gsl-end
+m.bilibili.com##.m-event-related
+m.bilibili.com##.m-footer
+m.bilibili.com##.openapp-dialog
+m.bilibili.com##.right > .face:style(margin-right: 0 !important)
+m.bilibili.com##.right > .m-nav-openapp
+m.bilibili.com##.title-wrapper > .icon-expand-wrapper
+m.bilibili.com##m-open-app.m-video-main-launchapp > *
+m.bilibili.com##m-open-app:style(pointer-events: none !important)
+m.bilibili.com#%#//scriptlet('remove-attr', 'href', '.label-hot')
 m.douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
 m.douban.com###suggestion-movie
 m.douban.com##.TalionNav:style(margin-bottom: 0 !important; padding-bottom: 0 !important)
