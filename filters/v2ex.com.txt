@@ -9,6 +9,12 @@ v2ex.com##.box:has(> .inner > a:contains(RSS))+div.sep20
 ! 侧边栏的 VXNA 站点推荐和分隔的空白
 v2ex.com##.box:has(span:contains(Site of the Day))
 v2ex.com##.box:has(span:contains(Site of the Day))+div.sep20
+! 侧边栏的最近新增节点
+v2ex.com##.box:has(> .inner > a[href="/node/create"])
+v2ex.com##.box:has(> .inner > a[href="/node/create"])+div.sep20
+! 侧边栏的“社区运行状况”
+v2ex.com##.box:has(span.gray:contains(注册会员))
+v2ex.com##.box:has(span.gray:contains(注册会员))+div.sep20
 ! 主题之间的广告
 v2ex.com###Main > .box > div[style^="border-bottom"]
 ! 页脚容器内的内容字号设为0和隐藏多余的元素
@@ -24,6 +30,3 @@ v2ex.com## #Bottom .content .inner > span:style(font-size: 14px !important; line
 ! 侧边栏“领取今日的登录奖励”和分隔的空白
 v2ex.com##.box:has(li.fa-gift)
 v2ex.com##.box:has(li.fa-gift) + div[class^="sep"]
-! 侧边栏的最近新增节点
-v2ex.com##.box:has(> .inner > a[href="/node/create"])
-v2ex.com##.box:has(> .inner > a[href="/node/create"])+div.sep20
