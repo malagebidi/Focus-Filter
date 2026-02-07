@@ -1,0 +1,4 @@
+! 微博热搜中的数字
+m.weibo.cn##span.sub-text
+! 微博热搜中的广告
+m.weibo.cn##.card-list > .card:has([src*="search_point_orange"])
