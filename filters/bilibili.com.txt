@@ -62,6 +62,10 @@ live.bilibili.com###room-background-vm
 ! 直播间右侧栏评论消息区最下方的轮动信息
 live.bilibili.com###brush-prompt
 live.bilibili.com###chat-history-list:style(height: 100% !important)
+! 直播间播放器左上角小橙车提示
+live.bilibili.com###shop-popover-vm
+! 直播间聊天栏上方飘进来的提示“XXX来了”
+live.bilibili.com###welcome-area-bottom-vm
 ! 动态页右下角浮动按钮
 t.bilibili.com##.bili-dyn-sidebar
 
