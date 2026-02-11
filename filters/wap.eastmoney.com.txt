@@ -1,0 +1,6 @@
+! 顶部广告
+wap.eastmoney.com###ad-header
+! 底部“APP内打开”按钮
+wap.eastmoney.com##.open-inapp
+! 切换电脑版按钮
+wap.eastmoney.com##.computer
