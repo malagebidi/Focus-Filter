@@ -9,4 +9,4 @@ m.youtube.com##ytm-item-section-renderer:style(border-bottom: none !important)
 ! 播放页修正布局（拖动后标题隐藏）
 m.youtube.com##.related-chips-slot-wrapper.slot-open:style(transform: none !important)
 ! 订阅页youtuber推荐
-m.youtube.com##ytm-item-section-renderer[data-resize-observer-id="0"] ~ *
+m.youtube.com##ytm-item-section-renderer[data-resize-observer-id] ~ *
