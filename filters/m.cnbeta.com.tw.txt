@@ -20,6 +20,8 @@ m.cnbeta.com.tw##.module_button_wrap:style(border: none !important; box-shadow: 
 m.cnbeta.com.tw##.bdsharebuttonbox:upward(1)
 ! 文章页底部推荐流
 m.cnbeta.com.tw##section.cnbeta-article-latest
+! 文章页底部“前一篇”和“后一篇”
+m.cnbeta.com.tw###go_nav
 ! 文章页标题样式
 m.cnbeta.com.tw##.article-holder .article-tit:style(font-weight: inherit !important)
 ! 文章页移除摘要
