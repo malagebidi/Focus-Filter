@@ -1,3 +1,5 @@
+! 中英文混合排版之间的空格
+m.cnbeta.com.tw##body:style(text-autospace: normal)
 ! 快讯
 m.cnbeta.com.tw###tus
 ! slider消除左边空白
@@ -8,6 +10,8 @@ m.cnbeta.com.tw###main #titleNav ul:style(border-left: none !important)
 m.cnbeta.com.tw##.footer_top
 ! 文章中间的广告
 m.cnbeta.com.tw##li:has(> .cooperation)
+! 文章标题顶部对齐
+m.cnbeta.com.tw##.info_list li .txt_area:style(vertical-align: top !important)
 ! 文章缩略图父容器宽度修正
 m.cnbeta.com.tw##.info_list li .txt_thumb:style(width: 73px !important)
 ! 更多按钮多余的样式
@@ -16,6 +20,15 @@ m.cnbeta.com.tw##.module_button_wrap:style(border: none !important; box-shadow: 
 m.cnbeta.com.tw##.bdsharebuttonbox:upward(1)
 ! 文章页底部推荐流
 m.cnbeta.com.tw##section.cnbeta-article-latest
+! 文章页标题样式
+m.cnbeta.com.tw##.article-holder .article-tit:style(font-weight: inherit !important)
+! 文章页移除摘要
+m.cnbeta.com.tw##.article-summ > b
+! 文章页摘要样式
+m.cnbeta.com.tw##.article-summ:style(line-height: 1.6 !important; color: inherit !important; background-color: unset !important; border-bottom: none !important; margin-bottom: 0 !important; padding-bottom: 0 !important)
+! 文章页正文样式
+m.cnbeta.com.tw##.articleCont:style(line-height: 1.6 !important)
+m.cnbeta.com.tw##.articleCont p:style(text-indent: 0 !important)
 
 ! --- ZEN ---
 ! 底部footer
