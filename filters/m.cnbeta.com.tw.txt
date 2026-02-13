@@ -1,0 +1,25 @@
+! 快讯
+m.cnbeta.com.tw###tus
+! slider消除左边空白
+m.cnbeta.com.tw##.programSlider:style(margin-left: -36px !important)
+! slider左右按钮小调整
+m.cnbeta.com.tw###topView #noaProgram .sliderBtn li p:style(background: none !important; opacity: 1 !important)
+! 分类导航栏样式调整
+m.cnbeta.com.tw###main #titleNav ul:style(border-left: none !important)
+! 右下角浮动返回顶部按钮
+m.cnbeta.com.tw##.footer_top
+! 文章中间的广告
+m.cnbeta.com.tw##li:has(> .cooperation)
+! 文章缩略图父容器宽度修正
+m.cnbeta.com.tw##.info_list li .txt_thumb:style(width: 73px !important)
+! 更多按钮多余的样式
+m.cnbeta.com.tw##.module_button_wrap:style(border: none !important; box-shadow: none !important)
+! 文章页底部分享按钮
+m.cnbeta.com.tw##.bdsharebuttonbox:upward(1)
+! 文章页底部推荐流
+m.cnbeta.com.tw##section.cnbeta-article-latest
+
+! --- ZEN ---
+! 底部footer
+m.cnbeta.com.tw##.footer
+m.cnbeta.com.tw##body:style(margin-bottom: 0 !important)
