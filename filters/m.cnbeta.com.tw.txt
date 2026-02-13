@@ -2,8 +2,6 @@
 m.cnbeta.com.tw###tus
 ! slider消除左边空白
 m.cnbeta.com.tw##.programSlider:style(margin-left: -36px !important)
-! slider左右按钮小调整
-m.cnbeta.com.tw###topView #noaProgram .sliderBtn li p:style(background: none !important; opacity: 1 !important)
 ! 分类导航栏样式调整
 m.cnbeta.com.tw###main #titleNav ul:style(border-left: none !important)
 ! 右下角浮动返回顶部按钮
