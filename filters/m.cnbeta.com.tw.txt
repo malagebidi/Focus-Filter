@@ -32,6 +32,8 @@ m.cnbeta.com.tw##.article-summ > b
 m.cnbeta.com.tw##.articleCont:style(padding-bottom: 0 !important)
 ! 文章页可能出现的多余br换行
 m.cnbeta.com.tw##.articleCont p > br:last-child
+! 文章页图片宽高比修正
+m.cnbeta.com.tw##.articleCont img:style(height: auto !important)
 
 ! --- ZEN ---
 ! 底部footer
