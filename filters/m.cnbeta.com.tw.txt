@@ -1,9 +1,9 @@
-! 中英文混合排版之间的空格
-m.cnbeta.com.tw##body:style(text-autospace: normal)
 ! 快讯
 m.cnbeta.com.tw###tus
 ! slider消除左边空白
 m.cnbeta.com.tw##.programSlider:style(margin-left: -36px !important)
+! slider按钮
+m.cnbeta.com.tw##.sliderBtn
 ! 分类导航栏样式调整
 m.cnbeta.com.tw###main #titleNav ul:style(border-left: none !important)
 ! 右下角浮动返回顶部按钮
@@ -28,11 +28,8 @@ m.cnbeta.com.tw##.article-holder .article-tit:style(font-weight: inherit !import
 m.cnbeta.com.tw##.article-byline .commnum:style(border: none !important; width: auto !important)
 ! 文章页移除摘要
 m.cnbeta.com.tw##.article-summ > b
-! 文章页摘要样式
-m.cnbeta.com.tw##.article-summ:style(line-height: 1.6 !important; color: inherit !important; background-color: unset !important; border-bottom: none !important; margin-bottom: 0 !important; padding-bottom: 0 !important)
 ! 文章页正文样式
-m.cnbeta.com.tw##.articleCont:style(line-height: 1.6 !important; padding-bottom: 0 !important)
-m.cnbeta.com.tw##.articleCont p:style(text-indent: 0 !important)
+m.cnbeta.com.tw##.articleCont:style(padding-bottom: 0 !important)
 ! 文章页可能出现的多余br换行
 m.cnbeta.com.tw##.articleCont p > br:last-child
 
