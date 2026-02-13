@@ -25,7 +25,7 @@ m.cnbeta.com.tw###go_nav
 ! 文章页标题样式
 m.cnbeta.com.tw##.article-holder .article-tit:style(font-weight: inherit !important)
 ! 文章页评论链接样式调整
-m.cnbeta.com.tw##.article-byline .commnum:style(border: none !important)
+m.cnbeta.com.tw##.article-byline .commnum:style(border: none !important; width: auto !important)
 ! 文章页移除摘要
 m.cnbeta.com.tw##.article-summ > b
 ! 文章页摘要样式
