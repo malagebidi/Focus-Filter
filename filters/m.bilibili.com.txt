@@ -9,6 +9,8 @@ m.bilibili.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="search"]
 m.bilibili.com##.m-search-hot
 ! 视频播放器质量切换按钮
 m.bilibili.com##.gsl-control-btn-quality
+! 视频播放器缓冲提示“APP内观看，体验更流程”
+m.bilibili.com##.gsl-buffer-app
 ! 视频播放器全屏按钮重新绑定全屏功能
 m.bilibili.com#%#var observer=new MutationObserver(function(m){var btn=document.querySelector(".gsl-btn-fullscreen");if(btn&&!btn.dataset.fixed){btn.dataset.fixed="1";var newBtn=btn.cloneNode(!0);btn.parentNode.replaceChild(newBtn,btn);newBtn.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var v=document.querySelector("video");if(v){if(v.webkitEnterFullscreen){v.webkitEnterFullscreen()}else if(v.requestFullscreen){v.requestFullscreen()}}})}});observer.observe(document,{childList:!0,subtree:!0});
 ! 视频页底部推荐流
