@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 8H5Ae8TpqfYQol8Y0Lyuuw
-! Version: 2.0.1.84
+! Checksum: wW9lVNu5JGP8/hCXEuBJ5g
+! Version: 2.0.1.85
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-13T13:32:51+08:00
+! Last modified: 2026-02-13T14:06:17+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -119,10 +119,8 @@ m.cnbeta.com.tw###tus
 m.cnbeta.com.tw##.article-byline .commnum:style(border: none !important; width: auto !important)
 m.cnbeta.com.tw##.article-holder .article-tit:style(font-weight: inherit !important)
 m.cnbeta.com.tw##.article-summ > b
-m.cnbeta.com.tw##.article-summ:style(line-height: 1.6 !important; color: inherit !important; background-color: unset !important; border-bottom: none !important; margin-bottom: 0 !important; padding-bottom: 0 !important)
 m.cnbeta.com.tw##.articleCont p > br:last-child
-m.cnbeta.com.tw##.articleCont p:style(text-indent: 0 !important)
-m.cnbeta.com.tw##.articleCont:style(line-height: 1.6 !important; padding-bottom: 0 !important)
+m.cnbeta.com.tw##.articleCont:style(padding-bottom: 0 !important)
 m.cnbeta.com.tw##.bdsharebuttonbox:upward(1)
 m.cnbeta.com.tw##.footer
 m.cnbeta.com.tw##.footer_top
@@ -130,8 +128,8 @@ m.cnbeta.com.tw##.info_list li .txt_area:style(vertical-align: top !important)
 m.cnbeta.com.tw##.info_list li .txt_thumb:style(width: 73px !important)
 m.cnbeta.com.tw##.module_button_wrap:style(border: none !important; box-shadow: none !important)
 m.cnbeta.com.tw##.programSlider:style(margin-left: -36px !important)
+m.cnbeta.com.tw##.sliderBtn
 m.cnbeta.com.tw##body:style(margin-bottom: 0 !important)
-m.cnbeta.com.tw##body:style(text-autospace: normal)
 m.cnbeta.com.tw##li:has(> .cooperation)
 m.cnbeta.com.tw##section#commentHolder
 m.cnbeta.com.tw##section.cnbeta-article-latest
