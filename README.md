@@ -16,7 +16,7 @@ Focus Filter 源于我日常使用中积累的一套个人规则。现在我将�
 | :--- | :--- |
 | AI | Poe |
 | Social Media | 微博，豆瓣电影 |
-| Tech | V2EX |
+| Tech | V2EX，cnBeta |
 | Video & Live | 哔哩哔哩，芒果TV，腾讯视频，斗鱼，快手直播 |
 | Adult | Pornhub，91porn，MissAV，Jable.TV，Jav.Guru |
 
