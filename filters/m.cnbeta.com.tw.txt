@@ -30,6 +30,10 @@ m.cnbeta.com.tw##.article-byline .commnum:style(border: none !important; width: 
 m.cnbeta.com.tw##.article-summ > b
 ! 文章页正文样式
 m.cnbeta.com.tw##.articleCont:style(padding-bottom: 0 !important)
+! 文章页段落缩进
+m.cnbeta.com.tw##.articleCont p:style(text-indent: 0 !important)
+! 文章页iframe
+m.cnbeta.com.tw##.articleCont iframe:style(max-width: 100% !important; height: auto !important)
 ! 文章页可能出现的多余br换行
 m.cnbeta.com.tw##.articleCont p > br:last-child
 ! 文章页图片宽高比修正
