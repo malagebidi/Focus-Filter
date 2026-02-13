@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ODYy7tibmupxZwV+sNPV3A
-! Version: 2.0.1.75
+! Checksum: 6fNFfAnZqMxOWjwYmbFW4g
+! Version: 2.0.1.76
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-12T10:39:19+08:00
+! Last modified: 2026-02-13T12:27:49+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -108,6 +108,16 @@ m.bilibili.com##m-open-app:style(pointer-events: none !important)
 m.bilibili.com#%#//scriptlet('remove-attr', 'href', '.label-hot')
 m.bilibili.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="search"]')
 m.bilibili.com#%#var observer=new MutationObserver(function(m){var btn=document.querySelector(".gsl-btn-fullscreen");if(btn&&!btn.dataset.fixed){btn.dataset.fixed="1";var newBtn=btn.cloneNode(!0);btn.parentNode.replaceChild(newBtn,btn);newBtn.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();var v=document.querySelector("video");if(v){if(v.webkitEnterFullscreen){v.webkitEnterFullscreen()}else if(v.requestFullscreen){v.requestFullscreen()}}})}});observer.observe(document,{childList:!0,subtree:!0});
+m.cnbeta.com.tw###main #titleNav ul:style(border-left: none !important)
+m.cnbeta.com.tw###topView #noaProgram .sliderBtn li p:style(background: none !important; opacity: 1 !important)
+m.cnbeta.com.tw###tus
+m.cnbeta.com.tw##.bdsharebuttonbox:upward(1)
+m.cnbeta.com.tw##.footer_top
+m.cnbeta.com.tw##.info_list li .txt_thumb:style(width: 73px !important)
+m.cnbeta.com.tw##.module_button_wrap:style(border: none !important; box-shadow: none !important)
+m.cnbeta.com.tw##.programSlider:style(margin-left: -36px !important)
+m.cnbeta.com.tw##li:has(> .cooperation)
+m.cnbeta.com.tw##section.cnbeta-article-latest
 m.douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
 m.douban.com###suggestion-movie
 m.douban.com##.TalionNav:style(margin-bottom: 0 !important; padding-bottom: 0 !important)
