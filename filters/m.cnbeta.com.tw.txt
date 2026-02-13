@@ -24,6 +24,8 @@ m.cnbeta.com.tw##section.cnbeta-article-latest
 m.cnbeta.com.tw###go_nav
 ! 文章页标题样式
 m.cnbeta.com.tw##.article-holder .article-tit:style(font-weight: inherit !important)
+! 文章页评论链接样式调整
+m.cnbeta.com.tw##.article-byline .commnum:style(border: none !important)
 ! 文章页移除摘要
 m.cnbeta.com.tw##.article-summ > b
 ! 文章页摘要样式
@@ -38,3 +40,5 @@ m.cnbeta.com.tw##.articleCont p > br:last-child
 ! 底部footer
 m.cnbeta.com.tw##.footer
 m.cnbeta.com.tw##body:style(margin-bottom: 0 !important)
+! 文章页底部评论按钮
+m.cnbeta.com.tw##section#commentHolder
