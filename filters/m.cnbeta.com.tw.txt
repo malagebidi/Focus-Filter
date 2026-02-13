@@ -29,6 +29,8 @@ m.cnbeta.com.tw##.article-summ:style(line-height: 1.6 !important; color: inherit
 ! 文章页正文样式
 m.cnbeta.com.tw##.articleCont:style(line-height: 1.6 !important)
 m.cnbeta.com.tw##.articleCont p:style(text-indent: 0 !important)
+! 文章页可能出现的多余br换行
+m.cnbeta.com.tw##.articleCont p > br
 
 ! --- ZEN ---
 ! 底部footer
