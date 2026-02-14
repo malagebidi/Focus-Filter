@@ -1,7 +1,5 @@
 ! 快讯
 m.cnbeta.com.tw###tus
-! slider消除左边空白
-m.cnbeta.com.tw##.programSlider:style(margin-left: -36px !important)
 ! slider按钮
 m.cnbeta.com.tw##.sliderBtn
 ! 分类导航栏样式调整
