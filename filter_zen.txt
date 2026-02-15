@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: e0WZSGYCzwB4567RiTk9Gg
-! Version: 2.0.1.89
+! Checksum: 0hioA4IcOVq7Ja5NbBRqDg
+! Version: 2.0.1.90
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-14T17:20:52+08:00
+! Last modified: 2026-02-15T23:04:43+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -39,6 +39,7 @@ bilibili.com##[class^="recommend_wrap__"]
 bilibili.com##span.new-icon
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder|title', '.nav-search-input')
+cart.taobao.com##.trade-infinite-empty-container
 dayone.me##.css-k3h6tg
 douyin.com##.priTOakK + div
 douyin.com##div[data-aweme-id]:nth-child(n+13)
@@ -221,6 +222,9 @@ pornhub.com##.videoGridTabs
 pornhub.com##[type="pornstar"]
 pornhub.com##[type="trending"]
 t.bilibili.com##.bili-dyn-sidebar
+taobao.com###J_SiteFooter
+taobao.com###J_TBPC_POP_home
+taobao.com###J_Toolkit
 v.qq.com###module-pc_detail_rec_main
 v.qq.com###shortcut
 v.qq.com##.game-module-container
