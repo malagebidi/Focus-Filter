@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: mhUx6lSE+KK3yyMmOgB5Eg
-! Version: 2.0.1.90
+! Checksum: kMlaZZthPQCV/o0HVzQaTA
+! Version: 2.0.1.91
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-15T23:04:43+08:00
+! Last modified: 2026-02-18T10:23:19+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -183,7 +183,7 @@ missav.ws,missav.ai##.plyr__controls>button[data-plyr="rewind"]
 missav.ws,missav.ai##.sm\:container:has(a[href*="/new"][class^="text-nord4"])
 missav.ws,missav.ai##div.order-last
 missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
-missav.ws,missav.ai##div:has(>[x-show*="partners"])
+missav.ws,missav.ai##div:has(>[x-show*="partners"]:last-child)
 missav.ws,missav.ai##div[x-data*="fetchRandom"]
 missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
