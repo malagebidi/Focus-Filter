@@ -1,7 +1,7 @@
 ! 顶部导航栏的广告
 missav.ws,missav.ai##nav>a[href*="myavlive.com"]
 missav.ws,missav.ai##nav>a[href*="mycomic.com"]
-missav.ws,missav.ai##div:has(>[x-show*="partners"])
+missav.ws,missav.ai##div:has(>[x-show*="partners"]:last-child)
 ! 首页的总推荐和分类推荐
 missav.ws,missav.ai##div[x-data*="recommendItemsToUserSettings"]
 ! 首页底部的随机推荐
