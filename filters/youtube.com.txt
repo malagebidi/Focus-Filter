@@ -11,6 +11,6 @@ youtube.com###sections > ytd-guide-section-renderer:has(a[href*="youtubekids"])
 ! 首页视频流中的shorts
 youtube.com###contents > ytd-rich-section-renderer
 ! 首页视频流中的mix
-youtube.com###contents > ytd-rich-item-renderer:has(.ytCollectionsStackCollectionStack2)
+youtube.com###contents > ytd-rich-item-renderer:has(.yt-lockup-view-model--collection-stack-2)
 ! 左侧栏页脚
 youtube.com###footer
