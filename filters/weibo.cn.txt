@@ -1,3 +1,5 @@
+! 顶部搜索框中的广告
+m.weibo.cn##.m-search > .m-text-cut:style(opacity: 0)
 ! 微博热搜中的数字
 m.weibo.cn##span.sub-text
 ! 微博热搜中的广告
