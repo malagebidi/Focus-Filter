@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xCTtBa3+tHD/EcwvzVOQXA
-! Version: 2.0.1.95
+! Checksum: SBcbBXFaJ4JrWatZeRUjGQ
+! Version: 2.0.1.96
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-22T21:41:50+08:00
+! Last modified: 2026-02-22T21:50:07+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -269,7 +269,7 @@ weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '2000')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '250')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '500')
-youtube.com###contents > ytd-rich-item-renderer:has(.ytCollectionsStackCollectionStack2)
+youtube.com###contents > ytd-rich-item-renderer:has(.yt-lockup-view-model--collection-stack-2)
 youtube.com###contents > ytd-rich-section-renderer
 youtube.com###footer
 youtube.com###secondary-inner > #related
