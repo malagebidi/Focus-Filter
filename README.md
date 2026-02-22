@@ -49,7 +49,6 @@ Focus Filter 源于我日常使用中积累的一套个人规则。现在我将�
 虽然 Focus Filter 覆盖了广泛的网站，但高度复杂的平台通常需要专门的工具。将专用扩展与我们的规则一同使用，可确保获得最佳体验。
 
 *   GIF: [Animation Policy](https://chromewebstore.google.com/detail/animation-policy/ncigbofjfbodhkaffojakplpmnleeoee)
-*   YouTube: [RYS — Remove YouTube Suggestions](https://chromewebstore.google.com/detail/rys-%E2%80%94-remove-youtube-sugg/cdhdichomdnlaadbndgmagohccgpejae)
 *   Twitch: [BetterTTV](https://chromewebstore.google.com/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped)
 *   X: [Control Panel for Twitter](https://chromewebstore.google.com/detail/control-panel-for-twitter/kpmjjdhbcfebfjgdnpjagcndoelnidfj)
 
