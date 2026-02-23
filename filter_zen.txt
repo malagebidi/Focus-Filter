@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Qsa1RC0+sAjusxr0O2xYtA
-! Version: 2.0.1.97
+! Checksum: GNrDdjZao+SYzWRfuk9BOA
+! Version: 2.0.1.98
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-02-23T11:29:34+08:00
+! Last modified: 2026-02-23T15:20:55+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -11,7 +11,6 @@
 91porn.com##.video-border:style(width: 100% !important)
 91porn.com##div:has(> h3[class="login_register_header"])
 bilibili.com##.activity-m-v1.act-now
-bilibili.com##.bili-feed4-layout > .feed2
 bilibili.com##.bpx-player-ending-related
 bilibili.com##.bpx-player-top-wrap
 bilibili.com##.channel-page__body > .feed-cards
