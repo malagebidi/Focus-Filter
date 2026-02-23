@@ -17,6 +17,8 @@ bilibili.com##span.new-icon
 bilibili.com##.red-point
 ! 顶部导航栏头像hover界面的大会员广告
 bilibili.com##.vip-entry-containter
+! 首页视频流中的广告
+bilibili.com##.feed-card:has(a[href*="creative_id="])
 ! 首页视频流中底部无限加载的推荐流
 bilibili.com##.container > .bili-feed-card
 bilibili.com##.container > .bili-video-card
