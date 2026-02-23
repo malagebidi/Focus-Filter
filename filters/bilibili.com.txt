@@ -68,7 +68,3 @@ live.bilibili.com###shop-popover-vm
 live.bilibili.com###welcome-area-bottom-vm
 ! 动态页右下角浮动按钮
 t.bilibili.com##.bili-dyn-sidebar
-
-! --- ZEN ---
-! 主页所有feed
-bilibili.com##.bili-feed4-layout > .feed2
