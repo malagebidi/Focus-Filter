@@ -1,7 +1,7 @@
 ! 快讯
 m.cnbeta.com.tw###tus
 ! 菜单
-m.cnbeta.com.tw###gmenu
+m.cnbeta.com.tw##nav#gmenu
 ! slider按钮
 m.cnbeta.com.tw##.sliderBtn
 ! 分类导航栏样式调整
