@@ -39,3 +39,9 @@ m.bilibili.com##.video-list > .card-box > .v-card--ogv:nth-child(n+7)
 ! 无线推荐流底部
 m.bilibili.com##.video-list:style(margin-bottom: 0 !important)
 m.bilibili.com##.slot-wrap
+
+! --- ZEN ---
+! 首页频道导航栏
+m.bilibili.com##.channel-menu
+! 首页所有视频
+m.bilibili.com##.m-home
