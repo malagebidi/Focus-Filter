@@ -8,6 +8,8 @@ youtube.com##.html5-video-player > .ytp-fullscreen-grid
 youtube.com###sections > ytd-guide-section-renderer:has(a[href*="youtubekids"])
 
 ! --- ZEN ---
+! 首页视频流中的全部
+youtube.com##ytd-browse[page-subtype="home"]
 ! 首页视频流中的shorts
 youtube.com###contents > ytd-rich-section-renderer
 ! 首页视频流中的mix
