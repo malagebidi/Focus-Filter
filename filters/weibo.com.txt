@@ -27,6 +27,8 @@ weibo.com##.woo-panel-main:has([class$="woo-font--backTop"])
 weibo.com##.wbpro-side-copy
 ! 热搜页面，行内的微博热度数字
 weibo.com##.woo-box-item-flex>div[class^="_num_"]
+! 热搜页面，行内的图标提示
+weibo.com##.woo-box-item-flex>div>div:has(> .wbpro-icon-search-2)
 ! 个人页右侧栏关注推荐
 weibo.com##div > div.woo-panel-main:has(.woo-box-item-flex:contains(关注推荐))
 ! 视频播放点击放大后页面，右侧的相关视频“接下来播放”
