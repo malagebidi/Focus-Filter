@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: zjY9pz3d2rj75H5C3DWPkQ
-! Version: 2.0.2.8
+! Checksum: ynzTjNkyqAi88Tl7CdK4CA
+! Version: 2.0.2.9
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-03-21T11:14:28+08:00
+! Last modified: 2026-03-24T08:41:13+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -267,6 +267,7 @@ weibo.com##.woo-box-flex > .f13
 weibo.com##.woo-box-flex > .icon
 weibo.com##.woo-box-flex > .woo-picture-main.woo-picture-square.woo-picture-hover
 weibo.com##.woo-box-flex:has(> [class*="woo-font--refresh"])
+weibo.com##.woo-box-item-flex>div>div:has(> .wbpro-icon-search-2)
 weibo.com##.woo-box-item-flex>div[class^="_num_"]
 weibo.com##.woo-panel-main:has([class$="woo-font--backTop"])
 weibo.com##.woo-tab-nav > a:first-child .woo-badge-main
