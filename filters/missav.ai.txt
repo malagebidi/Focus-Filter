@@ -13,6 +13,8 @@ missav.ws,missav.ai##div:has(> div[x-ref="stripchat"])
 ! 播放器快进和快退按钮
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="fast-forward"]
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="rewind"]
+! 播放器画中画按钮
+missav.ws,missav.ai##.plyr__controls>button[data-plyr="pip"]
 ! 搜索框 placeholder
 missav.ws,missav.ai#%#//scriptlet('remove-attr', 'placeholder', 'input[x-ref*="earch"]')
 ! 首页“最近更新”区域
