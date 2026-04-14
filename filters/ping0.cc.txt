@@ -1,2 +1,10 @@
+! 顶端christmas-mode样式修正
+ping0.cc###top>.container:style(background:unset !important)
 ! 中间的广告
 ping0.cc##.xyeles
+! 左边的广告
+ping0.cc###ad_left
+! 右边的广告
+ping0.cc###adyright
+! 烟花特效
+ping0.cc###search > .container + div
