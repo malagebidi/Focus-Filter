@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: a1aIs62VjQmTEzX9PFsJGQ
-! Version: 2.0.2.18
+! Checksum: cX1MIXvuc5vxhcT2XlaPaA
+! Version: 2.0.2.19
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-04-14T10:33:20+08:00
+! Last modified: 2026-04-14T13:31:27+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -222,6 +222,7 @@ movie.douban.com##div#gallery-frames:has([id="hot-gallery"])
 music.youtube.com##ytmusic-carousel-shelf-renderer[page-type="MUSIC_PAGE_TYPE_ALBUM"]
 music.youtube.com##ytmusic-carousel-shelf-renderer[page-type="MUSIC_PAGE_TYPE_PLAYLIST"]
 music.youtube.com##ytmusic-shelf-renderer[page-type="MUSIC_PAGE_TYPE_PLAYLIST"]
+ping0.cc##.xyeles
 poe.com##[class*="ChatHomeMain_exploreBotsCarousel"]
 poe.com##[class*="ChatLastMessageArea_actionBarAndFollowUpActionsPlaceholder"]:style(min-height: unset !important)
 poe.com##[class*="ChatPageConversationStarters_"]
