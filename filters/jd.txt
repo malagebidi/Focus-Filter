@@ -1,3 +1,2 @@
 ! 右侧栏
-jd.com###elevator_from_common_component
-jd.com###cartElevator_from_common_component
+jd.com###jdccm-elevator
