@@ -1,5 +1,5 @@
 ! 顶栏背景色
-m.cnbeta.com.tw##.m-header:style(background: rgba(0,0,0,0.4) !important)
+m.cnbeta.com.tw##.cnbeta .m-header:style(background: rgba(0,0,0,0.4) !important)
 ! 快讯
 m.cnbeta.com.tw###tus
 ! 菜单
