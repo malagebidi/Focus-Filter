@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BWAqt6O18Zf063pPvlLiYA
-! Version: 2.0.2.25
+! Checksum: ca9Ih7I+pnn7EPUIWy3Eaw
+! Version: 2.0.2.26
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-04-27T10:26:21+08:00
+! Last modified: 2026-04-27T10:33:19+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -135,12 +135,12 @@ m.cnbeta.com.tw##.articleCont p > br:last-child
 m.cnbeta.com.tw##.articleCont p:style(text-indent: 0 !important)
 m.cnbeta.com.tw##.articleCont:style(padding-bottom: 0 !important)
 m.cnbeta.com.tw##.bdsharebuttonbox:upward(1)
+m.cnbeta.com.tw##.cnbeta .m-header:style(background: rgba(0,0,0,0.4) !important)
 m.cnbeta.com.tw##.commnum
 m.cnbeta.com.tw##.footer
 m.cnbeta.com.tw##.footer_top
 m.cnbeta.com.tw##.info_list li .txt_area:style(vertical-align: top !important)
 m.cnbeta.com.tw##.info_list li .txt_thumb:style(width: 73px !important)
-m.cnbeta.com.tw##.m-header:style(background: rgba(0,0,0,0.4) !important)
 m.cnbeta.com.tw##.module_button_wrap:style(border: none !important; box-shadow: none !important)
 m.cnbeta.com.tw##.sliderBtn
 m.cnbeta.com.tw##body:style(margin-bottom: 0 !important)
