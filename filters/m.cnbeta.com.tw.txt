@@ -40,8 +40,16 @@ m.cnbeta.com.tw##.articleCont p > br:last-child
 m.cnbeta.com.tw##.articleCont img:style(height: auto !important)
 
 ! --- ZEN ---
+! 顶栏搜索框
+m.cnbeta.com.tw###nol_menu
 ! 底部footer
 m.cnbeta.com.tw##.footer
 m.cnbeta.com.tw##body:style(margin-bottom: 0 !important)
+! 文章评论数
+m.cnbeta.com.tw##.commnum
 ! 文章页底部评论按钮
 m.cnbeta.com.tw##section#commentHolder
+! section导航菜单
+m.cnbeta.com.tw###titleNav
+! 非科技板块section
+m.cnbeta.com.tw##section:not(#it_tech)
