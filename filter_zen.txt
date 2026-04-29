@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: scUMPFSOFSx/cyEjAzFmgA
-! Version: 2.0.2.33
+! Checksum: dJa9nCIkmZEiPCIQBAlgmA
+! Version: 2.0.2.34
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-04-29T17:41:13+08:00
+! Last modified: 2026-04-29T18:09:55+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -294,11 +294,10 @@ weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '2000')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '250')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '500')
-youtube.com###contents > ytd-rich-section-renderer
 youtube.com###footer
 youtube.com###secondary-inner > #related
 youtube.com###sections > ytd-guide-section-renderer:has(a[href*="youtubekids"])
 youtube.com##.html5-video-player > .ytp-fullscreen-grid
-youtube.com##ytd-browse[page-subtype="home"]
-youtube.com##ytd-rich-grid-renderer > #contents > ytd-continuation-item-renderer
+youtube.com##ytd-browse[page-subtype="home"] #contents > ytd-rich-section-renderer
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-renderer > #contents > ytd-continuation-item-renderer
 ||api.bilibili.com/pgc/page/web/feed^
