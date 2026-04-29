@@ -48,7 +48,6 @@ m.cnbeta.com.tw##.articleCont p > br:last-child
 ! 文章页图片宽高比修正
 m.cnbeta.com.tw##.articleCont img:style(height: auto !important)
 
-
 ! --- ZEN ---
 ! 顶栏搜索框
 m.cnbeta.com.tw###nol_menu
