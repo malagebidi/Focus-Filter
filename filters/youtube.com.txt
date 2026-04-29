@@ -6,10 +6,12 @@ youtube.com###secondary-inner > #related
 youtube.com##.html5-video-player > .ytp-fullscreen-grid
 ! 左侧栏中的“More from YouTube”
 youtube.com###sections > ytd-guide-section-renderer:has(a[href*="youtubekids"])
+! 搜索结果页中的推荐
+youtube.com##ytd-search #contents > ytd-shelf-renderer
 
 ! --- ZEN ---
 ! 首页视频流中的全部
-!youtube.com##ytd-browse[page-subtype="home"]
+youtube.com##ytd-browse[page-subtype="home"]
 ! 首页视频流中的shorts
 youtube.com##ytd-browse[page-subtype="home"] #contents > ytd-rich-section-renderer
 ! 左侧栏页脚
