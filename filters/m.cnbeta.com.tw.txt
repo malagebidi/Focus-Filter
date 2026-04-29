@@ -8,6 +8,9 @@ m.cnbeta.com.tw##.sliderBtn
 m.cnbeta.com.tw###main #titleNav ul:style(border-left: none !important)
 ! 右下角浮动返回顶部按钮
 m.cnbeta.com.tw##.footer_top
+! 底部footer
+m.cnbeta.com.tw##.footer
+m.cnbeta.com.tw##body:style(margin-bottom: 0 !important)
 ! 文章中间的广告
 m.cnbeta.com.tw##li:has(> .cooperation)
 ! 文章标题顶部对齐
@@ -45,9 +48,6 @@ m.cnbeta.com.tw##.articleCont:style(line-height: 1.6 !important)
 ! --- ZEN ---
 ! 顶栏搜索框
 m.cnbeta.com.tw###nol_menu
-! 底部footer
-m.cnbeta.com.tw##.footer
-m.cnbeta.com.tw##body:style(margin-bottom: 0 !important)
 ! 文章评论数
 m.cnbeta.com.tw##.commnum
 ! 文章页底部评论按钮
