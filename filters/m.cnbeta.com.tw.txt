@@ -39,8 +39,8 @@ m.cnbeta.com.tw##.articleCont p > br:last-child
 ! 文章页图片宽高比修正
 m.cnbeta.com.tw##.articleCont img:style(height: auto !important)
 ! 文章页字体行高优化
-m.cnbeta.com.tw##.article-summ:style(line-height: 1.5 !important)
-m.cnbeta.com.tw##.articleCont:style(line-height: 1.5 !important)
+m.cnbeta.com.tw##.article-summ:style(line-height: 1.6 !important)
+m.cnbeta.com.tw##.articleCont:style(line-height: 1.6 !important)
 
 ! --- ZEN ---
 ! 顶栏搜索框
