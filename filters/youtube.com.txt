@@ -1,5 +1,5 @@
 ! 首页无限滚动加载视频流
-youtube.com##ytd-rich-grid-renderer > #contents > ytd-continuation-item-renderer
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-renderer > #contents > ytd-continuation-item-renderer
 ! 播放页右侧栏推荐视频流
 youtube.com###secondary-inner > #related
 ! 播放页播放器结束播放推荐
@@ -9,8 +9,8 @@ youtube.com###sections > ytd-guide-section-renderer:has(a[href*="youtubekids"])
 
 ! --- ZEN ---
 ! 首页视频流中的全部
-youtube.com##ytd-browse[page-subtype="home"]
+!youtube.com##ytd-browse[page-subtype="home"]
 ! 首页视频流中的shorts
-youtube.com###contents > ytd-rich-section-renderer
+youtube.com##ytd-browse[page-subtype="home"] #contents > ytd-rich-section-renderer
 ! 左侧栏页脚
 youtube.com###footer
