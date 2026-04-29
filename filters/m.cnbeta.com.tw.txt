@@ -35,6 +35,8 @@ m.cnbeta.com.tw##.article-summ > b
 m.cnbeta.com.tw##.articleCont:style(padding-bottom: 0 !important)
 ! 文章页段落缩进
 m.cnbeta.com.tw##.articleCont p:style(text-indent: 0 !important)
+! 文章页图片caption字体大小
+m.cnbeta.com.tw##.articleCont p:has(> img):style(font-size: 14px)
 ! 文章页iframe
 m.cnbeta.com.tw##.articleCont iframe:style(max-width: 100% !important; height: auto !important)
 ! 文章页可能出现的多余br换行
