@@ -23,9 +23,9 @@ live.kuaishou.com##.datalist > .search-item-hot
 live.kuaishou.com##.datalist > .hot-title
 live.kuaishou.com##.datalist > .divider
 live.kuaishou.com##.datalist > .search-item-suggestKeyword
+! 格斗游戏区移除“今日格斗”这个竖屏直播
+live.kuaishou.com##.live-card-main:has(a[title="今日格斗"])
 
 ! --- ZEN ---
 ! 直播页送礼物栏
 live.kuaishou.com##[class="foot"][data-gift-enabled="true"]
-! 格斗游戏区移除“今日格斗”这个竖屏直播
-live.kuaishou.com##.live-card-main:has(a[title="今日格斗"])
