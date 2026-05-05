@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: f9hQIcJkzieI/xlMowjiqw
-! Version: 2.0.2.36
+! Checksum: xsdPf3BGCt4mkLRX//r//w
+! Version: 2.0.2.37
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-04-30T20:18:42+08:00
+! Last modified: 2026-05-05T15:41:35+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -139,6 +139,7 @@ m.cnbeta.com.tw##body:style(margin-bottom: 0 !important)
 m.cnbeta.com.tw##body:style(text-autospace: normal)
 m.cnbeta.com.tw##li:has(> .cooperation)
 m.cnbeta.com.tw##nav#gmenu
+m.cnbeta.com.tw##section#commentHolder
 m.cnbeta.com.tw##section.cnbeta-article-latest
 m.douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
 m.douban.com###suggestion-movie
