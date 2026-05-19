@@ -72,5 +72,7 @@ live.bilibili.com###welcome-area-bottom-vm
 t.bilibili.com##.bili-dyn-sidebar
 
 ! --- ZEN ---
+! 首页频道导航栏
+bilibili.com##.bili-header__channel
 ! 首页视频流的全部内容
 bilibili.com##.feed2
