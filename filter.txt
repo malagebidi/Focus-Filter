@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KsysQbFx5qknVEeiNrmREA
-! Version: 2.0.2.38
+! Checksum: VnS8yDojPbLgGLmNUTSZUQ
+! Version: 2.0.2.39
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-05-19T13:23:17+08:00
+! Last modified: 2026-05-28T10:16:43+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -29,6 +29,7 @@ bilibili.com##.next-play > .video-page-card-small
 bilibili.com##.palette-button-outer
 bilibili.com##.rec-footer
 bilibili.com##.rec-list
+bilibili.com##.recommended-container_floor-aside .container:style(grid-template-rows:repeat(2, auto);grid-auto-rows:0px;overflow:hidden)
 bilibili.com##.recommended-container_floor-aside .container>*:nth-of-type(n+8):style(margin-top: 0 !important)
 bilibili.com##.red-point
 bilibili.com##.space-float
@@ -36,6 +37,7 @@ bilibili.com##.trending
 bilibili.com##.vip-entry-containter
 bilibili.com##[class^="paybar_container__"]
 bilibili.com##[class^="recommend_wrap__"]
+bilibili.com##body:style(background-color: var(--bg1)!important)
 bilibili.com##span.new-icon
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder', '.nav-search-content')
 bilibili.com#%#//scriptlet('remove-attr', 'placeholder|title', '.nav-search-input')
