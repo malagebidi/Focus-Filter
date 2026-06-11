@@ -1,2 +1,4 @@
 ! 右侧栏
 jd.com###jdccm-elevator
+! 购物党侧栏
+jd.com##.gwd-side-bar
