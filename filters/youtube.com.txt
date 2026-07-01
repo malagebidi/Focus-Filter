@@ -2,6 +2,8 @@
 youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-renderer > #contents > ytd-continuation-item-renderer
 ! 播放页右侧栏推荐视频流
 youtube.com###secondary-inner > #related
+! 播放页播放器片尾卡片
+youtube.com##.ytp-ce-element-show
 ! 播放页播放器结束播放推荐
 youtube.com##.html5-video-player > .ytp-fullscreen-grid
 ! 左侧栏中的“More from YouTube”
