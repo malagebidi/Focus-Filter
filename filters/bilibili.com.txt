@@ -61,6 +61,8 @@ bilibili.com##.space-float
 live.bilibili.com##.flying-vm
 ! 直播首页上部背景大图
 live.bilibili.com##a:has(> [data-type="player_backshow"])
+! 直播分区横幅banner
+live.bilibili.com##.banner-ctn
 ! 直播间右侧浮动栏
 live.bilibili.com###sidebar-vm
 ! 直播间上部背景大图
