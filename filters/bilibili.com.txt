@@ -1,7 +1,7 @@
 ! 番剧/影视等页面的推荐信息流API
 ||api.bilibili.com/pgc/page/web/feed^
 ! 首页背景设置为bg1白色
-bilibili.com##body:style(background-color: var(--bg1)!important)
+bilibili.com##body:has(.bili-feed4-layout):style(background-color: var(--bg1)!important)
 ! 首页右下角浮动栏
 bilibili.com##.palette-button-outer
 ! 首页第一行视频流右边的“换一换”按钮
