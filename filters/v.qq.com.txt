@@ -1,3 +1,5 @@
+! 搜索框下拉菜单中的热搜
+v.qq.com##.hotRank
 ! 右下角浮动按钮
 v.qq.com###shortcut
 ! 播放页右侧栏推荐流
