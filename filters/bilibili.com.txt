@@ -84,3 +84,5 @@ t.bilibili.com##.bili-dyn-sidebar
 bilibili.com##.bili-header__channel
 ! 首页视频流的全部内容
 bilibili.com##.feed2
+! 播放页视频播放器下方正在看
+bilibili.com##.bpx-player-video-info-ugc
