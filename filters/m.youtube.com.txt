@@ -10,6 +10,8 @@ m.youtube.com##ytm-item-section-renderer:style(border-bottom: none !important)
 m.youtube.com##.related-chips-slot-wrapper.slot-open:style(transform: none !important)
 ! 订阅页youtuber推荐
 m.youtube.com##.tab-content[tab-identifier="FEsubscriptions"] ytm-item-section-renderer[data-resize-observer-id] ~ *
+! 底部toasts提示
+m.youtube.com###toasts
 
 ! --- ZEN ---
 ! 首页所有视频
