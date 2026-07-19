@@ -1,5 +1,7 @@
 ! 首页 shorts
 m.youtube.com##.rich-section-single-column:has(> div > grid-shelf-view-model)
+! 底部导航栏shorts入口
+m.youtube.com##.frosted-glass > ytm-pivot-bar-item-renderer:has(> .pivot-shorts)
 ! 首页无限推荐流
 m.youtube.com##.tab-content[tab-identifier="FEwhat_to_watch"] .rich-grid-renderer-contents > .YtmContinuationItemRendererHost
 ! 播放页底部推荐流
