@@ -1,3 +1,5 @@
+! 页面主体背景色设置成与内容区背景色一致
+jav.guru##body:style(background-color: #f7f8f9 !important)
 ! 播放页评论区下方的相关视频
 jav.guru##.javbox
 ! 播放页评论区和相关视频之间的分割线
