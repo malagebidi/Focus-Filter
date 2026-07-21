@@ -1,4 +1,6 @@
 ! 右侧栏
 jd.com###jdccm-elevator
+! 主页右下角优惠价
+jd.com##.site-mail
 ! 购物党侧栏
 jd.com##.gwd-side-bar
