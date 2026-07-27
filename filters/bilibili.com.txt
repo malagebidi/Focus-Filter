@@ -33,6 +33,8 @@ bilibili.com##.recommended-container_floor-aside .container:style(grid-template-
 ! 分区页面底部无限加载的推荐流
 bilibili.com##.channel-page__body > .feed-cards
 bilibili.com##.channel-page__body > .loading-cards
+! 视频流中的账号已注销
+bilibili.com##.bili-video-card__info--author:contains(账号已注销):upward(.bili-video-card)
 ! 番剧页面右侧浮动推荐框
 bilibili.com##.nav-tool-container
 ! 番剧页面“猜你喜欢”
