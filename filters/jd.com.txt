@@ -7,5 +7,8 @@ jd.com##.continuous-toggle
 jd.com###jdccm-elevator
 ! 主页右下角优惠价
 jd.com##.site-mail
+! 商品页顶部无限加载“看了又看”
+jd.com##.page-end:has(.recommend__title)
+jd.com##.page-footer:style(margin-top: 20px !important)
 ! 购物党侧栏
 jd.com##.gwd-side-bar
