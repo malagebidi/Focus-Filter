@@ -1,5 +1,8 @@
 ! 搜索框下方热搜词
 jd.com###hotword
+! 左侧栏最近感兴趣
+jd.com##.continuous-panel
+jd.com##.continuous-toggle
 ! 右侧栏
 jd.com###jdccm-elevator
 ! 主页右下角优惠价
