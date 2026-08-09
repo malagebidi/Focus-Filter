@@ -12,3 +12,5 @@ jd.com,jd.hk##.page-end:has(.recommend__title)
 jd.com,jd.hk##.page-footer:style(margin-top: 20px !important)
 ! 购物党侧栏
 jd.com,jd.hk##.gwd-side-bar
+! 购物党搜索结果页优惠卷
+jd.com,jd.hk##.search_coupon_tip
