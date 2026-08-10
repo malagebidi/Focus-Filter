@@ -7,7 +7,7 @@ jd.com,jd.hk##.continuous-toggle
 jd.com,jd.hk###jdccm-elevator
 ! 主页右下角优惠价
 jd.com,jd.hk##.site-mail
-! 商品页顶部无限加载“看了又看”
+! 商品页底部无限加载“看了又看”
 jd.com,jd.hk##.page-end:has(.recommend__title)
 jd.com,jd.hk##.page-footer:style(margin-top: 20px !important)
 ! 购物党侧栏
