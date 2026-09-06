@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7AZRFL8alQdjowVNWNoqaw
-! Version: 2.0.2.65
+! Checksum: fmMCKUrUmh65+O/rH8feSg
+! Version: 2.0.2.66
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-08-10T15:49:12+08:00
+! Last modified: 2026-09-06T08:48:07+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -210,19 +210,13 @@ m.youtube.com##.tab-content[tab-identifier="FEsubscriptions"] ytm-item-section-r
 m.youtube.com##.tab-content[tab-identifier="FEwhat_to_watch"] .rich-grid-renderer-contents > .YtmContinuationItemRendererHost
 m.youtube.com##ytm-item-section-renderer:style(border-bottom: none !important)
 mgtv.com###sideFloatbtn
-mgtv.com##.arr-download
-mgtv.com##.big-poster-conent
-mgtv.com##.hitv_horizontal:has(>.vip-chasing)
+mgtv.com##.channel-left-list:style(position: fixed; top: 0px !important)
 mgtv.com##.hot-switch
-mgtv.com##.nav-a-top
-mgtv.com##.new-user-pop
-mgtv.com##.recommended-list
-mgtv.com##.show-list .s-videolist-box:style(border-left: none !important)
-mgtv.com##.sidebar-download
-mgtv.com##.tips
-mgtv.com##.vip-button-box
+mgtv.com##.m-topheader-channel:style(position: fixed; top: 0px !important)
+mgtv.com##.vod-like-recommend
+mgtv.com##[data-module="t-topAdbu"]
+mgtv.com##div:has(> .vip-button)
 mgtv.com##div[data-module="t-newsbigtitle"]
-mgtv.com##div[data-module="t-topAdbu"]
 mgtv.com#%#//scriptlet('remove-attr', 'placeholder', 'input.input[type="text"]')
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="fast-forward"]
 missav.ws,missav.ai##.plyr__controls>button[data-plyr="pip"]
