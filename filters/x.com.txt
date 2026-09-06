@@ -1,0 +1,3 @@
+! 单个贴子页面的“发现更多”
+x.com##div[data-testid="cellInnerDiv"]:has(h2)
+x.com##div[data-testid="cellInnerDiv"]:has(h2) ~ div[data-testid="cellInnerDiv"]
