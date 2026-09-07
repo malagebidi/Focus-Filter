@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: majx7LA4pQzWt8nfTkamCw
-! Version: 2.0.2.67
+! Checksum: kXrv48JOCNoH5506W2NZ0w
+! Version: 2.0.2.68
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-09-06T09:03:56+08:00
+! Last modified: 2026-09-07T09:09:14+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -290,8 +290,8 @@ weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '2000')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '250')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '500')
-x.com##div[data-testid="cellInnerDiv"]:has(h2)
-x.com##div[data-testid="cellInnerDiv"]:has(h2) ~ div[data-testid="cellInnerDiv"]
+x.com##:matches-path(/status/) div[data-testid="cellInnerDiv"]:has(h2)
+x.com##:matches-path(/status/) div[data-testid="cellInnerDiv"]:has(h2) ~ div[data-testid="cellInnerDiv"]
 youtube.com###secondary-inner > #related
 youtube.com###sections > ytd-guide-section-renderer:has(a[href*="youtubekids"])
 youtube.com##.html5-video-player > .ytp-fullscreen-grid
