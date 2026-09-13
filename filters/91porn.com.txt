@@ -2,3 +2,5 @@
 91porn.com##div:has(> h3[class="login_register_header"])
 ! After removing the playback sidebar, set the content area width to 100%.
 91porn.com##.video-border:style(width: 100% !important)
+! 播放器区域的空白和提示文字
+91porn.com###videodetails:style(font-size: 0 !important;)
