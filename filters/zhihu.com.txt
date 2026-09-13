@@ -1,0 +1,4 @@
+! 大家都在搜
+zhihu.com##.HotSearchCard:upward(1)
+! 推荐阅读
+zhihu.com##.Recommendations-Main:upward(1)
