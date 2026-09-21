@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: l4oKUMo9pyb5dL9G6OFAeg
-! Version: 2.0.2.73
+! Checksum: Gt2bJ+weIWMjfDNg/bAczg
+! Version: 2.0.2.74
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-09-21T09:14:37+08:00
+! Last modified: 2026-09-21T09:43:09+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -308,6 +308,8 @@ weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '2000')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '250')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '500')
+x.com##[data-testid="cellInnerDiv"]:has([role="progressbar"])
+x.com#%#(()=>{const O=XMLHttpRequest.prototype.open,S=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this._u=""+u;return O.apply(this,arguments)};XMLHttpRequest.prototype.send=function(b){if(this._u?.includes('/i/api/graphql/')&&(this._u.includes('cursor')||(typeof b==='string'&&b.includes('"cursor"'))))return this.abort();return S.apply(this,arguments)}})();
 youtube.com###footer
 youtube.com###secondary-inner > #related
 youtube.com###sections > ytd-guide-section-renderer:has(a[href*="youtubekids"])
