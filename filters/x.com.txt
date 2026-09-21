@@ -1,3 +1,3 @@
 ! 底部无限加载
-x.com#%#(()=>{const O=XMLHttpRequest.prototype.open,S=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this._u=""+u;return O.apply(this,arguments)};XMLHttpRequest.prototype.send=function(b){if(this._u?.includes('/i/api/graphql/')&&(this._u.includes('cursor')||(typeof b==='string'&&b.includes('"cursor"'))))return this.abort();return S.apply(this,arguments)}})();
+x.com#%#(()=>{const O=XMLHttpRequest.prototype.open,S=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this._u=""+u;return O.apply(this,arguments)};XMLHttpRequest.prototype.send=function(b){const u=this._u||"";if(/(Timeline|Tweets|Likes|Bookmarks|Replies|Media)/.test(u)&&(u.includes('cursor')||(typeof b==='string'&&b.includes('"cursor"'))))return this.abort();return S.apply(this,arguments)}})();
 x.com##[data-testid="cellInnerDiv"]:has([role="progressbar"])
