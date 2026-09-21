@@ -50,7 +50,6 @@ Focus Filter 源于我日常使用中积累的一套个人规则。现在我将�
 
 *   GIF: [Animation Policy](https://chromewebstore.google.com/detail/animation-policy/ncigbofjfbodhkaffojakplpmnleeoee)
 *   Twitch: [BetterTTV](https://chromewebstore.google.com/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped)
-*   X: [Control Panel for Twitter](https://chromewebstore.google.com/detail/control-panel-for-twitter/kpmjjdhbcfebfjgdnpjagcndoelnidfj)
 
 ## 🤝 贡献
 阅读[贡献指南](CONTRIBUTING.md)以了解如何报告问题或者提交新的规则。
