@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ppmyiKYk0FZogx7e8NQAsQ
-! Version: 2.0.2.75
+! Checksum: 8bGhnFIAz6Xf4lVsRf31GA
+! Version: 2.0.2.76
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-09-21T11:47:58+08:00
+! Last modified: 2026-09-23T08:50:41+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -309,7 +309,8 @@ weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '250')
 weibo.com#%#//scriptlet('trusted-click-element', '.woo-box-wrap > .woo-box-item-flex:last-child > div', '500')
 x.com##[data-testid="cellInnerDiv"]:has([role="progressbar"])
-x.com#%#(()=>{const O=XMLHttpRequest.prototype.open,S=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this._u=""+u;return O.apply(this,arguments)};XMLHttpRequest.prototype.send=function(b){const u=this._u||"";if(/(Timeline|Tweets|Likes|Bookmarks|Replies|Media)/.test(u)&&(u.includes('cursor')||(typeof b==='string'&&b.includes('"cursor"'))))return this.abort();return S.apply(this,arguments)}})();
+x.com#%#(()=>{const O=XMLHttpRequest.prototype.open,S=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this._u=""+u;return O.apply(this,arguments)};XMLHttpRequest.prototype.send=function(b){const u=this._u||"";if(/(Timeline|TweetDetail)/.test(u)&&(u.includes('cursor')||(typeof b==='string'&&b.includes('"cursor"'))))return this.abort();return S.apply(this,arguments)}})();
+x.com#%#(()=>{const f=()=>document.querySelectorAll('[data-testid="cellInnerDiv"]:has([role="progressbar"])').forEach(c=>{const p=c.parentElement,l=c.previousElementSibling;if(p&&l)p.style.minHeight=Math.ceil(l.getBoundingClientRect().bottom-p.getBoundingClientRect().top)+'px'});new MutationObserver(f).observe(document.body,{childList:true,subtree:true});f()})();
 youtube.com###footer
 youtube.com###secondary-inner > #related
 youtube.com###sections > ytd-guide-section-renderer:has(a[href*="youtubekids"])
