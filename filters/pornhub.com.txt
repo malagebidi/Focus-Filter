@@ -1,6 +1,8 @@
 ! 搜索框下拉列表中的推荐
 pornhub.com##[type="pornstar"]
 pornhub.com##[type="trending"]
+! 欢迎横条
+pornhub.com###welcome
 ! 播放页评论上方的推荐流
 pornhub.com##.videoGridTabs
 pornhub.com##.relatedVideos
