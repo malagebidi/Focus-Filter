@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5OBCOUePTr7qFhEfn/Nmpw
-! Version: 2.0.2.80
+! Checksum: 7q1Y2wxA9rWWoNlw3BPz0w
+! Version: 2.0.2.81
 ! Title: Focus Filter (ZEN Mode)
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-10-05T19:13:02+08:00
+! Last modified: 2026-10-05T19:29:56+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -201,7 +201,7 @@ m.weibo.cn##span.m-link-icon:not(:has(>[src*="img_search_drop_right"]))
 m.weibo.cn##span.sub-text
 m.weibo.cn#%#//scriptlet('remove-attr', 'placeholder', '.nt-search > input')
 m.youtube.com###toasts
-m.youtube.com##.YtmCompactChannelRendererHost[data-has-subscribe-button]
+m.youtube.com##.big-shorts-singleton:upward(1)
 m.youtube.com##.frosted-glass > ytm-pivot-bar-item-renderer:has(> .pivot-shorts)
 m.youtube.com##.page-container:has(div[tab-identifier="FEwhat_to_watch"])
 m.youtube.com##.related-chips-slot-wrapper.slot-open:style(transform: none !important)
@@ -209,8 +209,8 @@ m.youtube.com##.rich-section-single-column:has(> div > grid-shelf-view-model)
 m.youtube.com##.single-column-watch-next-modern-panels[section-identifier="related-items"]
 m.youtube.com##.tab-content[tab-identifier="FEsubscriptions"] ytm-item-section-renderer[data-resize-observer-id] ~ *
 m.youtube.com##.tab-content[tab-identifier="FEwhat_to_watch"] .rich-grid-renderer-contents > .YtmContinuationItemRendererHost
+m.youtube.com##.ytGridShelfViewModelHost
 m.youtube.com##ytm-item-section-renderer:style(border-bottom: none !important)
-m.youtube.com##ytm-video-with-context-renderer:has(> .big-shorts-singleton)
 mgtv.com###sideFloatbtn
 mgtv.com##.channel-left-list:style(position: fixed; top: 0px !important)
 mgtv.com##.hot-switch
