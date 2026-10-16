@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: C6Afk17RR5kl+npBG8SA4w
-! Version: 2.0.2.85
+! Checksum: cjH7zjZzWUvGIDP74v8rdw
+! Version: 2.0.2.86
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-10-16T13:20:05+08:00
+! Last modified: 2026-10-16T13:20:49+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -137,6 +137,8 @@ m.bilibili.com#%#//scriptlet('remove-attr', 'href', '.label-hot')
 m.bilibili.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="search"]')
 m.cnbeta.com.tw###go_nav
 m.cnbeta.com.tw###main #titleNav ul:style(border-left: none !important)
+m.cnbeta.com.tw###nol_menu
+m.cnbeta.com.tw###titleNav
 m.cnbeta.com.tw###tus
 m.cnbeta.com.tw##.article-byline .commnum:style(border: none !important; width: auto !important)
 m.cnbeta.com.tw##.article-holder .article-tit:style(font-weight: inherit !important)
@@ -149,6 +151,7 @@ m.cnbeta.com.tw##.articleCont p:has(> img):style(font-size: 14px)
 m.cnbeta.com.tw##.articleCont p:style(text-indent: 0 !important)
 m.cnbeta.com.tw##.articleCont:style(padding-bottom: 0 !important; line-height: 1.6 !important)
 m.cnbeta.com.tw##.bdsharebuttonbox:upward(1)
+m.cnbeta.com.tw##.commnum
 m.cnbeta.com.tw##.footer
 m.cnbeta.com.tw##.footer_top
 m.cnbeta.com.tw##.info_list li .txt_area:style(vertical-align: top !important)
@@ -161,6 +164,7 @@ m.cnbeta.com.tw##li:has(> .cooperation)
 m.cnbeta.com.tw##nav#gmenu
 m.cnbeta.com.tw##section#commentHolder
 m.cnbeta.com.tw##section.cnbeta-article-latest
+m.cnbeta.com.tw##section:not(#it_tech)
 m.douban.com###app a:has(> ul[style*="img1.doubanio.com/view/photo/photo/public"])
 m.douban.com###suggestion-movie
 m.douban.com##.TalionNav:style(margin-bottom: 0 !important; padding-bottom: 0 !important)
