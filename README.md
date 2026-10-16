@@ -21,18 +21,11 @@ Focus Filter 源于我日常使用中积累的一套个人规则。现在我将�
 | Adult | Pornhub，91porn，MissAV，Jable.TV，Jav.Guru |
 
 ## ⚙️ 设置
-### 1. 选择一个版本
+### 1. 订阅地址
 
-* **标准版（推荐）**  
-移除推荐流和主要干扰项，同时保持网站核心功能完整。
+包含全部规则：既移除推荐流和主要干扰项，也会移除部分网站的功能性部件、页脚等，以提供极简体验。
   ```text
   https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter.txt
-  ```
-
-* **禅模式版**  
-包含标准规则，并进一步移除网站的功能性部件，页脚甚至其他主观不喜欢的内容，以提供极简体验。
-  ```text
-  https://raw.githubusercontent.com/malagebidi/Focus-Filter/main/filter_zen.txt
   ```
 
 ### 2. 安装
