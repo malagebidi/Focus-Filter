@@ -16,6 +16,8 @@ live.kuaishou.com##.reco
 live.kuaishou.com##.cate-main:style(background:none !important)
 ! 分类下方的推荐
 live.kuaishou.com##.recommend
+! 直播页送礼物栏
+live.kuaishou.com##[class="foot"][data-gift-enabled="true"]
 ! 直播页右侧评论消息区最下方的轮动信息
 live.kuaishou.com###liveroom__sidebar .fold-message
 ! 搜索弹出菜单中的推荐
@@ -25,7 +27,3 @@ live.kuaishou.com##.datalist > .divider
 live.kuaishou.com##.datalist > .search-item-suggestKeyword
 ! 格斗游戏区移除“今日格斗”这个竖屏直播
 live.kuaishou.com##.live-card-main:has(a[title="今日格斗"])
-
-! --- ZEN ---
-! 直播页送礼物栏
-live.kuaishou.com##[class="foot"][data-gift-enabled="true"]
