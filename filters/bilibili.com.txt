@@ -2,6 +2,8 @@
 ||api.bilibili.com/pgc/page/web/feed^
 ! 首页背景设置为bg1白色
 bilibili.com##body:has(.bili-feed4-layout):style(background-color: var(--bg1)!important)
+! 首页频道导航栏
+bilibili.com##.bili-header__channel
 ! 首页右下角浮动栏
 bilibili.com##.palette-button-outer
 ! 首页第一行视频流右边的“换一换”按钮
@@ -19,6 +21,8 @@ bilibili.com##span.new-icon
 bilibili.com##.red-point
 ! 顶部导航栏头像hover界面的大会员广告
 bilibili.com##.vip-entry-containter
+! 首页视频流的全部内容
+bilibili.com##.feed2
 ! 首页视频流中的广告
 bilibili.com##.feed-card:has(a[href*="creative_id="])
 ! 首页视频流中底部无限加载的推荐流
@@ -51,6 +55,8 @@ bilibili.com##.rec-footer
 ! 播放页右侧栏“接下来播放”
 bilibili.com##.next-play > .video-page-card-small
 bilibili.com##.next-play > .split-line
+! 播放页视频播放器下方正在看
+bilibili.com##.bpx-player-video-info-ugc
 ! 播放页视频播放结束后“相关推荐”
 bilibili.com##.bpx-player-ending-related
 ! 播放页视频播放器顶部覆盖
@@ -80,11 +86,3 @@ live.bilibili.com##.right-dynamic-modules
 live.bilibili.com###welcome-area-bottom-vm
 ! 动态页右下角浮动按钮
 t.bilibili.com##.bili-dyn-sidebar
-
-! --- ZEN ---
-! 首页频道导航栏
-bilibili.com##.bili-header__channel
-! 首页视频流的全部内容
-bilibili.com##.feed2
-! 播放页视频播放器下方正在看
-bilibili.com##.bpx-player-video-info-ugc
