@@ -6,6 +6,14 @@ m.cnbeta.com.tw###tus
 m.cnbeta.com.tw##nav#gmenu
 ! slider按钮
 m.cnbeta.com.tw##.sliderBtn
+! 顶栏搜索框
+m.cnbeta.com.tw###nol_menu
+! 文章评论数
+m.cnbeta.com.tw##.commnum
+! section导航菜单
+m.cnbeta.com.tw###titleNav
+! 非科技板块section
+m.cnbeta.com.tw##section:not(#it_tech)
 ! 分类导航栏样式调整
 m.cnbeta.com.tw###main #titleNav ul:style(border-left: none !important)
 ! 右下角浮动返回顶部按钮
@@ -49,13 +57,3 @@ m.cnbeta.com.tw##.articleCont iframe:style(max-width: 100% !important; height: a
 m.cnbeta.com.tw##.articleCont p > br:last-child
 ! 文章页图片宽高比修正
 m.cnbeta.com.tw##.articleCont img:style(height: auto !important)
-
-! --- ZEN ---
-! 顶栏搜索框
-m.cnbeta.com.tw###nol_menu
-! 文章评论数
-m.cnbeta.com.tw##.commnum
-! section导航菜单
-m.cnbeta.com.tw###titleNav
-! 非科技板块section
-m.cnbeta.com.tw##section:not(#it_tech)
