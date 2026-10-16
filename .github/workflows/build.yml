@@ -37,5 +37,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add filter.txt filter_zen.txt
+          git add filter.txt
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update filters ${{ steps.generate_filter.outputs.version }} [skip ci]" && git push)
