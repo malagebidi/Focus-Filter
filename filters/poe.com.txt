@@ -1,11 +1,9 @@
 ! homepage recommend bots under chat input
 poe.com##[class*="ChatHomeMain_exploreBotsCarousel"]
+! sidebar footer
+poe.com##[class*="SidebarFooter_footer"]
 ! "Try saying..." in new model chat window
 poe.com##[class*="ChatPageConversationStarters_"]
 ! suggested replies after answer
 poe.com##div:has(> [class*="ResendRemixFollowupButton_rightRounded"])
 poe.com##[class*="ChatLastMessageArea_actionBarAndFollowUpActionsPlaceholder"]:style(min-height: unset !important)
-
-! --- ZEN ---
-! sidebar footer
-poe.com##[class*="SidebarFooter_footer"]
