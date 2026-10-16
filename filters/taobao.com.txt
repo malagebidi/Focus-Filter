@@ -4,7 +4,5 @@ taobao.com###J_Toolkit
 taobao.com###J_TBPC_POP_home
 ! 购物车底部“猜你喜欢”
 cart.taobao.com##.trade-infinite-empty-container
-
-! --- ZEN ---
 ! 页脚
 taobao.com###J_SiteFooter
