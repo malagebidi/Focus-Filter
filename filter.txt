@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: kP9Ty/W3TQVZKnBRdasPkg
-! Version: 2.0.2.93
+! Checksum: lk/S2rg0wlE7hG5yXWPLYA
+! Version: 2.0.2.94
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-10-16T13:38:32+08:00
+! Last modified: 2026-10-18T16:44:47+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -254,6 +254,7 @@ poe.com##[class*="ChatLastMessageArea_actionBarAndFollowUpActionsPlaceholder"]:s
 poe.com##[class*="ChatPageConversationStarters_"]
 poe.com##[class*="SidebarFooter_footer"]
 poe.com##div:has(> [class*="ResendRemixFollowupButton_rightRounded"])
+pornhub.com###countryRedirectMessage
 pornhub.com###under-player-playlists
 pornhub.com###welcome
 pornhub.com##.relatedVideos
