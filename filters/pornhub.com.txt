@@ -10,3 +10,5 @@ pornhub.com##.videoGridTabs
 pornhub.com##.relatedVideos
 ! 播放页底部的推荐播放列表
 pornhub.com###under-player-playlists
+! 播放页侧栏
+pornhub.com##.sideColumn
