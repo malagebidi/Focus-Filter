@@ -84,5 +84,7 @@ live.bilibili.com###shop-popover-vm
 live.bilibili.com##.right-dynamic-modules
 ! 直播间聊天栏上方飘进来的提示“XXX来了”
 live.bilibili.com###welcome-area-bottom-vm
+! 直播分区右侧浮动栏
+live.bilibili.com##.live-sidebar-ctnr:upward(1)
 ! 动态页右下角浮动按钮
 t.bilibili.com##.bili-dyn-sidebar
