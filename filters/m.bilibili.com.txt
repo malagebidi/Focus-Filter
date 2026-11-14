@@ -7,10 +7,6 @@ m.bilibili.com##.fixed-openapp
 m.bilibili.com#%#//scriptlet('remove-attr', 'placeholder', 'input[type="search"]')
 ! 搜索框下拉“大家都在搜”
 m.bilibili.com##.m-search-hot
-! 首页频道导航栏
-m.bilibili.com##.channel-menu
-! 首页所有视频
-m.bilibili.com##.m-home
 ! 视频播放器质量切换按钮
 m.bilibili.com##.gsl-control-btn-quality
 ! 视频播放器缓冲提示“APP内观看，体验更流程”
