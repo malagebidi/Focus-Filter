@@ -1,5 +1,3 @@
-! 首页视频流中的全部
-youtube.com##ytd-browse[page-subtype="home"]
 ! 首页无限滚动加载视频流
 youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-renderer > #contents > ytd-continuation-item-renderer
 ! Shorts
