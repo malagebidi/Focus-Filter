@@ -2,8 +2,6 @@
 ||api.bilibili.com/pgc/page/web/feed^
 ! 首页背景设置为bg1白色
 bilibili.com##body:has(.bili-feed4-layout):style(background-color: var(--bg1)!important)
-! 首页频道导航栏
-bilibili.com##.bili-header__channel
 ! 首页右下角浮动栏
 bilibili.com##.palette-button-outer
 ! 首页第一行视频流右边的“换一换”按钮
@@ -21,8 +19,6 @@ bilibili.com##span.new-icon
 bilibili.com##.red-point
 ! 顶部导航栏头像hover界面的大会员广告
 bilibili.com##.vip-entry-containter
-! 首页视频流的全部内容
-bilibili.com##.feed2
 ! 首页视频流中的广告
 bilibili.com##.feed-card:has(a[href*="creative_id="])
 ! 首页视频流中底部无限加载的推荐流
