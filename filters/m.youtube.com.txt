@@ -1,5 +1,5 @@
-! 首页 shorts
-m.youtube.com##.rich-section-single-column:has(> div > grid-shelf-view-model)
+! 首页中的非长视频
+m.youtube.com##.rich-section-single-column
 ! 底部导航栏shorts入口
 m.youtube.com##.frosted-glass > ytm-pivot-bar-item-renderer:has(> .pivot-shorts)
 ! 首页无限推荐流
