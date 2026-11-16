@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: VzNU7JUqxUoIxJnQZ2qOvg
-! Version: 2.0.3.0
+! Checksum: oM4gyLUnLxbnSVA8w7lPKA
+! Version: 2.0.3.1
 ! Title: Focus Filter
 ! Description: A Focus Filter for AdGuard that remove recommended feeds, distracting elements, and "doom-scrolling" traps from various websites.
-! Last modified: 2026-11-14T19:32:02+08:00
+! Last modified: 2026-11-16T15:57:54+08:00
 ! Expires: 2 days (update frequency)
 ! Homepage: https://github.com/malagebidi/Focus-Filter
 ! License: https://github.com/malagebidi/Focus-Filter/blob/main/LICENSE
@@ -200,7 +200,7 @@ m.youtube.com###toasts
 m.youtube.com##.big-shorts-singleton:upward(1)
 m.youtube.com##.frosted-glass > ytm-pivot-bar-item-renderer:has(> .pivot-shorts)
 m.youtube.com##.related-chips-slot-wrapper.slot-open:style(transform: none !important)
-m.youtube.com##.rich-section-single-column:has(> div > grid-shelf-view-model)
+m.youtube.com##.rich-section-single-column
 m.youtube.com##.single-column-watch-next-modern-panels[section-identifier="related-items"]
 m.youtube.com##.tab-content[tab-identifier="FEsubscriptions"] ytm-item-section-renderer[data-resize-observer-id] ~ *
 m.youtube.com##.tab-content[tab-identifier="FEwhat_to_watch"] .rich-grid-renderer-contents > .YtmContinuationItemRendererHost
