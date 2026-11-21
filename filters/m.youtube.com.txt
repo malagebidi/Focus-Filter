@@ -1,3 +1,5 @@
+! 首页所有视频
+m.youtube.com##.page-container:has(div[tab-identifier="FEwhat_to_watch"])
 ! 首页中的非长视频
 m.youtube.com##.rich-section-single-column
 ! 底部导航栏shorts入口
